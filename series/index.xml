@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>Series on RakuBlog</title>
+    <link>https://rakuichi4817.github.io/series/</link>
+    <description>Recent content in Series on RakuBlog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <copyright>© 2019 -2021, Rakuichi - All Rights Reserved</copyright>
+    <lastBuildDate>Sun, 13 Dec 2020 22:25:00 +0900</lastBuildDate>
+    
+        <atom:link href="https://rakuichi4817.github.io/series/index.xml" rel="self" type="application/rss+xml" />
+    
+
+      
+      <item>
+        <title>商品紹介</title>
+        <link>https://rakuichi4817.github.io/series/%E5%95%86%E5%93%81%E7%B4%B9%E4%BB%8B/</link>
+        <pubDate>Sun, 13 Dec 2020 22:25:00 +0900</pubDate>
+        
+        
+        <guid>https://rakuichi4817.github.io/series/%E5%95%86%E5%93%81%E7%B4%B9%E4%BB%8B/</guid>
+        <description></description>
+        
+        <dc:creator>Rakuichi</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Java入門</title>
+        <link>https://rakuichi4817.github.io/series/java%E5%85%A5%E9%96%80/</link>
+        <pubDate>Mon, 20 Apr 2020 18:26:00 +0900</pubDate>
+        
+        
+        <guid>https://rakuichi4817.github.io/series/java%E5%85%A5%E9%96%80/</guid>
+        <description></description>
+        
+        <dc:creator>Rakuichi</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>
