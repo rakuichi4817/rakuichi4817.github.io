@@ -12,11 +12,45 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <copyright>© 2019 -2021, Rakuichi - All Rights Reserved</copyright>
-    <lastBuildDate>Thu, 03 Oct 2019 12:00:06 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 25 Sep 2021 16:00:00 +0900</lastBuildDate>
     
         <atom:link href="https://rakuichi4817.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     
 
+      
+      <item>
+        <title>ブログをリニューアルしました</title>
+        <link>https://rakuichi4817.github.io/posts/new-theme/</link>
+        <pubDate>Sat, 25 Sep 2021 16:00:00 +0900</pubDate>
+        
+        <atom:modified>Sat, 25 Sep 2021 16:00:00 +0900</atom:modified>
+        <guid>https://rakuichi4817.github.io/posts/new-theme/</guid>
+        <description>&lt;p&gt;このブログはHugoを利用して作成しているのですが、利用する基本テーマを&lt;a href=&#34;https://zzo-docs.vercel.app/&#34;&gt;Zzo&lt;/a&gt;に変更し、リニューアルしました。&lt;/p&gt;</description>
+        
+        <dc:creator>Rakuichi</dc:creator>
+        <media:content url="https://rakuichi4817.github.io/gallery/vissel/2018_vissel.jpg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Hugo</category>
+            
+          
+            
+              <category>Web</category>
+            
+          
+        
+        
+          
+            
+              <category>日常</category>
+            
+          
+        
+        
+      </item>
       
       <item>
         <title>hugoでshortcodesを用いてtableにcssを適応</title>
