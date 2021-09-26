@@ -12,11 +12,47 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <copyright>© 2019 -2021, Rakuichi - All Rights Reserved</copyright>
-    <lastBuildDate>Sat, 25 Sep 2021 16:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 26 Sep 2021 18:00:00 +0900</lastBuildDate>
     
         <atom:link href="https://rakuichi4817.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
 
+      
+      <item>
+        <title>Python</title>
+        <link>https://rakuichi4817.github.io/tags/python/</link>
+        <pubDate>Sun, 26 Sep 2021 18:00:00 +0900</pubDate>
+        
+        
+        <guid>https://rakuichi4817.github.io/tags/python/</guid>
+        <description></description>
+        
+        <dc:creator>Rakuichi</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>環境構築</title>
+        <link>https://rakuichi4817.github.io/tags/%E7%92%B0%E5%A2%83%E6%A7%8B%E7%AF%89/</link>
+        <pubDate>Sun, 26 Sep 2021 18:00:00 +0900</pubDate>
+        
+        
+        <guid>https://rakuichi4817.github.io/tags/%E7%92%B0%E5%A2%83%E6%A7%8B%E7%AF%89/</guid>
+        <description></description>
+        
+        <dc:creator>Rakuichi</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
       
       <item>
         <title>Hugo</title>
@@ -127,24 +163,6 @@
       </item>
       
       <item>
-        <title>環境構築</title>
-        <link>https://rakuichi4817.github.io/tags/%E7%92%B0%E5%A2%83%E6%A7%8B%E7%AF%89/</link>
-        <pubDate>Sun, 21 Jun 2020 09:30:00 +0900</pubDate>
-        
-        
-        <guid>https://rakuichi4817.github.io/tags/%E7%92%B0%E5%A2%83%E6%A7%8B%E7%AF%89/</guid>
-        <description></description>
-        
-        <dc:creator>Rakuichi</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
         <title>Java</title>
         <link>https://rakuichi4817.github.io/tags/java/</link>
         <pubDate>Mon, 20 Apr 2020 18:26:00 +0900</pubDate>
@@ -169,24 +187,6 @@
         
         
         <guid>https://rakuichi4817.github.io/tags/aiml/</guid>
-        <description></description>
-        
-        <dc:creator>Rakuichi</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>Python</title>
-        <link>https://rakuichi4817.github.io/tags/python/</link>
-        <pubDate>Mon, 13 Apr 2020 23:00:00 +0900</pubDate>
-        
-        
-        <guid>https://rakuichi4817.github.io/tags/python/</guid>
         <description></description>
         
         <dc:creator>Rakuichi</dc:creator>

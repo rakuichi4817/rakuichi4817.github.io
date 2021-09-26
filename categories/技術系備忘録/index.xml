@@ -12,11 +12,51 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <copyright>© 2019 -2021, Rakuichi - All Rights Reserved</copyright>
-    <lastBuildDate>Sun, 21 Jun 2020 09:30:00 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 26 Sep 2021 18:00:00 +0900</lastBuildDate>
     
         <atom:link href="https://rakuichi4817.github.io/categories/%E6%8A%80%E8%A1%93%E7%B3%BB%E5%82%99%E5%BF%98%E9%8C%B2/index.xml" rel="self" type="application/rss+xml" />
     
 
+      
+      <item>
+        <title>脱AnacondaしてPipenvでPython環境作り</title>
+        <link>https://rakuichi4817.github.io/posts/start-pipenv/</link>
+        <pubDate>Sun, 26 Sep 2021 18:00:00 +0900</pubDate>
+        
+        <atom:modified>Sun, 26 Sep 2021 18:00:00 +0900</atom:modified>
+        <guid>https://rakuichi4817.github.io/posts/start-pipenv/</guid>
+        <description>&lt;p&gt;大学4年からPythonを触りだしましたが、その時から一貫してAnacondaでPythonの環境を作成していました。しかし、脱AnacondaしてPipenvに乗り換えたので、簡単にまとめようかと思います。&lt;/p&gt;</description>
+        
+        <dc:creator>Rakuichi</dc:creator>
+        <media:content url="https://rakuichi4817.github.io/images/tech/python.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        <media:content url="https://rakuichi4817.github.io/images/cover/python-cover.png" medium="image"><media:title type="html">meta image</media:title></media:content>
+        
+          
+            
+              <category>Python</category>
+            
+          
+            
+              <category>環境構築</category>
+            
+          
+        
+        
+          
+            
+              <category>技術系備忘録</category>
+            
+          
+        
+        
+          
+            
+              <category>Python環境構築</category>
+            
+          
+        
+      </item>
       
       <item>
         <title>Ubuntu 18.04.4 LTSにElasticsearch、Logstash、Kibanaを導入</title>
