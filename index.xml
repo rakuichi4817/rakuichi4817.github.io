@@ -12,7 +12,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <copyright>© 2019 -2021, Rakuichi - All Rights Reserved</copyright>
-    <lastBuildDate>Sun, 26 Sep 2021 18:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 14 Dec 2021 00:00:00 +0900</lastBuildDate>
     
         <atom:link href="https://rakuichi4817.github.io/index.xml" rel="self" type="application/rss+xml" />
     
@@ -38,6 +38,46 @@
         
       
 
+      
+      <item>
+        <title>WEXLEY SHELDRAKE BACKPACK 紹介</title>
+        <link>https://rakuichi4817.github.io/posts/buy-wexley-sheldrake/</link>
+        <pubDate>Tue, 14 Dec 2021 00:00:00 +0900</pubDate>
+        
+        <atom:modified>Tue, 14 Dec 2021 00:00:00 +0900</atom:modified>
+        <guid>https://rakuichi4817.github.io/posts/buy-wexley-sheldrake/</guid>
+        <description>&lt;p&gt;久々の投稿です（n回目）。またしてもブログの投稿をサボっていました。個人的に日記も書くようにしているので、それに加えてブログの記事を書くというのはなかなか腰が重かったです&amp;hellip;。それでも、年末に向けて多少投稿していこうと思い、まずは手軽な話題から書いていきます。&lt;/p&gt;</description>
+        
+        <dc:creator>Rakuichi</dc:creator>
+        <media:content url="https://rakuichi4817.github.io/images/cover/shopping-frog.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>ガジェット</category>
+            
+          
+            
+              <category>日用品</category>
+            
+          
+        
+        
+          
+            
+              <category>日常</category>
+            
+          
+        
+        
+          
+            
+              <category>商品紹介</category>
+            
+          
+        
+      </item>
       
       <item>
         <title>脱AnacondaしてPipenvでPython環境作り</title>
@@ -271,10 +311,8 @@
         
         <atom:modified>Mon, 13 Apr 2020 23:00:00 +0900</atom:modified>
         <guid>https://rakuichi4817.github.io/posts/windows-cpu-keras/</guid>
-        <description>&lt;div class=&#34;alert alert-warning&#34; role=&#34;alert&#34; data-dir=&#34;ltr&#34;&gt;&lt;p&gt;&lt;strong&gt;【2021年9月18日追記】&lt;/strong&gt;&lt;br /&gt;
-本記事ではcondaを用いて仮想環境を作成し、その内部でpipを使ってライブラリをインストールしています。&lt;/p&gt;
-&lt;p&gt;しかし、2021年途中以降で脱Anacondaをしましたので、こちらの方法がおすすめというわけでもありません。&lt;/p&gt;
-&lt;/div&gt;
+        <description>&lt;div class=&#34;alert alert-warning&#34; role=&#34;alert&#34; data-dir=&#34;ltr&#34;&gt;&lt;strong&gt;【2021年9月18日追記】&lt;/strong&gt;&lt;br /&gt;
+本記事ではcondaを用いて仮想環境を作成し、その内部でpipを使ってライブラリをインストールしています。しかし、2021年途中以降で脱Anacondaをしましたので、こちらの方法がおすすめというわけでもありません。&lt;/div&gt;
 &lt;p&gt;こんばんは、4月から始まった会社の研修も、Zoomによるリモート研修になってしまい、一日中パソコンとにらめっこしているRakuichiです。&lt;/p&gt;</description>
         
         <dc:creator>Rakuichi</dc:creator>
