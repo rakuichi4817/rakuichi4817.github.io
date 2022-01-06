@@ -11,12 +11,102 @@
     <description>Recent content in Tags on RakuBlog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <copyright>© 2019 -2021, Rakuichi - All Rights Reserved</copyright>
-    <lastBuildDate>Fri, 31 Dec 2021 20:30:00 +0900</lastBuildDate>
+    <copyright>© 2019 -2022, Rakuichi - All Rights Reserved</copyright>
+    <lastBuildDate>Thu, 06 Jan 2022 19:20:00 +0900</lastBuildDate>
     
         <atom:link href="https://rakuichi4817.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
 
+      
+      <item>
+        <title>GitHub</title>
+        <link>https://rakuichi4817.github.io/tags/github/</link>
+        <pubDate>Thu, 06 Jan 2022 19:20:00 +0900</pubDate>
+        
+        
+        <guid>https://rakuichi4817.github.io/tags/github/</guid>
+        <description></description>
+        
+        <dc:creator>Rakuichi</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>GitHub Actions</title>
+        <link>https://rakuichi4817.github.io/tags/github-actions/</link>
+        <pubDate>Thu, 06 Jan 2022 19:20:00 +0900</pubDate>
+        
+        
+        <guid>https://rakuichi4817.github.io/tags/github-actions/</guid>
+        <description></description>
+        
+        <dc:creator>Rakuichi</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>pytest</title>
+        <link>https://rakuichi4817.github.io/tags/pytest/</link>
+        <pubDate>Thu, 06 Jan 2022 19:20:00 +0900</pubDate>
+        
+        
+        <guid>https://rakuichi4817.github.io/tags/pytest/</guid>
+        <description></description>
+        
+        <dc:creator>Rakuichi</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Python</title>
+        <link>https://rakuichi4817.github.io/tags/python/</link>
+        <pubDate>Thu, 06 Jan 2022 19:20:00 +0900</pubDate>
+        
+        
+        <guid>https://rakuichi4817.github.io/tags/python/</guid>
+        <description></description>
+        
+        <dc:creator>Rakuichi</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>テスト</title>
+        <link>https://rakuichi4817.github.io/tags/%E3%83%86%E3%82%B9%E3%83%88/</link>
+        <pubDate>Thu, 06 Jan 2022 19:20:00 +0900</pubDate>
+        
+        
+        <guid>https://rakuichi4817.github.io/tags/%E3%83%86%E3%82%B9%E3%83%88/</guid>
+        <description></description>
+        
+        <dc:creator>Rakuichi</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
       
       <item>
         <title>写真</title>
@@ -61,24 +151,6 @@
         
         
         <guid>https://rakuichi4817.github.io/tags/%E6%97%A5%E7%94%A8%E5%93%81/</guid>
-        <description></description>
-        
-        <dc:creator>Rakuichi</dc:creator>
-        
-        
-        
-        
-        
-        
-      </item>
-      
-      <item>
-        <title>Python</title>
-        <link>https://rakuichi4817.github.io/tags/python/</link>
-        <pubDate>Sun, 26 Sep 2021 18:00:00 +0900</pubDate>
-        
-        
-        <guid>https://rakuichi4817.github.io/tags/python/</guid>
         <description></description>
         
         <dc:creator>Rakuichi</dc:creator>
@@ -223,6 +295,24 @@
         
         
         <guid>https://rakuichi4817.github.io/tags/nlp/</guid>
+        <description></description>
+        
+        <dc:creator>Rakuichi</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>CI/CD</title>
+        <link>https://rakuichi4817.github.io/tags/ci/cd/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        
+        <guid>https://rakuichi4817.github.io/tags/ci/cd/</guid>
         <description></description>
         
         <dc:creator>Rakuichi</dc:creator>
