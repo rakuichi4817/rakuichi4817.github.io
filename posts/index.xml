@@ -12,11 +12,68 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <copyright>© 2019 -2022, Rakuichi - All Rights Reserved</copyright>
-    <lastBuildDate>Thu, 06 Jan 2022 19:20:00 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 18 Jan 2022 01:00:00 +0900</lastBuildDate>
     
         <atom:link href="https://rakuichi4817.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
 
+      
+      <item>
+        <title>GitHub Actions・pytestで失敗した(Failed)時の挙動確認</title>
+        <link>https://rakuichi4817.github.io/posts/github-actions-pytest-failed/</link>
+        <pubDate>Tue, 18 Jan 2022 01:00:00 +0900</pubDate>
+        
+        <atom:modified>Tue, 18 Jan 2022 01:00:00 +0900</atom:modified>
+        <guid>https://rakuichi4817.github.io/posts/github-actions-pytest-failed/</guid>
+        <description>&lt;p&gt;タイトルの通り、GitHub Actionsでpytestを実行し、テストが失敗（Failed）したときの挙動について確認してみました。&lt;/p&gt;
+&lt;p&gt;前回の記事「&lt;a href=&#34;https://rakuichi4817.github.io/posts/github-actions-pytest/&#34;&gt;GitHub Actions・pipenv・pytestで自動テストの練習&lt;/a&gt;」で、一連の流れの確認をしてみたのですが、テストが失敗のときはどうやって判断できるのだろうか？と思い、実際に試し、そのまとめになります（当たり前のことなのかもしれませんが、勉強なのであしからず）。&lt;/p&gt;</description>
+        
+        <dc:creator>Rakuichi</dc:creator>
+        <media:content url="https://rakuichi4817.github.io/images/tech/python.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        <media:content url="https://rakuichi4817.github.io/images/cover/python-cover.png" medium="image"><media:title type="html">meta image</media:title></media:content>
+        
+          
+            
+              <category>Python</category>
+            
+          
+            
+              <category>pytest</category>
+            
+          
+            
+              <category>GitHub</category>
+            
+          
+            
+              <category>GitHub Actions</category>
+            
+          
+            
+              <category>テスト</category>
+            
+          
+            
+              <category>CI/CD</category>
+            
+          
+        
+        
+          
+            
+              <category>技術系備忘録</category>
+            
+          
+        
+        
+          
+            
+              <category>テスト駆動開発</category>
+            
+          
+        
+      </item>
       
       <item>
         <title>GitHub Actions・pipenv・pytestで自動テストの練習</title>
