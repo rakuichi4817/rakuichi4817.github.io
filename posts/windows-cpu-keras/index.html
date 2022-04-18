@@ -18,9 +18,9 @@
 
 <script defer src="/js/lazysizes.min.fb649fcae62177dfe63e67081ddceb830b5ce1f05a4184e9bbb7d87ac4b8f4e5.js"></script>
 
-<script defer src="/js/helper/getParents.min.ccd45f158c1b17849307ba913a72beac239c410f2b6e648496a79842da84e55b.js"></script>
+<script defer src="/js/helper/getParents.min.086022fb02d7a1517e33c2670bffb976b3e80bcacd9caeee0c6a586064f20e42.js"></script>
 
-<script defer src="/js/helper/fadeinout.min.1d13d3e810c3940e80cbba6216a1c76fbf42b5431fc83537ea6997863802362b.js"></script>
+<script defer src="/js/helper/fadeinout.min.1551b6dbdacc77e412a26a29d3b84d2dcdc8f05c3b617433a475dc53c8872bdb.js"></script>
 
 <script defer src="/js/helper/closest.min.js"></script>
   
@@ -1366,7 +1366,7 @@
     <meta property="twitter:description" content="Windows上にAnacondaでKerasの環境を作成します">
   
 
-<meta name="generator" content="Hugo 0.92.2" />
+<meta name="generator" content="Hugo 0.97.0" />
 <meta name="msapplication-TileColor" content="#fff">
 
 <meta name="theme-color" content="#fff">
@@ -1852,8 +1852,8 @@ if (!doNotTrack) {
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell">conda create -n keras-cpu <span class="nv">python</span><span class="o">=</span>3.6 jupyter
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">conda create -n keras-cpu <span class="nv">python</span><span class="o">=</span>3.6 jupyter
+</span></span></code></pre></td></tr></table>
 </div>
 </div><h3 id="2-conda環境の切り替えとjupyter上のカーネルの登録">2. conda環境の切り替えとJupyter上のカーネルの登録</h3>
 <p>作成した環境に切り替える方法と、Jupyter上で環境を切り替える方法について述べていきます。</p>
@@ -1863,8 +1863,8 @@ if (!doNotTrack) {
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell">activate keras-cpu
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">activate keras-cpu
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>コマンド実行後、<code>C:\Users\ユーザ名&gt;</code> の前に <code>(keras-cpu) </code> が入れば切り替え完了です。</p>
 <p>続いて、Jupyter上でカーネルを切り替えるための設定をします。上記コマンドで環境を切り替えた状態で以下のコマンドを実行します。</p>
@@ -1873,8 +1873,8 @@ if (!doNotTrack) {
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell">ipython kernel install --user --name<span class="o">=</span>keras-py3.6 --display-name<span class="o">=</span>keras-py3.6
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">ipython kernel install --user --name<span class="o">=</span>keras-py3.6 --display-name<span class="o">=</span>keras-py3.6
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>このコマンドにより、今適応されているconda環境がJupyter上で切り替えられるようになります。</p>
 <p>「&ndash;display-name=」に続けて書かれたものが、Jupyter上で表示されます（多分）。</p>
@@ -1916,8 +1916,8 @@ if (!doNotTrack) {
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell">pip install tensorflow
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">pip install tensorflow
+</span></span></code></pre></td></tr></table>
 </div>
 </div><h3 id="5-kerasのインストール">5. Kerasのインストール</h3>
 <p>TensorFlowのインストールが無事終われば、Keras（バージョン2.3.1）は、以下のコマンドで問題なくインストール可能です。</p>
@@ -1926,8 +1926,8 @@ if (!doNotTrack) {
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell">pip install keras
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">pip install keras
+</span></span></code></pre></td></tr></table>
 </div>
 </div><h2 id="確認">確認</h2>
 <p>すべての環境構築が終わればJupyter Labで「keras-py3.6」のKernelを選択し、<br />
@@ -1939,9 +1939,9 @@ if (!doNotTrack) {
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="kn">import</span> <span class="nn">tensorflow</span>
-<span class="kn">import</span> <span class="nn">keras</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">tensorflow</span>
+</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">keras</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><h2 id="まとめ">まとめ</h2>
 <p>今回はCPUのWindows環境で、Anacondaを用いたTensorFlowとKerasの環境構築について説明しました。</p>
@@ -2378,7 +2378,7 @@ if (!doNotTrack) {
 </div>
 
 
-<script defer src="/js/swipe.min.989e074dfb92ce7f57a92c1df7027f88b53c50a54fd9ad450a673a64aa91bfa4.js"></script>
+<script defer src="/js/swipe.min.25f8e2889d0e03e2f9015306518a5ae00178acd2ec1b8e5ef20cc9f888d908ca.js"></script>
 
 <script defer src="/js/micromodal.min.de01b44b2f383056bbcaf6ee921fd385d79108ec1129afd0eb2f3f5a07e11f45.js"></script>
 

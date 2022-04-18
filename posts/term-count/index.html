@@ -18,9 +18,9 @@
 
 <script defer src="/js/lazysizes.min.fb649fcae62177dfe63e67081ddceb830b5ce1f05a4184e9bbb7d87ac4b8f4e5.js"></script>
 
-<script defer src="/js/helper/getParents.min.ccd45f158c1b17849307ba913a72beac239c410f2b6e648496a79842da84e55b.js"></script>
+<script defer src="/js/helper/getParents.min.086022fb02d7a1517e33c2670bffb976b3e80bcacd9caeee0c6a586064f20e42.js"></script>
 
-<script defer src="/js/helper/fadeinout.min.1d13d3e810c3940e80cbba6216a1c76fbf42b5431fc83537ea6997863802362b.js"></script>
+<script defer src="/js/helper/fadeinout.min.1551b6dbdacc77e412a26a29d3b84d2dcdc8f05c3b617433a475dc53c8872bdb.js"></script>
 
 <script defer src="/js/helper/closest.min.js"></script>
   
@@ -1366,7 +1366,7 @@
     <meta property="twitter:description" content="外部パッケージを使わずに単語の出現回数をカウントします">
   
 
-<meta name="generator" content="Hugo 0.92.2" />
+<meta name="generator" content="Hugo 0.97.0" />
 <meta name="msapplication-TileColor" content="#fff">
 
 <meta name="theme-color" content="#fff">
@@ -1804,8 +1804,8 @@ if (!doNotTrack) {
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-text" data-lang="text">どこ まで も 行こ う ぜ 勝利 を 信じ て 熱き 友 の 想い 胸 に 宿し て 行こう 勝利 へ トモニ 戦え ラーララ ララララ 歌声 響かせろ （ 神戸 ！ ） 遠く 神戸 まで （ 神戸 ！ ） さぁ みんな で 帰ろ う 神戸 に 帰ろ う 勝利 この 手 に
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl">どこ まで も 行こ う ぜ 勝利 を 信じ て 熱き 友 の 想い 胸 に 宿し て 行こう 勝利 へ トモニ 戦え ラーララ ララララ 歌声 響かせろ （ 神戸 ！ ） 遠く 神戸 まで （ 神戸 ！ ） さぁ みんな で 帰ろ う 神戸 に 帰ろ う 勝利 この 手 に
+</span></span></code></pre></td></tr></table>
 </div>
 </div><h2 id="標準ライブラリのcollectionscounterを利用する">標準ライブラリのcollections.Counterを利用する</h2>
 <p><code>collections.Counter()</code>にリストなどを与えると、<code>Counter</code>オブジェクトが生成されます。<code>Counter</code>は辞書型<code>dict</code>のサブクラス（同じような形）で、keyに要素、valueに出現回数を持ちます。</p>
@@ -1819,13 +1819,13 @@ if (!doNotTrack) {
 </span><span class="lnt">6
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="kn">from</span> <span class="nn">collections</span> <span class="kn">import</span> <span class="n">Counter</span>
-
-<span class="n">wakati_text</span> <span class="o">=</span> <span class="s2">&#34;分かち書きされた上記のテキストを入れる&#34;</span>
-
-<span class="n">morph_counts</span> <span class="o">=</span> <span class="n">Counter</span><span class="p">([</span><span class="n">morph</span> <span class="k">for</span> <span class="n">morph</span> <span class="ow">in</span> <span class="n">wakati_text</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&#34; &#34;</span><span class="p">)])</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">morph_counts</span><span class="p">)</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="kn">from</span> <span class="nn">collections</span> <span class="kn">import</span> <span class="n">Counter</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">wakati_text</span> <span class="o">=</span> <span class="s2">&#34;分かち書きされた上記のテキストを入れる&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">morph_counts</span> <span class="o">=</span> <span class="n">Counter</span><span class="p">([</span><span class="n">morph</span> <span class="k">for</span> <span class="n">morph</span> <span class="ow">in</span> <span class="n">wakati_text</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&#34; &#34;</span><span class="p">)])</span>
+</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">morph_counts</span><span class="p">)</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>出力は以下のようになります。</p>
 <div class="highlight"><div class="chroma">
@@ -1833,8 +1833,8 @@ if (!doNotTrack) {
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-text" data-lang="text">Counter({&#39;神戸&#39;: 4, &#39;う&#39;: 3, &#39;勝利&#39;: 3, &#39;に&#39;: 3, &#39;まで&#39;: 2, &#39;て&#39;: 2, &#39;（&#39;: 2, &#39;！&#39;: 2, &#39;）&#39;: 2, &#39;帰ろ&#39;: 2, &#39;どこ&#39;: 1, &#39;も&#39;: 1, &#39;行こ&#39;: 1, &#39;ぜ&#39;: 1, &#39;を&#39;: 1, &#39;信じ&#39;: 1, &#39;熱き&#39;: 1, &#39;友&#39;: 1, &#39;の&#39;: 1, &#39;想い&#39;: 1, &#39;胸&#39;: 1, &#39;宿し&#39;: 1, &#39;行こう&#39;: 1, &#39;へ&#39;: 1, &#39;トモニ&#39;: 1, &#39;戦え&#39;: 1, &#39;ラーララ&#39;: 1, &#39;ララララ&#39;: 1, &#39;歌声&#39;: 1, &#39;響かせろ&#39;: 1, &#39;遠く&#39;: 1, &#39;さぁ&#39;: 1, &#39;みんな&#39;: 1, &#39;で&#39;: 1, &#39;この&#39;: 1, &#39;手&#39;: 1})
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl">Counter({&#39;神戸&#39;: 4, &#39;う&#39;: 3, &#39;勝利&#39;: 3, &#39;に&#39;: 3, &#39;まで&#39;: 2, &#39;て&#39;: 2, &#39;（&#39;: 2, &#39;！&#39;: 2, &#39;）&#39;: 2, &#39;帰ろ&#39;: 2, &#39;どこ&#39;: 1, &#39;も&#39;: 1, &#39;行こ&#39;: 1, &#39;ぜ&#39;: 1, &#39;を&#39;: 1, &#39;信じ&#39;: 1, &#39;熱き&#39;: 1, &#39;友&#39;: 1, &#39;の&#39;: 1, &#39;想い&#39;: 1, &#39;胸&#39;: 1, &#39;宿し&#39;: 1, &#39;行こう&#39;: 1, &#39;へ&#39;: 1, &#39;トモニ&#39;: 1, &#39;戦え&#39;: 1, &#39;ラーララ&#39;: 1, &#39;ララララ&#39;: 1, &#39;歌声&#39;: 1, &#39;響かせろ&#39;: 1, &#39;遠く&#39;: 1, &#39;さぁ&#39;: 1, &#39;みんな&#39;: 1, &#39;で&#39;: 1, &#39;この&#39;: 1, &#39;手&#39;: 1})
+</span></span></code></pre></td></tr></table>
 </div>
 </div><h2 id="標準ライブラリのcollectionsdefaultdictを利用する">標準ライブラリのcollections.defaultdictを利用する</h2>
 <p><code>collections.defaultdict()</code>を用いてカウントする方法もあります。<br />
@@ -1852,15 +1852,15 @@ if (!doNotTrack) {
 </span><span class="lnt">8
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="kn">from</span> <span class="nn">collections</span> <span class="kn">import</span> <span class="n">defaultdict</span>
-
-<span class="c1"># int型で初期化</span>
-<span class="n">morph_counts</span> <span class="o">=</span> <span class="n">defaultdict</span><span class="p">(</span><span class="nb">int</span><span class="p">)</span>
-
-<span class="k">for</span> <span class="n">morph</span> <span class="ow">in</span> <span class="n">wakati_text</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&#34; &#34;</span><span class="p">):</span>
-    <span class="n">morph_counts</span><span class="p">[</span><span class="n">morph</span><span class="p">]</span> <span class="o">=</span> <span class="n">morph_counts</span><span class="p">[</span><span class="n">morph</span><span class="p">]</span> <span class="o">+</span> <span class="mi">1</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">morph_counts</span><span class="p">)</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="kn">from</span> <span class="nn">collections</span> <span class="kn">import</span> <span class="n">defaultdict</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># int型で初期化</span>
+</span></span><span class="line"><span class="cl"><span class="n">morph_counts</span> <span class="o">=</span> <span class="n">defaultdict</span><span class="p">(</span><span class="nb">int</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">for</span> <span class="n">morph</span> <span class="ow">in</span> <span class="n">wakati_text</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&#34; &#34;</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">    <span class="n">morph_counts</span><span class="p">[</span><span class="n">morph</span><span class="p">]</span> <span class="o">=</span> <span class="n">morph_counts</span><span class="p">[</span><span class="n">morph</span><span class="p">]</span> <span class="o">+</span> <span class="mi">1</span>
+</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">morph_counts</span><span class="p">)</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><h2 id="まとめ">まとめ</h2>
 <p>今回はストップワードなどを全く設定していないので、<br />
@@ -2287,7 +2287,7 @@ if (!doNotTrack) {
 </div>
 
 
-<script defer src="/js/swipe.min.989e074dfb92ce7f57a92c1df7027f88b53c50a54fd9ad450a673a64aa91bfa4.js"></script>
+<script defer src="/js/swipe.min.25f8e2889d0e03e2f9015306518a5ae00178acd2ec1b8e5ef20cc9f888d908ca.js"></script>
 
 <script defer src="/js/micromodal.min.de01b44b2f383056bbcaf6ee921fd385d79108ec1129afd0eb2f3f5a07e11f45.js"></script>
 

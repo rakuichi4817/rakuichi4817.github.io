@@ -18,9 +18,9 @@
 
 <script defer src="/js/lazysizes.min.fb649fcae62177dfe63e67081ddceb830b5ce1f05a4184e9bbb7d87ac4b8f4e5.js"></script>
 
-<script defer src="/js/helper/getParents.min.ccd45f158c1b17849307ba913a72beac239c410f2b6e648496a79842da84e55b.js"></script>
+<script defer src="/js/helper/getParents.min.086022fb02d7a1517e33c2670bffb976b3e80bcacd9caeee0c6a586064f20e42.js"></script>
 
-<script defer src="/js/helper/fadeinout.min.1d13d3e810c3940e80cbba6216a1c76fbf42b5431fc83537ea6997863802362b.js"></script>
+<script defer src="/js/helper/fadeinout.min.1551b6dbdacc77e412a26a29d3b84d2dcdc8f05c3b617433a475dc53c8872bdb.js"></script>
 
 <script defer src="/js/helper/closest.min.js"></script>
   
@@ -1366,7 +1366,7 @@
     <meta property="twitter:description" content="Pythonの環境作りをAnacondaからPipenvに変更しました">
   
 
-<meta name="generator" content="Hugo 0.92.2" />
+<meta name="generator" content="Hugo 0.97.0" />
 <meta name="msapplication-TileColor" content="#fff">
 
 <meta name="theme-color" content="#fff">
@@ -1822,9 +1822,9 @@ if (!doNotTrack) {
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell">conda install anaconda-clean
-anaconda-clean --yes
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">conda install anaconda-clean
+</span></span><span class="line"><span class="cl">anaconda-clean --yes
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>続いて、コントロールパネルから「Python 3.x.x（Anaconda 3.x.x）」のアンインストールを実行すれば、脱Anacondaの完了です。</p>
 <h3 id="pythonとpipenvの導入">PythonとPipenvの導入</h3>
@@ -1836,8 +1836,8 @@ anaconda-clean --yes
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell">pip install pipenv
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">pip install pipenv
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>続いて、環境変数を設定していきます。デフォルトでは、Pipenvで環境を作る際に、その環境ファイルがホームディレクトリに作成されてしまいます。こちらの設定をすることによって、実行したカレントディレクトリ（プロジェクト）配下に作成することができます。</p>
 <p>環境変数名に<code>PIPENV_VENV_IN_PROJECT</code>、変数値に<code>true</code>を設定すればOKです。</p>
@@ -1879,11 +1879,11 @@ anaconda-clean --yes
 </span><span class="lnt">4
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell">&gt; py --list-paths
-Installed Pythons found by C:<span class="se">\W</span>INDOWS<span class="se">\p</span>y.exe Launcher <span class="k">for</span> Windows
- -3.9-64        C:<span class="se">\U</span>sers<span class="se">\&lt;</span>username&gt;<span class="se">\A</span>ppData<span class="se">\L</span>ocal<span class="se">\P</span>rograms<span class="se">\P</span>ython<span class="se">\P</span>ython39<span class="se">\p</span>ython.exe *
- -3.8-64        C:<span class="se">\U</span>sers<span class="se">\&lt;</span>username&gt;<span class="se">\A</span>ppData<span class="se">\L</span>ocal<span class="se">\P</span>rograms<span class="se">\P</span>ython<span class="se">\P</span>ython38<span class="se">\p</span>ython.exe
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">&gt; py --list-paths
+</span></span><span class="line"><span class="cl">Installed Pythons found by C:<span class="se">\W</span>INDOWS<span class="se">\p</span>y.exe Launcher <span class="k">for</span> Windows
+</span></span><span class="line"><span class="cl"> -3.9-64        C:<span class="se">\U</span>sers<span class="se">\&lt;</span>username&gt;<span class="se">\A</span>ppData<span class="se">\L</span>ocal<span class="se">\P</span>rograms<span class="se">\P</span>ython<span class="se">\P</span>ython39<span class="se">\p</span>ython.exe *
+</span></span><span class="line"><span class="cl"> -3.8-64        C:<span class="se">\U</span>sers<span class="se">\&lt;</span>username&gt;<span class="se">\A</span>ppData<span class="se">\L</span>ocal<span class="se">\P</span>rograms<span class="se">\P</span>ython<span class="se">\P</span>ython38<span class="se">\p</span>ython.exe
+</span></span></code></pre></td></tr></table>
 </div>
 </div><h3 id="プロジェクトディレクトリの作成と仮想環境作成">プロジェクトディレクトリの作成と仮想環境作成</h3>
 <p>今回は「check-pipenv」というディレクトリを作成し、その配下で開発をすすめるという前提で仮想環境を作成します。以下のコマンドで簡単に作成することができます。</p>
@@ -1894,10 +1894,10 @@ Installed Pythons found by C:<span class="se">\W</span>INDOWS<span class="se">\p
 </span><span class="lnt">3
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell">mkdir check-pipenv
-<span class="nb">cd</span> check-pipenv
-py -m pipenv --python 3.8
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">mkdir check-pipenv
+</span></span><span class="line"><span class="cl"><span class="nb">cd</span> check-pipenv
+</span></span><span class="line"><span class="cl">py -m pipenv --python 3.8
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>エクスプローラで確認すると以下のように「.venv」と「Pipfile」が生成されていることがわかります。「.venv」は指定バージョンのPythonであったり、ライブラリの本体が保存されています。一方「Pipfile」には仮想環境の情報がテキストで保存されています。作成した仮想環境のを他の環境で再現する際は、「.venv」は共有する必要はなく、「Pipfile」さえあれば、<code>pipenv</code>で環境を再現することができます。</p>
 <figure><img src="pipenv.png"
@@ -1913,9 +1913,9 @@ py -m pipenv --python 3.8
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell">pipenv shell
-python --version
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">pipenv shell
+</span></span><span class="line"><span class="cl">python --version
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>または</p>
 <div class="highlight"><div class="chroma">
@@ -1923,8 +1923,8 @@ python --version
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell">pipenv run python --version
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">pipenv run python --version
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>仮想環境でPythonを実行したい場合も以上の2種類どちらかの方法で実行することができます。</p>
 <h3 id="仮想環境にライブラリを入れる">仮想環境にライブラリを入れる</h3>
@@ -1948,22 +1948,22 @@ python --version
 </span><span class="lnt">15
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell">&gt;pipenv install numpy
-Installing numpy...
-Adding numpy to Pipfile<span class="s1">&#39;s [packages]...
-</span><span class="s1">Installation Succeeded
-</span><span class="s1">Pipfile.lock not found, creating...
-</span><span class="s1">Locking [dev-packages] dependencies...
-</span><span class="s1">Locking [packages] dependencies...
-</span><span class="s1"> Locking...Building requirements...
-</span><span class="s1">Resolving dependencies...
-</span><span class="s1">Success!
-</span><span class="s1">Updated Pipfile.lock (456e4b)!
-</span><span class="s1">Installing dependencies from Pipfile.lock (456e4b)...
-</span><span class="s1">  ================================ 0/0 - 00:00:00
-</span><span class="s1">To activate this project&#39;</span>s virtualenv, run pipenv shell.
-Alternatively, run a <span class="nb">command</span> inside the virtualenv with pipenv run.
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">&gt;pipenv install numpy
+</span></span><span class="line"><span class="cl">Installing numpy...
+</span></span><span class="line"><span class="cl">Adding numpy to Pipfile<span class="s1">&#39;s [packages]...
+</span></span></span><span class="line"><span class="cl"><span class="s1">Installation Succeeded
+</span></span></span><span class="line"><span class="cl"><span class="s1">Pipfile.lock not found, creating...
+</span></span></span><span class="line"><span class="cl"><span class="s1">Locking [dev-packages] dependencies...
+</span></span></span><span class="line"><span class="cl"><span class="s1">Locking [packages] dependencies...
+</span></span></span><span class="line"><span class="cl"><span class="s1"> Locking...Building requirements...
+</span></span></span><span class="line"><span class="cl"><span class="s1">Resolving dependencies...
+</span></span></span><span class="line"><span class="cl"><span class="s1">Success!
+</span></span></span><span class="line"><span class="cl"><span class="s1">Updated Pipfile.lock (456e4b)!
+</span></span></span><span class="line"><span class="cl"><span class="s1">Installing dependencies from Pipfile.lock (456e4b)...
+</span></span></span><span class="line"><span class="cl"><span class="s1">  ================================ 0/0 - 00:00:00
+</span></span></span><span class="line"><span class="cl"><span class="s1">To activate this project&#39;</span>s virtualenv, run pipenv shell.
+</span></span><span class="line"><span class="cl">Alternatively, run a <span class="nb">command</span> inside the virtualenv with pipenv run.
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>このコマンドを実行した後、「Pipfile」の中身に「numpy」の情報が書き加えられ、「Pipfile.lock」というファイルも作成されると思います。「.lock」がついているものについては次のセクションで紹介します。</p>
 <h3 id="pipfilelockを用いて仮想環境の再現">Pipfile（.lock）を用いて仮想環境の再現</h3>
@@ -1977,11 +1977,11 @@ Alternatively, run a <span class="nb">command</span> inside the virtualenv with 
 </span><span class="lnt">4
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="c1"># Pipfile.lockを利用する場合</span>
-py -m pipenv sync
-<span class="c1"># Pipfileを利用する場合</span>
-py -m pipenv install
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl"><span class="c1"># Pipfile.lockを利用する場合</span>
+</span></span><span class="line"><span class="cl">py -m pipenv sync
+</span></span><span class="line"><span class="cl"><span class="c1"># Pipfileを利用する場合</span>
+</span></span><span class="line"><span class="cl">py -m pipenv install
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>こちらのコマンドを実行すると「.venv」ディレクトリが作成されていることが確認できます。これで、仮想環境の再現が完了となります。</p>
 <h2 id="まとめ">まとめ</h2>
@@ -2428,7 +2428,7 @@ py -m pipenv install
 </div>
 
 
-<script defer src="/js/swipe.min.989e074dfb92ce7f57a92c1df7027f88b53c50a54fd9ad450a673a64aa91bfa4.js"></script>
+<script defer src="/js/swipe.min.25f8e2889d0e03e2f9015306518a5ae00178acd2ec1b8e5ef20cc9f888d908ca.js"></script>
 
 <script defer src="/js/micromodal.min.de01b44b2f383056bbcaf6ee921fd385d79108ec1129afd0eb2f3f5a07e11f45.js"></script>
 

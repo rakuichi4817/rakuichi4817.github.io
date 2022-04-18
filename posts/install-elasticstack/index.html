@@ -18,9 +18,9 @@
 
 <script defer src="/js/lazysizes.min.fb649fcae62177dfe63e67081ddceb830b5ce1f05a4184e9bbb7d87ac4b8f4e5.js"></script>
 
-<script defer src="/js/helper/getParents.min.ccd45f158c1b17849307ba913a72beac239c410f2b6e648496a79842da84e55b.js"></script>
+<script defer src="/js/helper/getParents.min.086022fb02d7a1517e33c2670bffb976b3e80bcacd9caeee0c6a586064f20e42.js"></script>
 
-<script defer src="/js/helper/fadeinout.min.1d13d3e810c3940e80cbba6216a1c76fbf42b5431fc83537ea6997863802362b.js"></script>
+<script defer src="/js/helper/fadeinout.min.1551b6dbdacc77e412a26a29d3b84d2dcdc8f05c3b617433a475dc53c8872bdb.js"></script>
 
 <script defer src="/js/helper/closest.min.js"></script>
   
@@ -1366,7 +1366,7 @@
     <meta property="twitter:description" content="UbuntuにElasticstackを導入してみます">
   
 
-<meta name="generator" content="Hugo 0.92.2" />
+<meta name="generator" content="Hugo 0.97.0" />
 <meta name="msapplication-TileColor" content="#fff">
 
 <meta name="theme-color" content="#fff">
@@ -1859,9 +1859,9 @@ if (!doNotTrack) {
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell">add-apt-repository ppa:webupd8team/java
-sudo apt install openjdk-8-jre-headless
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">add-apt-repository ppa:webupd8team/java
+</span></span><span class="line"><span class="cl">sudo apt install openjdk-8-jre-headless
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>確認</p>
 <div class="highlight"><div class="chroma">
@@ -1872,11 +1872,11 @@ sudo apt install openjdk-8-jre-headless
 </span><span class="lnt">4
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell">$ java -version
-openjdk version <span class="s2">&#34;1.8.0_252&#34;</span>
-OpenJDK Runtime Environment <span class="o">(</span>build 1.8.0_252-8u252-b09-1~18.04-b09<span class="o">)</span>
-OpenJDK 64-Bit Server VM <span class="o">(</span>build 25.252-b09, mixed mode<span class="o">)</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">$ java -version
+</span></span><span class="line"><span class="cl">openjdk version <span class="s2">&#34;1.8.0_252&#34;</span>
+</span></span><span class="line"><span class="cl">OpenJDK Runtime Environment <span class="o">(</span>build 1.8.0_252-8u252-b09-1~18.04-b09<span class="o">)</span>
+</span></span><span class="line"><span class="cl">OpenJDK 64-Bit Server VM <span class="o">(</span>build 25.252-b09, mixed mode<span class="o">)</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><h3 id="2-elasticsearch">2. Elasticsearch</h3>
 <h4 id="21-インストールと自動起動設定">2.1. インストールと自動起動設定</h4>
@@ -1889,11 +1889,11 @@ OpenJDK 64-Bit Server VM <span class="o">(</span>build 25.252-b09, mixed mode<sp
 </span><span class="lnt">4
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell">wget -qO - https://artifacts.elastic.co/GPG-KEY-elasticsearch <span class="p">|</span> sudo apt-key add -
-sudo apt install apt-transport-https
-<span class="nb">echo</span> <span class="s2">&#34;deb https://artifacts.elastic.co/packages/7.x/apt stable main&#34;</span> <span class="p">|</span> sudo tee -a /etc/apt/sources.list.d/elastic-7.x.list
-sudo apt update <span class="o">&amp;&amp;</span> sudo apt install elasticsearch
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">wget -qO - https://artifacts.elastic.co/GPG-KEY-elasticsearch <span class="p">|</span> sudo apt-key add -
+</span></span><span class="line"><span class="cl">sudo apt install apt-transport-https
+</span></span><span class="line"><span class="cl"><span class="nb">echo</span> <span class="s2">&#34;deb https://artifacts.elastic.co/packages/7.x/apt stable main&#34;</span> <span class="p">|</span> sudo tee -a /etc/apt/sources.list.d/elastic-7.x.list
+</span></span><span class="line"><span class="cl">sudo apt update <span class="o">&amp;&amp;</span> sudo apt install elasticsearch
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>自動で立ち上がるように設定します。</p>
 <div class="highlight"><div class="chroma">
@@ -1902,9 +1902,9 @@ sudo apt update <span class="o">&amp;&amp;</span> sudo apt install elasticsearch
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell">sudo systemctl daemon-reload
-sudo systemctl <span class="nb">enable</span> elasticsearch.service
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">sudo systemctl daemon-reload
+</span></span><span class="line"><span class="cl">sudo systemctl <span class="nb">enable</span> elasticsearch.service
+</span></span></code></pre></td></tr></table>
 </div>
 </div><h4 id="22-外部接続用に設定の変更">2.2. 外部接続用に設定の変更</h4>
 <p>外部PCからアクセスするための設定を行います。まずはじめにポートの開放を行います。</p>
@@ -1914,9 +1914,9 @@ sudo systemctl <span class="nb">enable</span> elasticsearch.service
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell">sudo ufw allow <span class="m">9200</span>
-sudo ufw allow <span class="m">9300</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">sudo ufw allow <span class="m">9200</span>
+</span></span><span class="line"><span class="cl">sudo ufw allow <span class="m">9300</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>下記コマンドで、Elasticsearchの設定を書き換えます。</p>
 <div class="highlight"><div class="chroma">
@@ -1924,8 +1924,8 @@ sudo ufw allow <span class="m">9300</span>
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell">sudo nano /etc/elasticsearch/elasticsearch.yml
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">sudo nano /etc/elasticsearch/elasticsearch.yml
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>以下の内容を加えます。</p>
 <div class="highlight"><div class="chroma">
@@ -1934,9 +1934,9 @@ sudo ufw allow <span class="m">9300</span>
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-elasticsearch.yml" data-lang="elasticsearch.yml"><span class="nt">network.bind_host</span><span class="p">:</span><span class="w"> </span><span class="m">0</span><span class="w">
-</span><span class="w"></span><span class="nt">discovery.seed_hosts</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&#34;127.0.0.1&#34;</span><span class="p">,</span><span class="w"> </span><span class="s2">&#34;[::1]&#34;</span><span class="p">]</span><span class="w">
-</span></code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-elasticsearch.yml" data-lang="elasticsearch.yml"><span class="line"><span class="cl"><span class="nt">network.bind_host</span><span class="p">:</span><span class="w"> </span><span class="m">0</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">discovery.seed_hosts</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">&#34;127.0.0.1&#34;</span><span class="p">,</span><span class="w"> </span><span class="s2">&#34;[::1]&#34;</span><span class="p">]</span><span class="w">
+</span></span></span></code></pre></td></tr></table>
 </div>
 </div><h4 id="23-再起動状態と接続の確認">2.3. 再起動、状態と接続の確認</h4>
 <p>設定を書き換えたら、Elasticsearchの再起動を行います。</p>
@@ -1957,19 +1957,19 @@ sudo ufw allow <span class="m">9300</span>
 </span><span class="lnt">12
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell">$ sudo systemctl restart elasticsearch.service
-$ sudo systemctl status elasticsearch.service
-
- ●elasticsearch.service - Elasticsearch
-   Loaded: loaded <span class="o">(</span>/usr/lib/systemd/system/elasticsearch.service<span class="p">;</span> enabled<span class="p">;</span> vendor preset: ena
-   Active: active <span class="o">(</span>running<span class="o">)</span> since Sun 2020-06-21 15:50:49 JST<span class="p">;</span> 2h 1min ago
-     Docs: https://www.elastic.co
- Main PID: <span class="m">3447</span> <span class="o">(</span>java<span class="o">)</span>
-    Tasks: <span class="m">110</span> <span class="o">(</span>limit: 4915<span class="o">)</span>
-   CGroup: /system.slice/elasticsearch.service
-           ├─3447 /usr/share/elasticsearch/jdk/bin/java -Xshare:auto -Des.networkaddress.cach
-           └─3642 /usr/share/elasticsearch/modules/x-pack-ml/platform/linux-x86_64/bin/contro
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">$ sudo systemctl restart elasticsearch.service
+</span></span><span class="line"><span class="cl">$ sudo systemctl status elasticsearch.service
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"> ●elasticsearch.service - Elasticsearch
+</span></span><span class="line"><span class="cl">   Loaded: loaded <span class="o">(</span>/usr/lib/systemd/system/elasticsearch.service<span class="p">;</span> enabled<span class="p">;</span> vendor preset: ena
+</span></span><span class="line"><span class="cl">   Active: active <span class="o">(</span>running<span class="o">)</span> since Sun 2020-06-21 15:50:49 JST<span class="p">;</span> 2h 1min ago
+</span></span><span class="line"><span class="cl">     Docs: https://www.elastic.co
+</span></span><span class="line"><span class="cl"> Main PID: <span class="m">3447</span> <span class="o">(</span>java<span class="o">)</span>
+</span></span><span class="line"><span class="cl">    Tasks: <span class="m">110</span> <span class="o">(</span>limit: 4915<span class="o">)</span>
+</span></span><span class="line"><span class="cl">   CGroup: /system.slice/elasticsearch.service
+</span></span><span class="line"><span class="cl">           ├─3447 /usr/share/elasticsearch/jdk/bin/java -Xshare:auto -Des.networkaddress.cach
+</span></span><span class="line"><span class="cl">           └─3642 /usr/share/elasticsearch/modules/x-pack-ml/platform/linux-x86_64/bin/contro
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>&lt;サーバのIPアドレス&gt;:9200で外部からアクセス可能か確認することができます。接続すると以下のような内容が表示されるはずです。</p>
 <div class="highlight"><div class="chroma">
@@ -1993,24 +1993,24 @@ $ sudo systemctl status elasticsearch.service
 </span><span class="lnt">17
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-json" data-lang="json"><span class="p">{</span>
-  <span class="nt">&#34;name&#34;</span> <span class="p">:</span> <span class="s2">&#34;&lt;サーバ名&gt;&#34;</span><span class="p">,</span>
-  <span class="nt">&#34;cluster_name&#34;</span> <span class="p">:</span> <span class="s2">&#34;elasticsearch&#34;</span><span class="p">,</span>
-  <span class="nt">&#34;cluster_uuid&#34;</span> <span class="p">:</span> <span class="s2">&#34;&lt;cluster_uuid&gt;&#34;</span><span class="p">,</span>
-  <span class="nt">&#34;version&#34;</span> <span class="p">:</span> <span class="p">{</span>
-    <span class="nt">&#34;number&#34;</span> <span class="p">:</span> <span class="s2">&#34;7.8.0&#34;</span><span class="p">,</span>
-    <span class="nt">&#34;build_flavor&#34;</span> <span class="p">:</span> <span class="s2">&#34;default&#34;</span><span class="p">,</span>
-    <span class="nt">&#34;build_type&#34;</span> <span class="p">:</span> <span class="s2">&#34;deb&#34;</span><span class="p">,</span>
-    <span class="nt">&#34;build_hash&#34;</span> <span class="p">:</span> <span class="s2">&#34;&lt;build_hash&gt;&#34;</span><span class="p">,</span>
-    <span class="nt">&#34;build_date&#34;</span> <span class="p">:</span> <span class="s2">&#34;2020-06-14T19:35:50.234439Z&#34;</span><span class="p">,</span>
-    <span class="nt">&#34;build_snapshot&#34;</span> <span class="p">:</span> <span class="kc">false</span><span class="p">,</span>
-    <span class="nt">&#34;lucene_version&#34;</span> <span class="p">:</span> <span class="s2">&#34;8.5.1&#34;</span><span class="p">,</span>
-    <span class="nt">&#34;minimum_wire_compatibility_version&#34;</span> <span class="p">:</span> <span class="s2">&#34;6.8.0&#34;</span><span class="p">,</span>
-    <span class="nt">&#34;minimum_index_compatibility_version&#34;</span> <span class="p">:</span> <span class="s2">&#34;6.0.0-beta1&#34;</span>
-  <span class="p">},</span>
-  <span class="nt">&#34;tagline&#34;</span> <span class="p">:</span> <span class="s2">&#34;You Know, for Search&#34;</span>
-<span class="p">}</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-json" data-lang="json"><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="nt">&#34;name&#34;</span> <span class="p">:</span> <span class="s2">&#34;&lt;サーバ名&gt;&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">  <span class="nt">&#34;cluster_name&#34;</span> <span class="p">:</span> <span class="s2">&#34;elasticsearch&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">  <span class="nt">&#34;cluster_uuid&#34;</span> <span class="p">:</span> <span class="s2">&#34;&lt;cluster_uuid&gt;&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">  <span class="nt">&#34;version&#34;</span> <span class="p">:</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;number&#34;</span> <span class="p">:</span> <span class="s2">&#34;7.8.0&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;build_flavor&#34;</span> <span class="p">:</span> <span class="s2">&#34;default&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;build_type&#34;</span> <span class="p">:</span> <span class="s2">&#34;deb&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;build_hash&#34;</span> <span class="p">:</span> <span class="s2">&#34;&lt;build_hash&gt;&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;build_date&#34;</span> <span class="p">:</span> <span class="s2">&#34;2020-06-14T19:35:50.234439Z&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;build_snapshot&#34;</span> <span class="p">:</span> <span class="kc">false</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;lucene_version&#34;</span> <span class="p">:</span> <span class="s2">&#34;8.5.1&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;minimum_wire_compatibility_version&#34;</span> <span class="p">:</span> <span class="s2">&#34;6.8.0&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;minimum_index_compatibility_version&#34;</span> <span class="p">:</span> <span class="s2">&#34;6.0.0-beta1&#34;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">},</span>
+</span></span><span class="line"><span class="cl">  <span class="nt">&#34;tagline&#34;</span> <span class="p">:</span> <span class="s2">&#34;You Know, for Search&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><h3 id="3-kibana">3. Kibana</h3>
 <h4 id="31-インストールと自動起動設定">3.1. インストールと自動起動設定</h4>
@@ -2020,8 +2020,8 @@ $ sudo systemctl status elasticsearch.service
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell">sudo apt install kibana
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">sudo apt install kibana
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>Kibanaの自動起動設定</p>
 <div class="highlight"><div class="chroma">
@@ -2030,9 +2030,9 @@ $ sudo systemctl status elasticsearch.service
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell">sudo systemctl daemon-reload
-sudo systemctl <span class="nb">enable</span> kibana.service
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">sudo systemctl daemon-reload
+</span></span><span class="line"><span class="cl">sudo systemctl <span class="nb">enable</span> kibana.service
+</span></span></code></pre></td></tr></table>
 </div>
 </div><h4 id="32-外部接続用に設定の変更">3.2. 外部接続用に設定の変更</h4>
 <p>Elasticsearchと同様に外部PCからアクセスするための設定を行います。</p>
@@ -2042,8 +2042,8 @@ sudo systemctl <span class="nb">enable</span> kibana.service
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell">sudo ufw allow <span class="m">5451</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">sudo ufw allow <span class="m">5451</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>下記コマンドで、Kibanaの設定を書き換えます。</p>
 <div class="highlight"><div class="chroma">
@@ -2051,8 +2051,8 @@ sudo systemctl <span class="nb">enable</span> kibana.service
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell">sudo nano /etc/kibana/kibana.yml
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">sudo nano /etc/kibana/kibana.yml
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>以下のよう一部を書き換えます。</p>
 <div class="highlight"><div class="chroma">
@@ -2060,8 +2060,8 @@ sudo systemctl <span class="nb">enable</span> kibana.service
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-kibana.yml" data-lang="kibana.yml"><span class="nt">server .host </span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;0.0.0.0&#34;</span><span class="w">
-</span></code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-kibana.yml" data-lang="kibana.yml"><span class="line"><span class="cl"><span class="nt">server .host </span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;0.0.0.0&#34;</span><span class="w">
+</span></span></span></code></pre></td></tr></table>
 </div>
 </div><h4 id="33-再起動状態と接続の確認">3.3. 再起動、状態と接続の確認</h4>
 <p>設定を書き換えたら、Kibanaの再起動を行います。</p>
@@ -2080,17 +2080,17 @@ sudo systemctl <span class="nb">enable</span> kibana.service
 </span><span class="lnt">10
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell">$ sudo systemctl restart kibana.service
-$ sudo systemctl status kibana.service
-
- ● kibana.service - Kibana
-   Loaded: loaded <span class="o">(</span>/etc/systemd/system/kibana.service<span class="p">;</span> enabled<span class="p">;</span> vendor preset: enabled<span class="o">)</span>
-   Active: active <span class="o">(</span>running<span class="o">)</span> since Sun 2020-06-21 15:42:32 JST<span class="p">;</span> 3h 5min ago
- Main PID: <span class="m">860</span> <span class="o">(</span>node<span class="o">)</span>
-    Tasks: <span class="m">11</span> <span class="o">(</span>limit: 4915<span class="o">)</span>
-   CGroup: /system.slice/kibana.service
-           └─860 /usr/share/kibana/bin/../node/bin/node /usr/share/kibana/bin/../src/cli
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">$ sudo systemctl restart kibana.service
+</span></span><span class="line"><span class="cl">$ sudo systemctl status kibana.service
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"> ● kibana.service - Kibana
+</span></span><span class="line"><span class="cl">   Loaded: loaded <span class="o">(</span>/etc/systemd/system/kibana.service<span class="p">;</span> enabled<span class="p">;</span> vendor preset: enabled<span class="o">)</span>
+</span></span><span class="line"><span class="cl">   Active: active <span class="o">(</span>running<span class="o">)</span> since Sun 2020-06-21 15:42:32 JST<span class="p">;</span> 3h 5min ago
+</span></span><span class="line"><span class="cl"> Main PID: <span class="m">860</span> <span class="o">(</span>node<span class="o">)</span>
+</span></span><span class="line"><span class="cl">    Tasks: <span class="m">11</span> <span class="o">(</span>limit: 4915<span class="o">)</span>
+</span></span><span class="line"><span class="cl">   CGroup: /system.slice/kibana.service
+</span></span><span class="line"><span class="cl">           └─860 /usr/share/kibana/bin/../node/bin/node /usr/share/kibana/bin/../src/cli
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>ここまでくれば、「&lt;サーバのIPアドレス&gt;:5601」でKibanaの画面を確認できます。</p>
 <figure><img src="kibana.png"
@@ -2107,8 +2107,8 @@ $ sudo systemctl status kibana.service
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell">sudo apt install logstash
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">sudo apt install logstash
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>自動起動設定</p>
 <div class="highlight"><div class="chroma">
@@ -2117,9 +2117,9 @@ $ sudo systemctl status kibana.service
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell">sudo systemctl daemon-reload
-sudo systemctl <span class="nb">enable</span> logstash.service
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">sudo systemctl daemon-reload
+</span></span><span class="line"><span class="cl">sudo systemctl <span class="nb">enable</span> logstash.service
+</span></span></code></pre></td></tr></table>
 </div>
 </div><h4 id="42-logstashの設定書き換え">4.2. Logstashの設定書き換え</h4>
 <p>Web上の解説サイトでは <code>/etc/logstash/conf.d/</code> 配下に <code>.conf</code> ファイルを置くと、設定が読み込まれてデータの投入ができると書いているところもありますが、どうやら現在のバージョンでは、自ら明示的に書いてやらないといけないようです。</p>
@@ -2129,8 +2129,8 @@ sudo systemctl <span class="nb">enable</span> logstash.service
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell">sudo nano /etc/logstash/logstash.yml
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">sudo nano /etc/logstash/logstash.yml
+</span></span></code></pre></td></tr></table>
 </div>
 </div><div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -2140,11 +2140,11 @@ sudo systemctl <span class="nb">enable</span> logstash.service
 </span><span class="lnt">4
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-logstash.yml" data-lang="logstash.yml"><span class="c"># 元の状態</span><span class="w">
-</span><span class="w"></span><span class="c"># path.config:</span><span class="w">
-</span><span class="w"></span><span class="c"># ↓書き直した後</span><span class="w">
-</span><span class="w"></span><span class="nt">path.config</span><span class="p">:</span><span class="w"> </span><span class="l">/etc/logstash/conf.d</span><span class="w">
-</span></code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-logstash.yml" data-lang="logstash.yml"><span class="line"><span class="cl"><span class="c"># 元の状態</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="c"># path.config:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="c"># ↓書き直した後</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">path.config</span><span class="p">:</span><span class="w"> </span><span class="l">/etc/logstash/conf.d</span><span class="w">
+</span></span></span></code></pre></td></tr></table>
 </div>
 </div><h2 id="まとめ">まとめ</h2>
 <p>今回は、Elasticstackのインストール方法についてまとめました。</p>
@@ -2581,7 +2581,7 @@ sudo systemctl <span class="nb">enable</span> logstash.service
 </div>
 
 
-<script defer src="/js/swipe.min.989e074dfb92ce7f57a92c1df7027f88b53c50a54fd9ad450a673a64aa91bfa4.js"></script>
+<script defer src="/js/swipe.min.25f8e2889d0e03e2f9015306518a5ae00178acd2ec1b8e5ef20cc9f888d908ca.js"></script>
 
 <script defer src="/js/micromodal.min.de01b44b2f383056bbcaf6ee921fd385d79108ec1129afd0eb2f3f5a07e11f45.js"></script>
 

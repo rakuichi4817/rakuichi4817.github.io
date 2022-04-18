@@ -18,9 +18,9 @@
 
 <script defer src="/js/lazysizes.min.fb649fcae62177dfe63e67081ddceb830b5ce1f05a4184e9bbb7d87ac4b8f4e5.js"></script>
 
-<script defer src="/js/helper/getParents.min.ccd45f158c1b17849307ba913a72beac239c410f2b6e648496a79842da84e55b.js"></script>
+<script defer src="/js/helper/getParents.min.086022fb02d7a1517e33c2670bffb976b3e80bcacd9caeee0c6a586064f20e42.js"></script>
 
-<script defer src="/js/helper/fadeinout.min.1d13d3e810c3940e80cbba6216a1c76fbf42b5431fc83537ea6997863802362b.js"></script>
+<script defer src="/js/helper/fadeinout.min.1551b6dbdacc77e412a26a29d3b84d2dcdc8f05c3b617433a475dc53c8872bdb.js"></script>
 
 <script defer src="/js/helper/closest.min.js"></script>
   
@@ -1366,7 +1366,7 @@
     <meta property="twitter:description" content="pipenv環境で作成したPythonプログラムの自動テストのために、GitHub Actionsとpytestのサンプルを作成しました。">
   
 
-<meta name="generator" content="Hugo 0.92.2" />
+<meta name="generator" content="Hugo 0.97.0" />
 <meta name="msapplication-TileColor" content="#fff">
 
 <meta name="theme-color" content="#fff">
@@ -1840,11 +1840,11 @@ if (!doNotTrack) {
 </span><span class="lnt">4
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="c1"># 仮想環境の作成（Pythonバージョン3.9系）</span>
-$ py -m pipenv --python 3.9
-<span class="c1"># pytestの導入</span>
-$ pipenv install pytest
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl"><span class="c1"># 仮想環境の作成（Pythonバージョン3.9系）</span>
+</span></span><span class="line"><span class="cl">$ py -m pipenv --python 3.9
+</span></span><span class="line"><span class="cl"><span class="c1"># pytestの導入</span>
+</span></span><span class="line"><span class="cl">$ pipenv install pytest
+</span></span></code></pre></td></tr></table>
 </div>
 </div><h3 id="2-テスト対象プログラムとテストプログラムの作成">2. テスト対象プログラムとテストプログラムの作成</h3>
 <h4 id="21-全体">2.1 全体</h4>
@@ -1865,17 +1865,17 @@ $ pipenv install pytest
 </span><span class="lnt">10
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-text" data-lang="text">.github/workflows         - GitHub Actions用ディレクトリ
-└── pytest-all.yml        - ワークフロー定義ファイル
-src
-├── __init__.py
-└── sample.py             - テスト対象コード
-tests
-├── __init__.py
-└── test_sample.py        - pytestコード
-Pipfile
-Pipfile.lock
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl">.github/workflows         - GitHub Actions用ディレクトリ
+</span></span><span class="line"><span class="cl">└── pytest-all.yml        - ワークフロー定義ファイル
+</span></span><span class="line"><span class="cl">src
+</span></span><span class="line"><span class="cl">├── __init__.py
+</span></span><span class="line"><span class="cl">└── sample.py             - テスト対象コード
+</span></span><span class="line"><span class="cl">tests
+</span></span><span class="line"><span class="cl">├── __init__.py
+</span></span><span class="line"><span class="cl">└── test_sample.py        - pytestコード
+</span></span><span class="line"><span class="cl">Pipfile
+</span></span><span class="line"><span class="cl">Pipfile.lock
+</span></span></code></pre></td></tr></table>
 </div>
 </div><h4 id="22-テスト対象プログラムとテストプログラム">2.2 テスト対象プログラムとテストプログラム</h4>
 <p>テスト対象となる足し算関数のプログラムと、その関数のテスト用プログラムを作成します。テストは成功するものを書いています（テスト名はtest_addの方がいい気がします）。</p>
@@ -1885,9 +1885,9 @@ Pipfile.lock
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-src/sample.py" data-lang="src/sample.py"><span class="k">def</span> <span class="nf">add</span><span class="p">(</span><span class="n">a</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">b</span><span class="p">:</span> <span class="nb">int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">int</span><span class="p">:</span>
-    <span class="k">return</span> <span class="n">a</span> <span class="o">+</span> <span class="n">b</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-src/sample.py" data-lang="src/sample.py"><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">add</span><span class="p">(</span><span class="n">a</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">b</span><span class="p">:</span> <span class="nb">int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">int</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="n">a</span> <span class="o">+</span> <span class="n">b</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -1898,12 +1898,12 @@ Pipfile.lock
 </span><span class="lnt">5
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-tests/test_sample.py" data-lang="tests/test_sample.py"><span class="kn">from</span> <span class="nn">src.sample</span> <span class="kn">import</span> <span class="n">add</span>
-
-<span class="k">def</span> <span class="nf">test_passing</span><span class="p">():</span>
-    <span class="nb">print</span><span class="p">(</span><span class="s2">&#34;---pass test---&#34;</span><span class="p">)</span>
-    <span class="k">assert</span> <span class="n">add</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span> <span class="o">==</span> <span class="mi">3</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-tests/test_sample.py" data-lang="tests/test_sample.py"><span class="line"><span class="cl"><span class="kn">from</span> <span class="nn">src.sample</span> <span class="kn">import</span> <span class="n">add</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">test_passing</span><span class="p">():</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">print</span><span class="p">(</span><span class="s2">&#34;---pass test---&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="k">assert</span> <span class="n">add</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span> <span class="o">==</span> <span class="mi">3</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>一旦ローカル上で、上記のテストが正しく動作するか確認しておきます。</p>
 <div class="highlight"><div class="chroma">
@@ -1921,18 +1921,18 @@ Pipfile.lock
 </span><span class="lnt">11
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell">$ study-actions&gt; pipenv run pytest -v -s
-<span class="o">==============================</span> <span class="nb">test</span> session <span class="nv">starts</span> <span class="o">===============================</span>
-platform win32 -- Python 3.9.6, pytest-6.2.5, py-1.11.0, pluggy-1.0.0 -- ~<span class="se">\s</span>tudy-actions<span class="se">\.</span>venv<span class="se">\s</span>cripts<span class="se">\p</span>ython.exe
-cachedir: .pytest_cache
-rootdir: ~<span class="se">\s</span>tudy-actions
-collected <span class="m">1</span> item
-
-tests/test_sample.py::test_passing ---pass test---
-<span class="nv">PASSED</span>
-
-<span class="o">===============================</span> <span class="m">1</span> passed in 0.03s <span class="o">================================</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">$ study-actions&gt; pipenv run pytest -v -s
+</span></span><span class="line"><span class="cl"><span class="o">==============================</span> <span class="nb">test</span> session <span class="nv">starts</span> <span class="o">===============================</span>
+</span></span><span class="line"><span class="cl">platform win32 -- Python 3.9.6, pytest-6.2.5, py-1.11.0, pluggy-1.0.0 -- ~<span class="se">\s</span>tudy-actions<span class="se">\.</span>venv<span class="se">\s</span>cripts<span class="se">\p</span>ython.exe
+</span></span><span class="line"><span class="cl">cachedir: .pytest_cache
+</span></span><span class="line"><span class="cl">rootdir: ~<span class="se">\s</span>tudy-actions
+</span></span><span class="line"><span class="cl">collected <span class="m">1</span> item
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">tests/test_sample.py::test_passing ---pass test---
+</span></span><span class="line"><span class="cl"><span class="nv">PASSED</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="o">===============================</span> <span class="m">1</span> passed in 0.03s <span class="o">================================</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>問題なく実行されているのが確認できるかと思います。pytestについては勉強中なので、また別記事で学習記録でも書くつもりです。</p>
 <h3 id="3-github-actionsのワークフローファイルの作成">3. GitHub Actionsのワークフローファイルの作成</h3>
@@ -1959,24 +1959,24 @@ tests/test_sample.py::test_passing ---pass test---
 </span><span class="lnt">17
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-.github/workflows/pytest-all.yml" data-lang=".github/workflows/pytest-all.yml"><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">Pytest</span><span class="w">
-</span><span class="w"></span><span class="nt">on</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="l">push]</span><span class="w">
-</span><span class="w"></span><span class="nt">jobs</span><span class="p">:</span><span class="w">
-</span><span class="w">  </span><span class="nt">build</span><span class="p">:</span><span class="w">
-</span><span class="w">    </span><span class="nt">runs-on</span><span class="p">:</span><span class="w"> </span><span class="l">ubuntu-latest</span><span class="w">
-</span><span class="w">    </span><span class="nt">steps</span><span class="p">:</span><span class="w">
-</span><span class="w">      </span>- <span class="nt">uses</span><span class="p">:</span><span class="w"> </span><span class="l">actions/checkout@v2</span><span class="w">
-</span><span class="w">      </span>- <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">Install pipenv</span><span class="w">
-</span><span class="w">        </span><span class="nt">run</span><span class="p">:</span><span class="w"> </span><span class="l">pipx install pipenv  </span><span class="w">
-</span><span class="w">      </span>- <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">Set up pipenv</span><span class="w">
-</span><span class="w">        </span><span class="nt">uses</span><span class="p">:</span><span class="w"> </span><span class="l">actions/setup-python@v2</span><span class="w">
-</span><span class="w">        </span><span class="nt">with</span><span class="p">:</span><span class="w">
-</span><span class="w">          </span><span class="nt">python-version</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;3.9&#34;</span><span class="w">
-</span><span class="w">          </span><span class="nt">cache</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;pipenv&#34;</span><span class="w">
-</span><span class="w">      </span>- <span class="nt">run</span><span class="p">:</span><span class="w"> </span><span class="l">pipenv install</span><span class="w">
-</span><span class="w">      </span>- <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">Test with pytest</span><span class="w">
-</span><span class="w">        </span><span class="nt">run</span><span class="p">:</span><span class="w"> </span><span class="l">pipenv run pytest -v -s</span><span class="w">
-</span></code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-.github/workflows/pytest-all.yml" data-lang=".github/workflows/pytest-all.yml"><span class="line"><span class="cl"><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">Pytest</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">on</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="l">push]</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">jobs</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">build</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">runs-on</span><span class="p">:</span><span class="w"> </span><span class="l">ubuntu-latest</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">steps</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="nt">uses</span><span class="p">:</span><span class="w"> </span><span class="l">actions/checkout@v2</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">Install pipenv</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="nt">run</span><span class="p">:</span><span class="w"> </span><span class="l">pipx install pipenv  </span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">Set up pipenv</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="nt">uses</span><span class="p">:</span><span class="w"> </span><span class="l">actions/setup-python@v2</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="nt">with</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">          </span><span class="nt">python-version</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;3.9&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">          </span><span class="nt">cache</span><span class="p">:</span><span class="w"> </span><span class="s2">&#34;pipenv&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="nt">run</span><span class="p">:</span><span class="w"> </span><span class="l">pipenv install</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">      </span>- <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">Test with pytest</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">        </span><span class="nt">run</span><span class="p">:</span><span class="w"> </span><span class="l">pipenv run pytest -v -s</span><span class="w">
+</span></span></span></code></pre></td></tr></table>
 </div>
 </div><h3 id="4-プッシュとactionsの確認">4. プッシュとActionsの確認</h3>
 <p>作成したコードをプッシュし、GitHubのリポジトリページにあるActionsタブを確認します。下図でみていくと、左側のWorkflowsの「Pytest」が今回作成したワークフローになり、右下には実際に走ったワークフローが確認できます。実は一度ワークフローファイルの定義でエラーがでたのですが、その時のログも残っています。</p>
@@ -2482,7 +2482,7 @@ tests/test_sample.py::test_passing ---pass test---
 </div>
 
 
-<script defer src="/js/swipe.min.989e074dfb92ce7f57a92c1df7027f88b53c50a54fd9ad450a673a64aa91bfa4.js"></script>
+<script defer src="/js/swipe.min.25f8e2889d0e03e2f9015306518a5ae00178acd2ec1b8e5ef20cc9f888d908ca.js"></script>
 
 <script defer src="/js/micromodal.min.de01b44b2f383056bbcaf6ee921fd385d79108ec1129afd0eb2f3f5a07e11f45.js"></script>
 

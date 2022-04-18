@@ -18,9 +18,9 @@
 
 <script defer src="/js/lazysizes.min.fb649fcae62177dfe63e67081ddceb830b5ce1f05a4184e9bbb7d87ac4b8f4e5.js"></script>
 
-<script defer src="/js/helper/getParents.min.ccd45f158c1b17849307ba913a72beac239c410f2b6e648496a79842da84e55b.js"></script>
+<script defer src="/js/helper/getParents.min.086022fb02d7a1517e33c2670bffb976b3e80bcacd9caeee0c6a586064f20e42.js"></script>
 
-<script defer src="/js/helper/fadeinout.min.1d13d3e810c3940e80cbba6216a1c76fbf42b5431fc83537ea6997863802362b.js"></script>
+<script defer src="/js/helper/fadeinout.min.1551b6dbdacc77e412a26a29d3b84d2dcdc8f05c3b617433a475dc53c8872bdb.js"></script>
 
 <script defer src="/js/helper/closest.min.js"></script>
   
@@ -1366,7 +1366,7 @@
     <meta property="twitter:description" content="Javaでのキーボード入力と文字列の連結についてまとめました">
   
 
-<meta name="generator" content="Hugo 0.92.2" />
+<meta name="generator" content="Hugo 0.97.0" />
 <meta name="msapplication-TileColor" content="#fff">
 
 <meta name="theme-color" content="#fff">
@@ -1832,34 +1832,34 @@ if (!doNotTrack) {
 </span><span class="lnt">27
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="kn">import</span> <span class="nn">java.util.Scanner</span><span class="o">;</span>
-
-<span class="kd">public</span> <span class="kd">class</span> <span class="nc">Keybord</span><span class="o">{</span>
-
-    <span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="o">(</span><span class="n">String</span><span class="o">[]</span> <span class="n">args</span><span class="o">){</span>
-
-        <span class="c1">// Scannerクラスの呼び出し
-</span><span class="c1"></span>        <span class="n">Scanner</span> <span class="n">scan</span> <span class="o">=</span> <span class="k">new</span> <span class="n">Scanner</span><span class="o">(</span><span class="n">System</span><span class="o">.</span><span class="na">in</span><span class="o">);</span>
-        <span class="c1">// 数値の入力
-</span><span class="c1"></span>        <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">print</span><span class="o">(</span><span class="s">&#34;int型を入力：&#34;</span><span class="o">);</span>
-        <span class="kt">int</span> <span class="n">num1</span> <span class="o">=</span> <span class="n">scan</span><span class="o">.</span><span class="na">nextInt</span><span class="o">();</span>
-        <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">print</span><span class="o">(</span><span class="s">&#34;duble型を入力：&#34;</span><span class="o">);</span>
-        <span class="kt">double</span> <span class="n">num2</span> <span class="o">=</span> <span class="n">scan</span><span class="o">.</span><span class="na">nextDouble</span><span class="o">();</span>
-
-        <span class="c1">// 空読み
-</span><span class="c1"></span>        <span class="n">scan</span><span class="o">.</span><span class="na">nextLine</span><span class="o">();</span>
-        <span class="c1">// 文字列の入力
-</span><span class="c1"></span>        <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">print</span><span class="o">(</span><span class="s">&#34;String型を入力：&#34;</span><span class="o">);</span>
-        <span class="n">String</span> <span class="n">strin</span> <span class="o">=</span> <span class="n">scan</span><span class="o">.</span><span class="na">nextLine</span><span class="o">();</span>
-
-        <span class="c1">// 入力の確認
-</span><span class="c1"></span>        <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">&#34;【入力の確認】&#34;</span><span class="o">);</span>
-        <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">&#34;int型：&#34;</span> <span class="o">+</span> <span class="n">num1</span><span class="o">);</span>
-        <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">&#34;double型：&#34;</span> <span class="o">+</span> <span class="n">num2</span><span class="o">);</span>
-        <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">&#34;String型：&#34;</span> <span class="o">+</span> <span class="n">strin</span><span class="o">);</span>
-    <span class="o">}</span>
-<span class="o">}</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">java.util.Scanner</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kd">public</span> <span class="kd">class</span> <span class="nc">Keybord</span><span class="o">{</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="o">(</span><span class="n">String</span><span class="o">[]</span> <span class="n">args</span><span class="o">){</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="c1">// Scannerクラスの呼び出し
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>        <span class="n">Scanner</span> <span class="n">scan</span> <span class="o">=</span> <span class="k">new</span> <span class="n">Scanner</span><span class="o">(</span><span class="n">System</span><span class="o">.</span><span class="na">in</span><span class="o">);</span>
+</span></span><span class="line"><span class="cl">        <span class="c1">// 数値の入力
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>        <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">print</span><span class="o">(</span><span class="s">&#34;int型を入力：&#34;</span><span class="o">);</span>
+</span></span><span class="line"><span class="cl">        <span class="kt">int</span> <span class="n">num1</span> <span class="o">=</span> <span class="n">scan</span><span class="o">.</span><span class="na">nextInt</span><span class="o">();</span>
+</span></span><span class="line"><span class="cl">        <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">print</span><span class="o">(</span><span class="s">&#34;duble型を入力：&#34;</span><span class="o">);</span>
+</span></span><span class="line"><span class="cl">        <span class="kt">double</span> <span class="n">num2</span> <span class="o">=</span> <span class="n">scan</span><span class="o">.</span><span class="na">nextDouble</span><span class="o">();</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="c1">// 空読み
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>        <span class="n">scan</span><span class="o">.</span><span class="na">nextLine</span><span class="o">();</span>
+</span></span><span class="line"><span class="cl">        <span class="c1">// 文字列の入力
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>        <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">print</span><span class="o">(</span><span class="s">&#34;String型を入力：&#34;</span><span class="o">);</span>
+</span></span><span class="line"><span class="cl">        <span class="n">String</span> <span class="n">strin</span> <span class="o">=</span> <span class="n">scan</span><span class="o">.</span><span class="na">nextLine</span><span class="o">();</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="c1">// 入力の確認
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>        <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">&#34;【入力の確認】&#34;</span><span class="o">);</span>
+</span></span><span class="line"><span class="cl">        <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">&#34;int型：&#34;</span> <span class="o">+</span> <span class="n">num1</span><span class="o">);</span>
+</span></span><span class="line"><span class="cl">        <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">&#34;double型：&#34;</span> <span class="o">+</span> <span class="n">num2</span><span class="o">);</span>
+</span></span><span class="line"><span class="cl">        <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">&#34;String型：&#34;</span> <span class="o">+</span> <span class="n">strin</span><span class="o">);</span>
+</span></span><span class="line"><span class="cl">    <span class="o">}</span>
+</span></span><span class="line"><span class="cl"><span class="o">}</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>このプログラムを実行した結果が以下のとおりです。うまく機能していることを確認できました。</p>
 <div class="highlight"><div class="chroma">
@@ -1873,14 +1873,14 @@ if (!doNotTrack) {
 </span><span class="lnt">7
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-text" data-lang="text">int型を入力：1
-duble型を入力：10.0
-String型を入力：vissel
-【入力の確認】
-int型：1
-double型：10.0
-String型：vissel
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl">int型を入力：1
+</span></span><span class="line"><span class="cl">duble型を入力：10.0
+</span></span><span class="line"><span class="cl">String型を入力：vissel
+</span></span><span class="line"><span class="cl">【入力の確認】
+</span></span><span class="line"><span class="cl">int型：1
+</span></span><span class="line"><span class="cl">double型：10.0
+</span></span><span class="line"><span class="cl">String型：vissel
+</span></span></code></pre></td></tr></table>
 </div>
 </div><h2 id="文字列の連結">文字列の連結</h2>
 <p>文字列の連結には下記の通りいくつか種類があります。</p>
@@ -1921,26 +1921,26 @@ String型：vissel
 </span><span class="lnt">19
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="kd">public</span> <span class="kd">class</span> <span class="nc">StringJoin</span> <span class="o">{</span>
-
-    <span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="o">(</span><span class="n">String</span><span class="o">[]</span> <span class="n">args</span><span class="o">)</span> <span class="o">{</span>
-        <span class="c1">// 文字列の連結
-</span><span class="c1"></span>        <span class="n">String</span> <span class="n">s1</span><span class="o">,</span> <span class="n">s2</span><span class="o">,</span> <span class="n">s3</span><span class="o">,</span> <span class="n">sjoin</span><span class="o">;</span>
-        <span class="n">s1</span> <span class="o">=</span> <span class="s">&#34;ヴィッセル神戸&#34;</span><span class="o">;</span>
-        <span class="n">s2</span> <span class="o">=</span> <span class="s">&#34;天皇杯&#34;</span><span class="o">;</span>
-        <span class="n">s3</span> <span class="o">=</span> <span class="s">&#34;優勝&#34;</span><span class="o">;</span>
-
-        <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">printf</span><span class="o">(</span><span class="s">&#34;s1 = %s\n&#34;</span><span class="o">,</span> <span class="n">s1</span><span class="o">);</span>
-        <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">printf</span><span class="o">(</span><span class="s">&#34;s2 = %s\n&#34;</span><span class="o">,</span> <span class="n">s2</span><span class="o">);</span>
-        <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">printf</span><span class="o">(</span><span class="s">&#34;s3 = %s\n&#34;</span><span class="o">,</span> <span class="n">s3</span><span class="o">);</span>
-
-        <span class="c1">// プラスで
-</span><span class="c1"></span>        <span class="n">sjoin</span> <span class="o">=</span> <span class="n">s1</span> <span class="o">+</span> <span class="n">s2</span> <span class="o">+</span> <span class="n">s3</span><span class="o">;</span>
-        <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">&#34;\nプラス演算子&#34;</span><span class="o">);</span>
-        <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">sjoin</span><span class="o">);</span>
-    <span class="o">}</span>
-<span class="o">}</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="kd">public</span> <span class="kd">class</span> <span class="nc">StringJoin</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="o">(</span><span class="n">String</span><span class="o">[]</span> <span class="n">args</span><span class="o">)</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">        <span class="c1">// 文字列の連結
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>        <span class="n">String</span> <span class="n">s1</span><span class="o">,</span> <span class="n">s2</span><span class="o">,</span> <span class="n">s3</span><span class="o">,</span> <span class="n">sjoin</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl">        <span class="n">s1</span> <span class="o">=</span> <span class="s">&#34;ヴィッセル神戸&#34;</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl">        <span class="n">s2</span> <span class="o">=</span> <span class="s">&#34;天皇杯&#34;</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl">        <span class="n">s3</span> <span class="o">=</span> <span class="s">&#34;優勝&#34;</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">printf</span><span class="o">(</span><span class="s">&#34;s1 = %s\n&#34;</span><span class="o">,</span> <span class="n">s1</span><span class="o">);</span>
+</span></span><span class="line"><span class="cl">        <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">printf</span><span class="o">(</span><span class="s">&#34;s2 = %s\n&#34;</span><span class="o">,</span> <span class="n">s2</span><span class="o">);</span>
+</span></span><span class="line"><span class="cl">        <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">printf</span><span class="o">(</span><span class="s">&#34;s3 = %s\n&#34;</span><span class="o">,</span> <span class="n">s3</span><span class="o">);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="c1">// プラスで
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>        <span class="n">sjoin</span> <span class="o">=</span> <span class="n">s1</span> <span class="o">+</span> <span class="n">s2</span> <span class="o">+</span> <span class="n">s3</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl">        <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">&#34;\nプラス演算子&#34;</span><span class="o">);</span>
+</span></span><span class="line"><span class="cl">        <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">sjoin</span><span class="o">);</span>
+</span></span><span class="line"><span class="cl">    <span class="o">}</span>
+</span></span><span class="line"><span class="cl"><span class="o">}</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>出力結果は以下のとおりです。</p>
 <div class="highlight"><div class="chroma">
@@ -1953,13 +1953,13 @@ String型：vissel
 </span><span class="lnt">6
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-text" data-lang="text">s1 = ヴィッセル神戸
-s2 = 天皇杯
-s3 = 優勝
-
-プラス演算子
-ヴィッセル神戸天皇杯優勝
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl">s1 = ヴィッセル神戸
+</span></span><span class="line"><span class="cl">s2 = 天皇杯
+</span></span><span class="line"><span class="cl">s3 = 優勝
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">プラス演算子
+</span></span><span class="line"><span class="cl">ヴィッセル神戸天皇杯優勝
+</span></span></code></pre></td></tr></table>
 </div>
 </div><h3 id="concat">concat()</h3>
 <p><code>s1</code>に対して<code>s2</code>を連結させたい場合は<code>s1.concat(s2)</code>とします。</p>
@@ -1984,24 +1984,24 @@ s3 = 優勝
 </span><span class="lnt">17
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="kd">public</span> <span class="kd">class</span> <span class="nc">StringJoin2</span> <span class="o">{</span>
-
-    <span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="o">(</span><span class="n">String</span><span class="o">[]</span> <span class="n">args</span><span class="o">)</span> <span class="o">{</span>
-        <span class="c1">// 文字列の連結
-</span><span class="c1"></span>        <span class="n">String</span> <span class="n">s1</span><span class="o">,</span> <span class="n">s2</span><span class="o">,</span> <span class="n">s3</span><span class="o">,</span> <span class="n">sjoin2</span><span class="o">;</span>
-        <span class="n">s1</span> <span class="o">=</span> <span class="s">&#34;ヴィッセル神戸&#34;</span><span class="o">;</span>
-        <span class="n">s2</span> <span class="o">=</span> <span class="s">&#34;天皇杯&#34;</span><span class="o">;</span>
-        <span class="n">s3</span> <span class="o">=</span> <span class="s">&#34;優勝&#34;</span><span class="o">;</span>
-
-        <span class="c1">// concat
-</span><span class="c1"></span>        <span class="n">sjoin2</span> <span class="o">=</span> <span class="n">s1</span><span class="o">.</span><span class="na">concat</span><span class="o">(</span><span class="n">s2</span><span class="o">);</span>
-        <span class="n">sjoin2</span> <span class="o">=</span> <span class="n">sjoin2</span><span class="o">.</span><span class="na">concat</span><span class="o">(</span><span class="n">s3</span><span class="o">);</span>
-        <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">&#34;\nconcat&#34;</span><span class="o">);</span>
-        <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">sjoin2</span><span class="o">);</span>
-    <span class="o">}</span>
-
-<span class="o">}</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="kd">public</span> <span class="kd">class</span> <span class="nc">StringJoin2</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="o">(</span><span class="n">String</span><span class="o">[]</span> <span class="n">args</span><span class="o">)</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">        <span class="c1">// 文字列の連結
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>        <span class="n">String</span> <span class="n">s1</span><span class="o">,</span> <span class="n">s2</span><span class="o">,</span> <span class="n">s3</span><span class="o">,</span> <span class="n">sjoin2</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl">        <span class="n">s1</span> <span class="o">=</span> <span class="s">&#34;ヴィッセル神戸&#34;</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl">        <span class="n">s2</span> <span class="o">=</span> <span class="s">&#34;天皇杯&#34;</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl">        <span class="n">s3</span> <span class="o">=</span> <span class="s">&#34;優勝&#34;</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="c1">// concat
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>        <span class="n">sjoin2</span> <span class="o">=</span> <span class="n">s1</span><span class="o">.</span><span class="na">concat</span><span class="o">(</span><span class="n">s2</span><span class="o">);</span>
+</span></span><span class="line"><span class="cl">        <span class="n">sjoin2</span> <span class="o">=</span> <span class="n">sjoin2</span><span class="o">.</span><span class="na">concat</span><span class="o">(</span><span class="n">s3</span><span class="o">);</span>
+</span></span><span class="line"><span class="cl">        <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">&#34;\nconcat&#34;</span><span class="o">);</span>
+</span></span><span class="line"><span class="cl">        <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">sjoin2</span><span class="o">);</span>
+</span></span><span class="line"><span class="cl">    <span class="o">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="o">}</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>出力結果は以下のとおりです。</p>
 <div class="highlight"><div class="chroma">
@@ -2010,9 +2010,9 @@ s3 = 優勝
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-text" data-lang="text">concat
-ヴィッセル神戸天皇杯優勝
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl">concat
+</span></span><span class="line"><span class="cl">ヴィッセル神戸天皇杯優勝
+</span></span></code></pre></td></tr></table>
 </div>
 </div><h3 id="join">join()</h3>
 <p><code>join()</code>を用いることで、複数の文字列型を一つにつなげることができます。第一引数に設定した値が、連結する文字型の間に入ります。</p>
@@ -2034,27 +2034,25 @@ s3 = 優勝
 </span><span class="lnt">14
 </span><span class="lnt">15
 </span><span class="lnt">16
-</span><span class="lnt">17
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="kd">public</span> <span class="kd">class</span> <span class="nc">StringJoin3</span> <span class="o">{</span>
-
-    <span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="o">(</span><span class="n">String</span><span class="o">[]</span> <span class="n">args</span><span class="o">)</span> <span class="o">{</span>
-        <span class="c1">// 文字列の連結
-</span><span class="c1"></span>        <span class="n">String</span> <span class="n">s1</span><span class="o">,</span> <span class="n">s2</span><span class="o">,</span> <span class="n">s3</span><span class="o">;</span>
-        <span class="n">s1</span> <span class="o">=</span> <span class="s">&#34;ヴィッセル神戸&#34;</span><span class="o">;</span>
-        <span class="n">s2</span> <span class="o">=</span> <span class="s">&#34;天皇杯&#34;</span><span class="o">;</span>
-        <span class="n">s3</span> <span class="o">=</span> <span class="s">&#34;優勝&#34;</span><span class="o">;</span>
-
-        <span class="c1">// joinメソッド
-</span><span class="c1"></span>        <span class="n">String</span> <span class="n">sjoin3</span> <span class="o">=</span> <span class="n">String</span><span class="o">.</span><span class="na">join</span><span class="o">(</span><span class="s">&#34;-&#34;</span><span class="o">,</span> <span class="n">s1</span><span class="o">,</span> <span class="n">s2</span><span class="o">,</span> <span class="n">s3</span><span class="o">);</span>
-        <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">&#34;\njoin&#34;</span><span class="o">);</span>
-        <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">sjoin3</span><span class="o">);</span>
-    <span class="o">}</span>
-
-<span class="o">}</span>
-
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="kd">public</span> <span class="kd">class</span> <span class="nc">StringJoin3</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="o">(</span><span class="n">String</span><span class="o">[]</span> <span class="n">args</span><span class="o">)</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">        <span class="c1">// 文字列の連結
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>        <span class="n">String</span> <span class="n">s1</span><span class="o">,</span> <span class="n">s2</span><span class="o">,</span> <span class="n">s3</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl">        <span class="n">s1</span> <span class="o">=</span> <span class="s">&#34;ヴィッセル神戸&#34;</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl">        <span class="n">s2</span> <span class="o">=</span> <span class="s">&#34;天皇杯&#34;</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl">        <span class="n">s3</span> <span class="o">=</span> <span class="s">&#34;優勝&#34;</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="c1">// joinメソッド
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>        <span class="n">String</span> <span class="n">sjoin3</span> <span class="o">=</span> <span class="n">String</span><span class="o">.</span><span class="na">join</span><span class="o">(</span><span class="s">&#34;-&#34;</span><span class="o">,</span> <span class="n">s1</span><span class="o">,</span> <span class="n">s2</span><span class="o">,</span> <span class="n">s3</span><span class="o">);</span>
+</span></span><span class="line"><span class="cl">        <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">&#34;\njoin&#34;</span><span class="o">);</span>
+</span></span><span class="line"><span class="cl">        <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">sjoin3</span><span class="o">);</span>
+</span></span><span class="line"><span class="cl">    <span class="o">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="o">}</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>出力結果は以下のとおりです。</p>
 <div class="highlight"><div class="chroma">
@@ -2063,9 +2061,9 @@ s3 = 優勝
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-text" data-lang="text">join
-ヴィッセル神戸-天皇杯-優勝
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl">join
+</span></span><span class="line"><span class="cl">ヴィッセル神戸-天皇杯-優勝
+</span></span></code></pre></td></tr></table>
 </div>
 </div><h3 id="stringbuilder">StringBuilder</h3>
 <p>StringBuilderクラスを用いて、<code>append()</code>していくことで連結できます。</p>
@@ -2092,32 +2090,30 @@ s3 = 優勝
 </span><span class="lnt">19
 </span><span class="lnt">20
 </span><span class="lnt">21
-</span><span class="lnt">22
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="kd">public</span> <span class="kd">class</span> <span class="nc">StringJoin4</span> <span class="o">{</span>
-
-    <span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="o">(</span><span class="n">String</span><span class="o">[]</span> <span class="n">args</span><span class="o">)</span> <span class="o">{</span>
-        <span class="c1">// 文字列の連結
-</span><span class="c1"></span>        <span class="n">String</span> <span class="n">s1</span><span class="o">,</span> <span class="n">s2</span><span class="o">,</span> <span class="n">s3</span><span class="o">;</span>
-        <span class="n">s1</span> <span class="o">=</span> <span class="s">&#34;ヴィッセル神戸&#34;</span><span class="o">;</span>
-        <span class="n">s2</span> <span class="o">=</span> <span class="s">&#34;天皇杯&#34;</span><span class="o">;</span>
-        <span class="n">s3</span> <span class="o">=</span> <span class="s">&#34;優勝&#34;</span><span class="o">;</span>
-
-        <span class="c1">// StringBuilder append
-</span><span class="c1"></span>        <span class="n">StringBuilder</span> <span class="n">sjoin4</span> <span class="o">=</span> <span class="k">new</span> <span class="n">StringBuilder</span><span class="o">();</span>
-
-        <span class="n">sjoin4</span><span class="o">.</span><span class="na">append</span><span class="o">(</span><span class="n">s1</span><span class="o">);</span>
-        <span class="n">sjoin4</span><span class="o">.</span><span class="na">append</span><span class="o">(</span><span class="n">s2</span><span class="o">);</span>
-        <span class="n">sjoin4</span><span class="o">.</span><span class="na">append</span><span class="o">(</span><span class="n">s3</span><span class="o">);</span>
-
-        <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">&#34;\nStringBuilder append&#34;</span><span class="o">);</span>
-        <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">sjoin4</span><span class="o">);</span>
-    <span class="o">}</span>
-
-<span class="o">}</span>
-
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="kd">public</span> <span class="kd">class</span> <span class="nc">StringJoin4</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="o">(</span><span class="n">String</span><span class="o">[]</span> <span class="n">args</span><span class="o">)</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">        <span class="c1">// 文字列の連結
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>        <span class="n">String</span> <span class="n">s1</span><span class="o">,</span> <span class="n">s2</span><span class="o">,</span> <span class="n">s3</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl">        <span class="n">s1</span> <span class="o">=</span> <span class="s">&#34;ヴィッセル神戸&#34;</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl">        <span class="n">s2</span> <span class="o">=</span> <span class="s">&#34;天皇杯&#34;</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl">        <span class="n">s3</span> <span class="o">=</span> <span class="s">&#34;優勝&#34;</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="c1">// StringBuilder append
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>        <span class="n">StringBuilder</span> <span class="n">sjoin4</span> <span class="o">=</span> <span class="k">new</span> <span class="n">StringBuilder</span><span class="o">();</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="n">sjoin4</span><span class="o">.</span><span class="na">append</span><span class="o">(</span><span class="n">s1</span><span class="o">);</span>
+</span></span><span class="line"><span class="cl">        <span class="n">sjoin4</span><span class="o">.</span><span class="na">append</span><span class="o">(</span><span class="n">s2</span><span class="o">);</span>
+</span></span><span class="line"><span class="cl">        <span class="n">sjoin4</span><span class="o">.</span><span class="na">append</span><span class="o">(</span><span class="n">s3</span><span class="o">);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">&#34;\nStringBuilder append&#34;</span><span class="o">);</span>
+</span></span><span class="line"><span class="cl">        <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">sjoin4</span><span class="o">);</span>
+</span></span><span class="line"><span class="cl">    <span class="o">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="o">}</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>出力結果は以下のとおりです。</p>
 <div class="highlight"><div class="chroma">
@@ -2126,9 +2122,9 @@ s3 = 優勝
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-text" data-lang="text">StringBuilder append
-ヴィッセル神戸天皇杯優勝
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl">StringBuilder append
+</span></span><span class="line"><span class="cl">ヴィッセル神戸天皇杯優勝
+</span></span></code></pre></td></tr></table>
 </div>
 </div><h2 id="まとめ">まとめ</h2>
 <p>キーボードからの入力の受け取りと、文字列の連結についてまとめました。正直な感想は、「Pythonの方がええなぁ」です（笑）。</p>
@@ -2570,7 +2566,7 @@ s3 = 優勝
 </div>
 
 
-<script defer src="/js/swipe.min.989e074dfb92ce7f57a92c1df7027f88b53c50a54fd9ad450a673a64aa91bfa4.js"></script>
+<script defer src="/js/swipe.min.25f8e2889d0e03e2f9015306518a5ae00178acd2ec1b8e5ef20cc9f888d908ca.js"></script>
 
 <script defer src="/js/micromodal.min.de01b44b2f383056bbcaf6ee921fd385d79108ec1129afd0eb2f3f5a07e11f45.js"></script>
 

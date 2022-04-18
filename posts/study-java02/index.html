@@ -18,9 +18,9 @@
 
 <script defer src="/js/lazysizes.min.fb649fcae62177dfe63e67081ddceb830b5ce1f05a4184e9bbb7d87ac4b8f4e5.js"></script>
 
-<script defer src="/js/helper/getParents.min.ccd45f158c1b17849307ba913a72beac239c410f2b6e648496a79842da84e55b.js"></script>
+<script defer src="/js/helper/getParents.min.086022fb02d7a1517e33c2670bffb976b3e80bcacd9caeee0c6a586064f20e42.js"></script>
 
-<script defer src="/js/helper/fadeinout.min.1d13d3e810c3940e80cbba6216a1c76fbf42b5431fc83537ea6997863802362b.js"></script>
+<script defer src="/js/helper/fadeinout.min.1551b6dbdacc77e412a26a29d3b84d2dcdc8f05c3b617433a475dc53c8872bdb.js"></script>
 
 <script defer src="/js/helper/closest.min.js"></script>
   
@@ -1366,7 +1366,7 @@
     <meta property="twitter:description" content="Javaの変数について">
   
 
-<meta name="generator" content="Hugo 0.92.2" />
+<meta name="generator" content="Hugo 0.97.0" />
 <meta name="msapplication-TileColor" content="#fff">
 
 <meta name="theme-color" content="#fff">
@@ -1821,7 +1821,7 @@ Javaの変数について色々基本的なことを学びましたので、ま�
 <ul>
 <li>1文字のみ格納可能</li>
 <li><strong>char</strong> で定義</li>
-<li>格納する文字は <strong>シングルクォーテーション「'」</strong> で囲う</li>
+<li>格納する文字は <strong>シングルクォーテーション「&rsquo;」</strong> で囲う</li>
 </ul>
 <p>気をつけないといけないのは、<br />
 格納する文字を必ずシングルクォーテーションでで囲うということですね。<br />
@@ -1832,9 +1832,9 @@ Pythonでは考えないことなので注意が必要です。</p>
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="c1">// 値の格納
-</span><span class="c1"></span><span class="kt">char</span> <span class="n">c</span> <span class="o">=</span> <span class="sc">&#39;あ&#39;</span><span class="o">;</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="c1">// 値の格納
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kt">char</span> <span class="n">c</span> <span class="o">=</span> <span class="sc">&#39;あ&#39;</span><span class="o">;</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><h3 id="文字列型string">文字列型（String）</h3>
 <ul>
@@ -1850,8 +1850,8 @@ Pythonでは考えないことなので注意が必要です。</p>
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="n">String</span> <span class="n">s</span> <span class="o">=</span> <span class="s">&#34;ヴィッセル神戸が大好き&#34;</span><span class="o">;</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="n">String</span> <span class="n">s</span> <span class="o">=</span> <span class="s">&#34;ヴィッセル神戸が大好き&#34;</span><span class="o">;</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><h3 id="整数型int-long-short-byte">整数型（int, long, short, byte）</h3>
 <ul>
@@ -1881,14 +1881,14 @@ Pythonでは考えないことなので注意が必要です。</p>
 </span><span class="lnt">7
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="kt">int</span> <span class="n">x</span> <span class="o">,</span> <span class="n">y</span><span class="o">,</span> <span class="n">z</span><span class="o">;</span>
-<span class="kt">long</span> <span class="n">lx</span><span class="o">,</span> <span class="n">ly</span><span class="o">,</span> <span class="n">lz</span><span class="o">;</span>
-
-<span class="n">x</span> <span class="o">=</span> <span class="n">1</span><span class="o">;</span>
-<span class="n">y</span> <span class="o">=</span> <span class="n">2</span><span class="o">;</span>
-<span class="n">lx</span> <span class="o">=</span><span class="n">100000L</span><span class="o">;</span>
-<span class="n">ly</span> <span class="o">=</span><span class="n">200000L</span><span class="o">;</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="kt">int</span> <span class="n">x</span> <span class="o">,</span> <span class="n">y</span><span class="o">,</span> <span class="n">z</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl"><span class="kt">long</span> <span class="n">lx</span><span class="o">,</span> <span class="n">ly</span><span class="o">,</span> <span class="n">lz</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">x</span> <span class="o">=</span> <span class="n">1</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl"><span class="n">y</span> <span class="o">=</span> <span class="n">2</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl"><span class="n">lx</span> <span class="o">=</span><span class="n">100000L</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl"><span class="n">ly</span> <span class="o">=</span><span class="n">200000L</span><span class="o">;</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><h4 id="桁あふれ">桁あふれ</h4>
 <p>桁あふれについてどのような挙動を取るかを確認します。</p>
@@ -1910,18 +1910,18 @@ Pythonでは考えないことなので注意が必要です。</p>
 </span><span class="lnt">11
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="c1">// 格納できる最大値の格納
-</span><span class="c1"></span><span class="kt">int</span> <span class="n">max_num</span> <span class="o">=</span> <span class="n">Integer</span><span class="o">.</span><span class="na">MAX_VALUE</span><span class="o">;</span>
-
-<span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">max_num</span><span class="o">);</span>
-<span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">max_num</span> <span class="o">+</span> <span class="n">1</span><span class="o">);</span>
-
-<span class="o">--</span><span class="n">結果</span><span class="o">--</span>
-<span class="c1">//最大値
-</span><span class="c1"></span><span class="n">2147483647</span>
-<span class="c1">//桁あふれ後
-</span><span class="c1"></span><span class="o">-</span><span class="n">2147483648</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="c1">// 格納できる最大値の格納
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kt">int</span> <span class="n">max_num</span> <span class="o">=</span> <span class="n">Integer</span><span class="o">.</span><span class="na">MAX_VALUE</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">max_num</span><span class="o">);</span>
+</span></span><span class="line"><span class="cl"><span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">max_num</span> <span class="o">+</span> <span class="n">1</span><span class="o">);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="o">--</span><span class="n">結果</span><span class="o">--</span>
+</span></span><span class="line"><span class="cl"><span class="c1">//最大値
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="n">2147483647</span>
+</span></span><span class="line"><span class="cl"><span class="c1">//桁あふれ後
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="o">-</span><span class="n">2147483648</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><h3 id="少数型float-double">少数型（float, double）</h3>
 <ul>
@@ -1942,13 +1942,13 @@ Pythonでは考えないことなので注意が必要です。</p>
 </span><span class="lnt">7
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="kt">float</span> <span class="n">fx</span><span class="o">,</span> <span class="n">fy</span><span class="o">,</span> <span class="n">fz</span><span class="o">;</span>
-<span class="kt">double</span> <span class="n">dx</span><span class="o">,</span> <span class="n">dy</span><span class="o">,</span> <span class="n">dz</span><span class="o">;</span>
-
-<span class="n">fx</span> <span class="o">=</span> <span class="n">0</span><span class="o">.</span><span class="na">01F</span><span class="o">;</span>
-<span class="n">fy</span> <span class="o">=</span> <span class="n">0</span><span class="o">.</span><span class="na">02F</span><span class="o">;</span>
-<span class="n">dx</span> <span class="o">=</span> <span class="n">0</span><span class="o">.</span><span class="na">0003</span><span class="o">;</span>
-<span class="n">dy</span> <span class="o">=</span> <span class="n">0</span><span class="o">.</span><span class="na">0004</span><span class="o">;</span></code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="kt">float</span> <span class="n">fx</span><span class="o">,</span> <span class="n">fy</span><span class="o">,</span> <span class="n">fz</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl"><span class="kt">double</span> <span class="n">dx</span><span class="o">,</span> <span class="n">dy</span><span class="o">,</span> <span class="n">dz</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">fx</span> <span class="o">=</span> <span class="n">0</span><span class="o">.</span><span class="na">01F</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl"><span class="n">fy</span> <span class="o">=</span> <span class="n">0</span><span class="o">.</span><span class="na">02F</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl"><span class="n">dx</span> <span class="o">=</span> <span class="n">0</span><span class="o">.</span><span class="na">0003</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl"><span class="n">dy</span> <span class="o">=</span> <span class="n">0</span><span class="o">.</span><span class="na">0004</span><span class="o">;</span></span></span></code></pre></td></tr></table>
 </div>
 </div>
 <h4 id="割り算について">割り算について</h4>
@@ -1975,22 +1975,22 @@ Pythonでは考えないことなので注意が必要です。</p>
 </span><span class="lnt">15
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="kt">int</span> <span class="n">x</span> <span class="o">,</span> <span class="n">y</span><span class="o">,</span> <span class="n">z</span><span class="o">;</span>
-<span class="n">x</span> <span class="o">=</span> <span class="n">1</span><span class="o">;</span>
-<span class="n">y</span> <span class="o">=</span> <span class="n">2</span><span class="o">;</span>
-<span class="n">z</span> <span class="o">=</span> <span class="n">5</span><span class="o">;</span>
-<span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">x</span> <span class="o">/</span> <span class="n">y</span><span class="o">);</span>
-<span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">z</span> <span class="o">/</span> <span class="n">y</span><span class="o">);</span>
-<span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">x</span> <span class="o">%</span> <span class="n">y</span><span class="o">);</span>
-<span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">z</span> <span class="o">%</span> <span class="n">y</span><span class="o">);</span>
-
-<span class="o">--</span><span class="n">結果</span><span class="o">--</span>
-<span class="n">0</span> <span class="c1">// 1/2の結果
-</span><span class="c1"></span><span class="n">2</span> <span class="c1">// 5/2の結果
-</span><span class="c1"></span><span class="n">1</span> <span class="c1">// 1%2の結果
-</span><span class="c1"></span><span class="n">1</span> <span class="c1">// 5%2の結果
-</span><span class="c1"></span><span class="o">----</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="kt">int</span> <span class="n">x</span> <span class="o">,</span> <span class="n">y</span><span class="o">,</span> <span class="n">z</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl"><span class="n">x</span> <span class="o">=</span> <span class="n">1</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl"><span class="n">y</span> <span class="o">=</span> <span class="n">2</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl"><span class="n">z</span> <span class="o">=</span> <span class="n">5</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl"><span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">x</span> <span class="o">/</span> <span class="n">y</span><span class="o">);</span>
+</span></span><span class="line"><span class="cl"><span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">z</span> <span class="o">/</span> <span class="n">y</span><span class="o">);</span>
+</span></span><span class="line"><span class="cl"><span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">x</span> <span class="o">%</span> <span class="n">y</span><span class="o">);</span>
+</span></span><span class="line"><span class="cl"><span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">z</span> <span class="o">%</span> <span class="n">y</span><span class="o">);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="o">--</span><span class="n">結果</span><span class="o">--</span>
+</span></span><span class="line"><span class="cl"><span class="n">0</span> <span class="c1">// 1/2の結果
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="n">2</span> <span class="c1">// 5/2の結果
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="n">1</span> <span class="c1">// 1%2の結果
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="n">1</span> <span class="c1">// 5%2の結果
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="o">----</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>整数型同士の割り算ではこのように、<br />
 余りを出す割り算を行っていると考えることができます。<br />
@@ -2015,22 +2015,22 @@ Pythonでは考えないことなので注意が必要です。</p>
 </span><span class="lnt">15
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="kt">float</span> <span class="n">x</span> <span class="o">,</span> <span class="n">y</span><span class="o">,</span> <span class="n">z</span><span class="o">;</span>
-<span class="n">fx</span> <span class="o">=</span> <span class="n">1F</span><span class="o">;</span>
-<span class="n">fy</span> <span class="o">=</span> <span class="n">2F</span><span class="o">;</span>
-<span class="n">fz</span> <span class="o">=</span> <span class="n">5F</span><span class="o">;</span>
-<span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">fx</span> <span class="o">/</span> <span class="n">fy</span><span class="o">);</span>
-<span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">fz</span> <span class="o">/</span> <span class="n">fy</span><span class="o">);</span>
-<span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">fx</span> <span class="o">%</span> <span class="n">fy</span><span class="o">);</span>
-<span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">fz</span> <span class="o">%</span> <span class="n">fy</span><span class="o">);</span>
-
-<span class="o">--</span><span class="n">結果</span><span class="o">--</span>
-<span class="n">0</span><span class="o">.</span><span class="na">5</span> <span class="c1">// 1/2の結果
-</span><span class="c1"></span><span class="n">1</span><span class="o">.</span><span class="na">5</span> <span class="c1">// 5/2の結果
-</span><span class="c1"></span><span class="n">1</span><span class="o">.</span><span class="na">0</span> <span class="c1">// 1%2の結果
-</span><span class="c1"></span><span class="n">1</span><span class="o">.</span><span class="na">0</span> <span class="c1">// 5%2の結果
-</span><span class="c1"></span><span class="o">----</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="kt">float</span> <span class="n">x</span> <span class="o">,</span> <span class="n">y</span><span class="o">,</span> <span class="n">z</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl"><span class="n">fx</span> <span class="o">=</span> <span class="n">1F</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl"><span class="n">fy</span> <span class="o">=</span> <span class="n">2F</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl"><span class="n">fz</span> <span class="o">=</span> <span class="n">5F</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl"><span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">fx</span> <span class="o">/</span> <span class="n">fy</span><span class="o">);</span>
+</span></span><span class="line"><span class="cl"><span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">fz</span> <span class="o">/</span> <span class="n">fy</span><span class="o">);</span>
+</span></span><span class="line"><span class="cl"><span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">fx</span> <span class="o">%</span> <span class="n">fy</span><span class="o">);</span>
+</span></span><span class="line"><span class="cl"><span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">fz</span> <span class="o">%</span> <span class="n">fy</span><span class="o">);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="o">--</span><span class="n">結果</span><span class="o">--</span>
+</span></span><span class="line"><span class="cl"><span class="n">0</span><span class="o">.</span><span class="na">5</span> <span class="c1">// 1/2の結果
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="n">1</span><span class="o">.</span><span class="na">5</span> <span class="c1">// 5/2の結果
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="n">1</span><span class="o">.</span><span class="na">0</span> <span class="c1">// 1%2の結果
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="n">1</span><span class="o">.</span><span class="na">0</span> <span class="c1">// 5%2の結果
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="o">----</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><p>少数型の場合は、<code>/</code>の場合、少数を使って割り切った結果を示します。<br />
 <code>%</code>に関しては整数型のときと同様で、余りを出す割り算を行った場合の余りが結果となります。</p>
@@ -2045,9 +2045,9 @@ Pythonでは考えないことなので注意が必要です。</p>
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="kt">boolean</span> <span class="n">tflag</span> <span class="o">=</span> <span class="kc">true</span><span class="o">;</span>
-<span class="kt">boolean</span> <span class="n">fflag</span> <span class="o">=</span> <span class="kc">false</span><span class="o">;</span>
-</code></pre></td></tr></table>
+<pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="kt">boolean</span> <span class="n">tflag</span> <span class="o">=</span> <span class="kc">true</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl"><span class="kt">boolean</span> <span class="n">fflag</span> <span class="o">=</span> <span class="kc">false</span><span class="o">;</span>
+</span></span></code></pre></td></tr></table>
 </div>
 </div><h2 id="まとめと感想">まとめと感想</h2>
 <p>今回は変数について色々見てみましたが、<br />
@@ -2482,7 +2482,7 @@ Pythonでは考えないことなので注意が必要です。</p>
 </div>
 
 
-<script defer src="/js/swipe.min.989e074dfb92ce7f57a92c1df7027f88b53c50a54fd9ad450a673a64aa91bfa4.js"></script>
+<script defer src="/js/swipe.min.25f8e2889d0e03e2f9015306518a5ae00178acd2ec1b8e5ef20cc9f888d908ca.js"></script>
 
 <script defer src="/js/micromodal.min.de01b44b2f383056bbcaf6ee921fd385d79108ec1129afd0eb2f3f5a07e11f45.js"></script>
 
