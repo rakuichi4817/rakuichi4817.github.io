@@ -12,7 +12,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <copyright>© 2019 -2022, Rakuichi - All Rights Reserved</copyright>
-    <lastBuildDate>Mon, 18 Apr 2022 21:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 02 Jul 2022 17:00:00 +0900</lastBuildDate>
     
         <atom:link href="https://rakuichi4817.github.io/index.xml" rel="self" type="application/rss+xml" />
     
@@ -40,6 +40,36 @@
 
       
       <item>
+        <title>2022年上半期振り返りと下半期に向けて（仕事・技術編）</title>
+        <link>https://rakuichi4817.github.io/posts/2022-first-half-summary/</link>
+        <pubDate>Sat, 02 Jul 2022 17:00:00 +0900</pubDate>
+        
+        <atom:modified>Sat, 02 Jul 2022 17:00:00 +0900</atom:modified>
+        <guid>https://rakuichi4817.github.io/posts/2022-first-half-summary/</guid>
+        <description>2022年も気づけば上半期が終了しびっくりしております。ブログの更新頻度をあげると言っていたのですが、なかなかネタが思いつかず&amp;hellip</description>
+        
+        <dc:creator>Rakuichi</dc:creator>
+        <media:content url="https://rakuichi4817.github.io/images/icon/note-frog.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        <media:content url="https://rakuichi4817.github.io/images/cover/top-cover.png" medium="image"><media:title type="html">meta image</media:title></media:content>
+        
+          
+            
+              <category>感想</category>
+            
+          
+        
+        
+          
+            
+              <category>日常</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
         <title>J:COM NET 1GBコースを使ってみて</title>
         <link>https://rakuichi4817.github.io/posts/impression-jcom-net/</link>
         <pubDate>Mon, 18 Apr 2022 21:00:00 +0900</pubDate>
@@ -53,6 +83,10 @@
         
         <media:content url="https://rakuichi4817.github.io/images/cover/top-cover.png" medium="image"><media:title type="html">meta image</media:title></media:content>
         
+          
+            
+              <category>感想</category>
+            
           
             
               <category>workstation</category>
@@ -238,6 +272,10 @@
           
             
               <category>写真</category>
+            
+          
+            
+              <category>感想</category>
             
           
         
