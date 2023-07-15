@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>Python環境構築 on RakuBlog</title>
+    <link>https://rakuichi4817.github.io/series/python%E7%92%B0%E5%A2%83%E6%A7%8B%E7%AF%89/</link>
+    <description>Recent content in Python環境構築 on RakuBlog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <copyright>© 2019 -2023, Rakuichi - All Rights Reserved</copyright>
+    <lastBuildDate>Wed, 12 Apr 2023 23:30:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://rakuichi4817.github.io/series/python%E7%92%B0%E5%A2%83%E6%A7%8B%E7%AF%89/index.xml" rel="self" type="application/rss+xml" />
+    
+
+      
+      <item>
+        <title>Pipenv、Docker（マルチステージビルド）、devcontainerで開発環境と本番環境を分ける</title>
+        <link>https://rakuichi4817.github.io/posts/pipenv-docker/</link>
+        <pubDate>Wed, 12 Apr 2023 23:30:00 +0000</pubDate>
+        
+        <atom:modified>Wed, 12 Apr 2023 23:30:00 +0000</atom:modified>
+        <guid>https://rakuichi4817.github.io/posts/pipenv-docker/</guid>
+        <description>久しぶりの投稿です（n回目）。 最近、Pythonで環境を作るときにDockerで環境を作るようにしており、そこで利用している設定についてメモ</description>
+        
+        <dc:creator>Rakuichi</dc:creator>
+        <media:content url="https://rakuichi4817.github.io/images/tech/python.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        <media:content url="https://rakuichi4817.github.io/images/cover/top-cover.png" medium="image"><media:title type="html">meta image</media:title></media:content>
+        
+          
+            
+              <category>Python</category>
+            
+          
+            
+              <category>Pipenv</category>
+            
+          
+            
+              <category>Streamlit</category>
+            
+          
+            
+              <category>Docker</category>
+            
+          
+            
+              <category>環境構築</category>
+            
+          
+        
+        
+          
+            
+              <category>技術系備忘録</category>
+            
+          
+        
+        
+          
+            
+              <category>Python環境構築</category>
+            
+          
+            
+              <category>アプリ開発</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>脱AnacondaしてPipenvでPython環境作り</title>
+        <link>https://rakuichi4817.github.io/posts/start-pipenv/</link>
+        <pubDate>Sun, 26 Sep 2021 18:00:00 +0900</pubDate>
+        
+        <atom:modified>Sun, 26 Sep 2021 18:00:00 +0900</atom:modified>
+        <guid>https://rakuichi4817.github.io/posts/start-pipenv/</guid>
+        <description>&lt;p&gt;大学4年からPythonを触りだしましたが、その時から一貫してAnacondaでPythonの環境を作成していました。しかし、脱AnacondaしてPipenvに乗り換えたので、簡単にまとめようかと思います。&lt;/p&gt;</description>
+        
+        <dc:creator>Rakuichi</dc:creator>
+        <media:content url="https://rakuichi4817.github.io/images/tech/python.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        <media:content url="https://rakuichi4817.github.io/images/cover/python-cover.png" medium="image"><media:title type="html">meta image</media:title></media:content>
+        
+          
+            
+              <category>Python</category>
+            
+          
+            
+              <category>環境構築</category>
+            
+          
+        
+        
+          
+            
+              <category>技術系備忘録</category>
+            
+          
+        
+        
+          
+            
+              <category>Python環境構築</category>
+            
+          
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

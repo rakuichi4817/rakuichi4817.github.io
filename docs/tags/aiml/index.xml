@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>AI・ML on RakuBlog</title>
+    <link>https://rakuichi4817.github.io/tags/aiml/</link>
+    <description>Recent content in AI・ML on RakuBlog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <copyright>© 2019 -2023, Rakuichi - All Rights Reserved</copyright>
+    <lastBuildDate>Mon, 13 Apr 2020 23:00:00 +0900</lastBuildDate>
+    
+        <atom:link href="https://rakuichi4817.github.io/tags/aiml/index.xml" rel="self" type="application/rss+xml" />
+    
+
+      
+      <item>
+        <title>Windows(CPU)にAnacondaでTensorFlow2.1.0とKeras2.3.1の導入</title>
+        <link>https://rakuichi4817.github.io/posts/windows-cpu-keras/</link>
+        <pubDate>Mon, 13 Apr 2020 23:00:00 +0900</pubDate>
+        
+        <atom:modified>Mon, 13 Apr 2020 23:00:00 +0900</atom:modified>
+        <guid>https://rakuichi4817.github.io/posts/windows-cpu-keras/</guid>
+        <description>&lt;div class=&#34;alert alert-warning&#34; role=&#34;alert&#34; data-dir=&#34;ltr&#34;&gt;&lt;strong&gt;【2021年9月18日追記】&lt;/strong&gt;&lt;br /&gt;
+本記事ではcondaを用いて仮想環境を作成し、その内部でpipを使ってライブラリをインストールしています。しかし、2021年途中以降で脱Anacondaをしましたので、こちらの方法がおすすめというわけでもありません。&lt;/div&gt;
+&lt;p&gt;こんばんは、4月から始まった会社の研修も、Zoomによるリモート研修になってしまい、一日中パソコンとにらめっこしているRakuichiです。&lt;/p&gt;</description>
+        
+        <dc:creator>Rakuichi</dc:creator>
+        <media:content url="https://rakuichi4817.github.io/images/tech/python.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Python</category>
+            
+          
+            
+              <category>AI・ML</category>
+            
+          
+            
+              <category>環境構築</category>
+            
+          
+        
+        
+          
+            
+              <category>技術系備忘録</category>
+            
+          
+        
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

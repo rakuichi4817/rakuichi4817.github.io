@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>Java入門 on RakuBlog</title>
+    <link>https://rakuichi4817.github.io/series/java%E5%85%A5%E9%96%80/</link>
+    <description>Recent content in Java入門 on RakuBlog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <copyright>© 2019 -2023, Rakuichi - All Rights Reserved</copyright>
+    <lastBuildDate>Mon, 20 Apr 2020 18:26:00 +0900</lastBuildDate>
+    
+        <atom:link href="https://rakuichi4817.github.io/series/java%E5%85%A5%E9%96%80/index.xml" rel="self" type="application/rss+xml" />
+    
+
+      
+      <item>
+        <title>【Java勉強-第4回】キーボード入力と文字列の連結</title>
+        <link>https://rakuichi4817.github.io/posts/study-java04/</link>
+        <pubDate>Mon, 20 Apr 2020 18:26:00 +0900</pubDate>
+        
+        <atom:modified>Mon, 20 Apr 2020 18:26:00 +0900</atom:modified>
+        <guid>https://rakuichi4817.github.io/posts/study-java04/</guid>
+        <description>Java勉強記録第3回の今回は、キーボード入力と、文字列の連結についてまとめていきます。文字列の連結の仕方を工夫しないと、データ量が増えたと</description>
+        
+        <dc:creator>Rakuichi</dc:creator>
+        <media:content url="https://rakuichi4817.github.io/images/tech/java.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Java</category>
+            
+          
+        
+        
+          
+            
+              <category>技術系備忘録</category>
+            
+          
+        
+        
+          
+            
+              <category>Java入門</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>【Java勉強-第3回】簡単なif・else文</title>
+        <link>https://rakuichi4817.github.io/posts/study-java03/</link>
+        <pubDate>Fri, 28 Feb 2020 16:26:00 +0900</pubDate>
+        
+        <atom:modified>Fri, 28 Feb 2020 16:26:00 +0900</atom:modified>
+        <guid>https://rakuichi4817.github.io/posts/study-java03/</guid>
+        <description>Java勉強記録第3回の今回は、簡単なif・else文を試していこうと思います。 今回は本当に触る程度で、今後実課題に取り組む時に（そんなとき</description>
+        
+        <dc:creator>Rakuichi</dc:creator>
+        <media:content url="https://rakuichi4817.github.io/images/tech/java.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Java</category>
+            
+          
+        
+        
+          
+            
+              <category>技術系備忘録</category>
+            
+          
+        
+        
+          
+            
+              <category>Java入門</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>【Java勉強-第2回】変数について</title>
+        <link>https://rakuichi4817.github.io/posts/study-java02/</link>
+        <pubDate>Thu, 27 Feb 2020 22:26:00 +0900</pubDate>
+        
+        <atom:modified>Thu, 27 Feb 2020 22:26:00 +0900</atom:modified>
+        <guid>https://rakuichi4817.github.io/posts/study-java02/</guid>
+        <description>&lt;p&gt;お久しぶりです。&lt;br /&gt;
+修士論文やら学会に提出する論文やらで、ブログを更新するのをサボってしまっていました。&lt;/p&gt;</description>
+        
+        <dc:creator>Rakuichi</dc:creator>
+        <media:content url="https://rakuichi4817.github.io/images/tech/java.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Java</category>
+            
+          
+        
+        
+          
+            
+              <category>技術系備忘録</category>
+            
+          
+        
+        
+          
+            
+              <category>Java入門</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>【Java勉強-第1回】EclipceでHello World!</title>
+        <link>https://rakuichi4817.github.io/posts/study-java01/</link>
+        <pubDate>Mon, 13 Jan 2020 21:00:00 +0900</pubDate>
+        
+        <atom:modified>Mon, 13 Jan 2020 21:00:00 +0900</atom:modified>
+        <guid>https://rakuichi4817.github.io/posts/study-java01/</guid>
+        <description>&lt;p&gt;新年あけましておめでとうございます。&lt;/p&gt;
+&lt;p&gt;4月から入社する会社でJavaを利用するので、&lt;br /&gt;
+先駆けて勉強していこうと思い、せっかくなので勉強の記録をまとめていこうと思います。&lt;br /&gt;
+あくまで記録なのでミスがあれば右下よりコメントお願いしますm(_ _)m&lt;/p&gt;</description>
+        
+        <dc:creator>Rakuichi</dc:creator>
+        <media:content url="https://rakuichi4817.github.io/images/tech/java.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Java</category>
+            
+          
+            
+          
+        
+        
+          
+            
+              <category>技術系備忘録</category>
+            
+          
+        
+        
+          
+            
+              <category>Java入門</category>
+            
+          
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

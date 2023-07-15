@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>Series on RakuBlog</title>
+    <link>https://rakuichi4817.github.io/series/</link>
+    <description>Recent content in Series on RakuBlog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <copyright>© 2019 -2023, Rakuichi - All Rights Reserved</copyright>
+    <lastBuildDate>Sat, 15 Jul 2023 21:00:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://rakuichi4817.github.io/series/index.xml" rel="self" type="application/rss+xml" />
+    
+
+      
+      <item>
+        <title>商品紹介</title>
+        <link>https://rakuichi4817.github.io/series/%E5%95%86%E5%93%81%E7%B4%B9%E4%BB%8B/</link>
+        <pubDate>Sat, 15 Jul 2023 21:00:00 +0000</pubDate>
+        
+        
+        <guid>https://rakuichi4817.github.io/series/%E5%95%86%E5%93%81%E7%B4%B9%E4%BB%8B/</guid>
+        <description></description>
+        
+        <dc:creator>Rakuichi</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Python環境構築</title>
+        <link>https://rakuichi4817.github.io/series/python%E7%92%B0%E5%A2%83%E6%A7%8B%E7%AF%89/</link>
+        <pubDate>Wed, 12 Apr 2023 23:30:00 +0000</pubDate>
+        
+        
+        <guid>https://rakuichi4817.github.io/series/python%E7%92%B0%E5%A2%83%E6%A7%8B%E7%AF%89/</guid>
+        <description></description>
+        
+        <dc:creator>Rakuichi</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>アプリ開発</title>
+        <link>https://rakuichi4817.github.io/series/%E3%82%A2%E3%83%97%E3%83%AA%E9%96%8B%E7%99%BA/</link>
+        <pubDate>Wed, 12 Apr 2023 23:30:00 +0000</pubDate>
+        
+        
+        <guid>https://rakuichi4817.github.io/series/%E3%82%A2%E3%83%97%E3%83%AA%E9%96%8B%E7%99%BA/</guid>
+        <description></description>
+        
+        <dc:creator>Rakuichi</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>テスト駆動開発</title>
+        <link>https://rakuichi4817.github.io/series/%E3%83%86%E3%82%B9%E3%83%88%E9%A7%86%E5%8B%95%E9%96%8B%E7%99%BA/</link>
+        <pubDate>Tue, 18 Jan 2022 01:00:00 +0900</pubDate>
+        
+        
+        <guid>https://rakuichi4817.github.io/series/%E3%83%86%E3%82%B9%E3%83%88%E9%A7%86%E5%8B%95%E9%96%8B%E7%99%BA/</guid>
+        <description></description>
+        
+        <dc:creator>Rakuichi</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+      <item>
+        <title>Java入門</title>
+        <link>https://rakuichi4817.github.io/series/java%E5%85%A5%E9%96%80/</link>
+        <pubDate>Mon, 20 Apr 2020 18:26:00 +0900</pubDate>
+        
+        
+        <guid>https://rakuichi4817.github.io/series/java%E5%85%A5%E9%96%80/</guid>
+        <description></description>
+        
+        <dc:creator>Rakuichi</dc:creator>
+        
+        
+        
+        
+        
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

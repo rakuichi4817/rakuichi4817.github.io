@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>環境構築 on RakuBlog</title>
+    <link>https://rakuichi4817.github.io/tags/%E7%92%B0%E5%A2%83%E6%A7%8B%E7%AF%89/</link>
+    <description>Recent content in 環境構築 on RakuBlog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <copyright>© 2019 -2023, Rakuichi - All Rights Reserved</copyright>
+    <lastBuildDate>Wed, 12 Apr 2023 23:30:00 +0000</lastBuildDate>
+    
+        <atom:link href="https://rakuichi4817.github.io/tags/%E7%92%B0%E5%A2%83%E6%A7%8B%E7%AF%89/index.xml" rel="self" type="application/rss+xml" />
+    
+
+      
+      <item>
+        <title>Pipenv、Docker（マルチステージビルド）、devcontainerで開発環境と本番環境を分ける</title>
+        <link>https://rakuichi4817.github.io/posts/pipenv-docker/</link>
+        <pubDate>Wed, 12 Apr 2023 23:30:00 +0000</pubDate>
+        
+        <atom:modified>Wed, 12 Apr 2023 23:30:00 +0000</atom:modified>
+        <guid>https://rakuichi4817.github.io/posts/pipenv-docker/</guid>
+        <description>久しぶりの投稿です（n回目）。 最近、Pythonで環境を作るときにDockerで環境を作るようにしており、そこで利用している設定についてメモ</description>
+        
+        <dc:creator>Rakuichi</dc:creator>
+        <media:content url="https://rakuichi4817.github.io/images/tech/python.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        <media:content url="https://rakuichi4817.github.io/images/cover/top-cover.png" medium="image"><media:title type="html">meta image</media:title></media:content>
+        
+          
+            
+              <category>Python</category>
+            
+          
+            
+              <category>Pipenv</category>
+            
+          
+            
+              <category>Streamlit</category>
+            
+          
+            
+              <category>Docker</category>
+            
+          
+            
+              <category>環境構築</category>
+            
+          
+        
+        
+          
+            
+              <category>技術系備忘録</category>
+            
+          
+        
+        
+          
+            
+              <category>Python環境構築</category>
+            
+          
+            
+              <category>アプリ開発</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>脱chromeしてedgeに移行してみた</title>
+        <link>https://rakuichi4817.github.io/posts/chrome-to-edge/</link>
+        <pubDate>Tue, 01 Mar 2022 19:00:00 +0900</pubDate>
+        
+        <atom:modified>Tue, 01 Mar 2022 19:00:00 +0900</atom:modified>
+        <guid>https://rakuichi4817.github.io/posts/chrome-to-edge/</guid>
+        <description>特にきっかけとかはないのですが、なんとなく利用するブラウザをchromeからedgeに変えてみたので感想を書いてみようと思います。ネットに転</description>
+        
+        <dc:creator>Rakuichi</dc:creator>
+        <media:content url="https://rakuichi4817.github.io/images/tech/edge.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        <media:content url="https://rakuichi4817.github.io/images/cover/top-cover.png" medium="image"><media:title type="html">meta image</media:title></media:content>
+        
+          
+            
+              <category>環境構築</category>
+            
+          
+            
+              <category>Web</category>
+            
+          
+            
+              <category>アプリ</category>
+            
+          
+        
+        
+          
+            
+              <category>技術系備忘録</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>脱AnacondaしてPipenvでPython環境作り</title>
+        <link>https://rakuichi4817.github.io/posts/start-pipenv/</link>
+        <pubDate>Sun, 26 Sep 2021 18:00:00 +0900</pubDate>
+        
+        <atom:modified>Sun, 26 Sep 2021 18:00:00 +0900</atom:modified>
+        <guid>https://rakuichi4817.github.io/posts/start-pipenv/</guid>
+        <description>&lt;p&gt;大学4年からPythonを触りだしましたが、その時から一貫してAnacondaでPythonの環境を作成していました。しかし、脱AnacondaしてPipenvに乗り換えたので、簡単にまとめようかと思います。&lt;/p&gt;</description>
+        
+        <dc:creator>Rakuichi</dc:creator>
+        <media:content url="https://rakuichi4817.github.io/images/tech/python.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        <media:content url="https://rakuichi4817.github.io/images/cover/python-cover.png" medium="image"><media:title type="html">meta image</media:title></media:content>
+        
+          
+            
+              <category>Python</category>
+            
+          
+            
+              <category>環境構築</category>
+            
+          
+        
+        
+          
+            
+              <category>技術系備忘録</category>
+            
+          
+        
+        
+          
+            
+              <category>Python環境構築</category>
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Ubuntu 18.04.4 LTSにElasticsearch、Logstash、Kibanaを導入</title>
+        <link>https://rakuichi4817.github.io/posts/install-elasticstack/</link>
+        <pubDate>Sun, 21 Jun 2020 09:30:00 +0900</pubDate>
+        
+        <atom:modified>Sun, 21 Jun 2020 09:30:00 +0900</atom:modified>
+        <guid>https://rakuichi4817.github.io/posts/install-elasticstack/</guid>
+        <description>&lt;p&gt;今回はUbuntuにElastic Stackを導入する手順について記録も兼ねて書いていこうと思います。&lt;/p&gt;</description>
+        
+        <dc:creator>Rakuichi</dc:creator>
+        <media:content url="https://rakuichi4817.github.io/images/tech/elastic.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Elastic</category>
+            
+          
+            
+              <category>環境構築</category>
+            
+          
+        
+        
+          
+            
+              <category>技術系備忘録</category>
+            
+          
+        
+        
+          
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Windows(CPU)にAnacondaでTensorFlow2.1.0とKeras2.3.1の導入</title>
+        <link>https://rakuichi4817.github.io/posts/windows-cpu-keras/</link>
+        <pubDate>Mon, 13 Apr 2020 23:00:00 +0900</pubDate>
+        
+        <atom:modified>Mon, 13 Apr 2020 23:00:00 +0900</atom:modified>
+        <guid>https://rakuichi4817.github.io/posts/windows-cpu-keras/</guid>
+        <description>&lt;div class=&#34;alert alert-warning&#34; role=&#34;alert&#34; data-dir=&#34;ltr&#34;&gt;&lt;strong&gt;【2021年9月18日追記】&lt;/strong&gt;&lt;br /&gt;
+本記事ではcondaを用いて仮想環境を作成し、その内部でpipを使ってライブラリをインストールしています。しかし、2021年途中以降で脱Anacondaをしましたので、こちらの方法がおすすめというわけでもありません。&lt;/div&gt;
+&lt;p&gt;こんばんは、4月から始まった会社の研修も、Zoomによるリモート研修になってしまい、一日中パソコンとにらめっこしているRakuichiです。&lt;/p&gt;</description>
+        
+        <dc:creator>Rakuichi</dc:creator>
+        <media:content url="https://rakuichi4817.github.io/images/tech/python.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Python</category>
+            
+          
+            
+              <category>AI・ML</category>
+            
+          
+            
+              <category>環境構築</category>
+            
+          
+        
+        
+          
+            
+              <category>技術系備忘録</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>Hugoのインストール方法（Windows）</title>
+        <link>https://rakuichi4817.github.io/posts/install-hugo/</link>
+        <pubDate>Mon, 21 Jan 2019 12:00:06 +0900</pubDate>
+        
+        <atom:modified>Mon, 21 Jan 2019 12:00:06 +0900</atom:modified>
+        <guid>https://rakuichi4817.github.io/posts/install-hugo/</guid>
+        <description>&lt;p&gt;Windows環境におけるHugoのインストール方法について紹介していきます。&lt;br /&gt;
+今回は、あまりこういった技術に慣れていない方向けに、丁寧めにまとめます。&lt;/p&gt;</description>
+        
+        <dc:creator>Rakuichi</dc:creator>
+        <media:content url="https://rakuichi4817.github.io/images/tech/hugo-small.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Hugo</category>
+            
+          
+            
+              <category>Web</category>
+            
+          
+            
+              <category>環境構築</category>
+            
+          
+        
+        
+          
+            
+              <category>技術系備忘録</category>
+            
+          
+        
+        
+          
+            
+          
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

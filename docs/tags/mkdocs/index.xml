@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>MKDocs on RakuBlog</title>
+    <link>https://rakuichi4817.github.io/tags/mkdocs/</link>
+    <description>Recent content in MKDocs on RakuBlog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <copyright>© 2019 -2023, Rakuichi - All Rights Reserved</copyright>
+    <lastBuildDate>Tue, 21 Feb 2023 00:45:00 +0900</lastBuildDate>
+    
+        <atom:link href="https://rakuichi4817.github.io/tags/mkdocs/index.xml" rel="self" type="application/rss+xml" />
+    
+
+      
+      <item>
+        <title>FastAPI×MKDocs（×GitHub Pages）でドキュメント生成</title>
+        <link>https://rakuichi4817.github.io/posts/poms-02/</link>
+        <pubDate>Tue, 21 Feb 2023 00:45:00 +0900</pubDate>
+        
+        <atom:modified>Tue, 21 Feb 2023 00:45:00 +0900</atom:modified>
+        <guid>https://rakuichi4817.github.io/posts/poms-02/</guid>
+        <description>以前投稿した記事「FastAPI×Streamlitでアプリ開発（Getリクエスト）」で、FastAPIとStreamlitを利用し、Pyt</description>
+        
+        <dc:creator>Rakuichi</dc:creator>
+        <media:content url="https://rakuichi4817.github.io/images/tech/python.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        <media:content url="https://rakuichi4817.github.io/posts/poms-02/poms-documents.png" medium="image"><media:title type="html">meta image</media:title></media:content>
+        
+          
+            
+              <category>Python</category>
+            
+          
+            
+              <category>FastAPI</category>
+            
+          
+            
+              <category>MKDocs</category>
+            
+          
+            
+              <category>GitHub</category>
+            
+          
+        
+        
+          
+            
+              <category>技術系備忘録</category>
+            
+          
+        
+        
+          
+            
+              <category>アプリ開発</category>
+            
+          
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

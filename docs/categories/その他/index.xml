@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>その他 on RakuBlog</title>
+    <link>https://rakuichi4817.github.io/categories/%E3%81%9D%E3%81%AE%E4%BB%96/</link>
+    <description>Recent content in その他 on RakuBlog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <copyright>© 2019 -2023, Rakuichi - All Rights Reserved</copyright>
+    <lastBuildDate>Tue, 05 Jul 2022 08:30:00 +0900</lastBuildDate>
+    
+        <atom:link href="https://rakuichi4817.github.io/categories/%E3%81%9D%E3%81%AE%E4%BB%96/index.xml" rel="self" type="application/rss+xml" />
+    
+
+      
+      <item>
+        <title>チャットはメールのように文中で改行すべきではないと思う</title>
+        <link>https://rakuichi4817.github.io/posts/chat-messages/</link>
+        <pubDate>Tue, 05 Jul 2022 08:30:00 +0900</pubDate>
+        
+        <atom:modified>Tue, 05 Jul 2022 08:30:00 +0900</atom:modified>
+        <guid>https://rakuichi4817.github.io/posts/chat-messages/</guid>
+        <description>研究室時代からSlackを利用してコミュニケーションをとって来ました。就職してからも環境に合わせて様々なチャットツールを利用しています。もち</description>
+        
+        <dc:creator>Rakuichi</dc:creator>
+        <media:content url="https://rakuichi4817.github.io/images/icon/write-frog.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        <media:content url="https://rakuichi4817.github.io/images/cover/top-cover.png" medium="image"><media:title type="html">meta image</media:title></media:content>
+        
+          
+            
+              <category>Web</category>
+            
+          
+            
+              <category>Work</category>
+            
+          
+            
+              <category>Writing</category>
+            
+          
+        
+        
+          
+            
+              <category>その他</category>
+            
+          
+        
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>

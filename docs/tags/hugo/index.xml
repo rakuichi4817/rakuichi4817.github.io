@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" 
+  xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+  xmlns:dc="http://purl.org/dc/elements/1.1/" 
+  xmlns:atom="http://www.w3.org/2005/Atom" 
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" 
+  xmlns:media="http://search.yahoo.com/mrss/">
+  <channel>
+    <title>Hugo on RakuBlog</title>
+    <link>https://rakuichi4817.github.io/tags/hugo/</link>
+    <description>Recent content in Hugo on RakuBlog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <copyright>© 2019 -2023, Rakuichi - All Rights Reserved</copyright>
+    <lastBuildDate>Sat, 25 Sep 2021 16:00:00 +0900</lastBuildDate>
+    
+        <atom:link href="https://rakuichi4817.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    
+
+      
+      <item>
+        <title>ブログをリニューアルしました</title>
+        <link>https://rakuichi4817.github.io/posts/new-theme/</link>
+        <pubDate>Sat, 25 Sep 2021 16:00:00 +0900</pubDate>
+        
+        <atom:modified>Sat, 25 Sep 2021 16:00:00 +0900</atom:modified>
+        <guid>https://rakuichi4817.github.io/posts/new-theme/</guid>
+        <description>&lt;p&gt;このブログはHugoを利用して作成しているのですが、利用する基本テーマを&lt;a href=&#34;https://zzo-docs.vercel.app/&#34;&gt;Zzo&lt;/a&gt;に変更し、リニューアルしました。&lt;/p&gt;</description>
+        
+        <dc:creator>Rakuichi</dc:creator>
+        <media:content url="https://rakuichi4817.github.io/gallery/vissel/2018_vissel.jpg" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Hugo</category>
+            
+          
+            
+              <category>Web</category>
+            
+          
+        
+        
+          
+            
+              <category>日常</category>
+            
+          
+        
+        
+      </item>
+      
+      <item>
+        <title>hugoでshortcodesを用いてtableにcssを適応</title>
+        <link>https://rakuichi4817.github.io/posts/hugo-table/</link>
+        <pubDate>Thu, 03 Oct 2019 12:00:06 +0900</pubDate>
+        
+        <atom:modified>Thu, 03 Oct 2019 12:00:06 +0900</atom:modified>
+        <guid>https://rakuichi4817.github.io/posts/hugo-table/</guid>
+        <description>久しぶりにHugoの投稿をしようと思います。 今回の内容は、「マークダウン形式で書いたtableに対して、cssを適応させる」 です。 通常のマー</description>
+        
+        <dc:creator>Rakuichi</dc:creator>
+        <media:content url="https://rakuichi4817.github.io/images/tech/hugo-small.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Hugo</category>
+            
+          
+            
+              <category>Web</category>
+            
+          
+        
+        
+          
+            
+              <category>技術系備忘録</category>
+            
+          
+        
+        
+          
+            
+          
+        
+      </item>
+      
+      <item>
+        <title>Hugoのインストール方法（Windows）</title>
+        <link>https://rakuichi4817.github.io/posts/install-hugo/</link>
+        <pubDate>Mon, 21 Jan 2019 12:00:06 +0900</pubDate>
+        
+        <atom:modified>Mon, 21 Jan 2019 12:00:06 +0900</atom:modified>
+        <guid>https://rakuichi4817.github.io/posts/install-hugo/</guid>
+        <description>&lt;p&gt;Windows環境におけるHugoのインストール方法について紹介していきます。&lt;br /&gt;
+今回は、あまりこういった技術に慣れていない方向けに、丁寧めにまとめます。&lt;/p&gt;</description>
+        
+        <dc:creator>Rakuichi</dc:creator>
+        <media:content url="https://rakuichi4817.github.io/images/tech/hugo-small.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Hugo</category>
+            
+          
+            
+              <category>Web</category>
+            
+          
+            
+              <category>環境構築</category>
+            
+          
+        
+        
+          
+            
+              <category>技術系備忘録</category>
+            
+          
+        
+        
+          
+            
+          
+        
+      </item>
+      
+
+    
+  </channel>
+</rss>
