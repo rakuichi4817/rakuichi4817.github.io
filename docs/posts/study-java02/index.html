@@ -1366,7 +1366,7 @@
     <meta property="twitter:description" content="Javaの変数について">
   
 
-<meta name="generator" content="Hugo 0.111.3">
+<meta name="generator" content="Hugo 0.117.0">
 <meta name="msapplication-TileColor" content="#fff">
 
 <meta name="theme-color" content="#fff">
@@ -1884,10 +1884,10 @@ Pythonでは考えないことなので注意が必要です。</p>
 <pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="kt">int</span> <span class="n">x</span> <span class="o">,</span> <span class="n">y</span><span class="o">,</span> <span class="n">z</span><span class="o">;</span>
 </span></span><span class="line"><span class="cl"><span class="kt">long</span> <span class="n">lx</span><span class="o">,</span> <span class="n">ly</span><span class="o">,</span> <span class="n">lz</span><span class="o">;</span>
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="n">x</span> <span class="o">=</span> <span class="mi">1</span><span class="o">;</span>
-</span></span><span class="line"><span class="cl"><span class="n">y</span> <span class="o">=</span> <span class="mi">2</span><span class="o">;</span>
-</span></span><span class="line"><span class="cl"><span class="n">lx</span> <span class="o">=</span><span class="mi">100000L</span><span class="o">;</span>
-</span></span><span class="line"><span class="cl"><span class="n">ly</span> <span class="o">=</span><span class="mi">200000L</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl"><span class="n">x</span> <span class="o">=</span> <span class="n">1</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl"><span class="n">y</span> <span class="o">=</span> <span class="n">2</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl"><span class="n">lx</span> <span class="o">=</span><span class="n">100000L</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl"><span class="n">ly</span> <span class="o">=</span><span class="n">200000L</span><span class="o">;</span>
 </span></span></code></pre></td></tr></table>
 </div>
 </div><h4 id="桁あふれ">桁あふれ</h4>
@@ -1914,13 +1914,13 @@ Pythonでは考えないことなので注意が必要です。</p>
 </span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="kt">int</span> <span class="n">max_num</span> <span class="o">=</span> <span class="n">Integer</span><span class="o">.</span><span class="na">MAX_VALUE</span><span class="o">;</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">max_num</span><span class="o">);</span>
-</span></span><span class="line"><span class="cl"><span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">max_num</span> <span class="o">+</span> <span class="mi">1</span><span class="o">);</span>
+</span></span><span class="line"><span class="cl"><span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">max_num</span> <span class="o">+</span> <span class="n">1</span><span class="o">);</span>
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="o">--</span><span class="err">結果</span><span class="o">--</span>
+</span></span><span class="line"><span class="cl"><span class="o">--</span><span class="n">結果</span><span class="o">--</span>
 </span></span><span class="line"><span class="cl"><span class="c1">//最大値
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="mi">2147483647</span>
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="n">2147483647</span>
 </span></span><span class="line"><span class="cl"><span class="c1">//桁あふれ後
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="o">-</span><span class="mi">2147483648</span>
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="o">-</span><span class="n">2147483648</span>
 </span></span></code></pre></td></tr></table>
 </div>
 </div><h3 id="少数型float-double">少数型（float, double）</h3>
@@ -1945,10 +1945,10 @@ Pythonでは考えないことなので注意が必要です。</p>
 <pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="kt">float</span> <span class="n">fx</span><span class="o">,</span> <span class="n">fy</span><span class="o">,</span> <span class="n">fz</span><span class="o">;</span>
 </span></span><span class="line"><span class="cl"><span class="kt">double</span> <span class="n">dx</span><span class="o">,</span> <span class="n">dy</span><span class="o">,</span> <span class="n">dz</span><span class="o">;</span>
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="n">fx</span> <span class="o">=</span> <span class="mf">0.01F</span><span class="o">;</span>
-</span></span><span class="line"><span class="cl"><span class="n">fy</span> <span class="o">=</span> <span class="mf">0.02F</span><span class="o">;</span>
-</span></span><span class="line"><span class="cl"><span class="n">dx</span> <span class="o">=</span> <span class="mf">0.0003</span><span class="o">;</span>
-</span></span><span class="line"><span class="cl"><span class="n">dy</span> <span class="o">=</span> <span class="mf">0.0004</span><span class="o">;</span></span></span></code></pre></td></tr></table>
+</span></span><span class="line"><span class="cl"><span class="n">fx</span> <span class="o">=</span> <span class="n">0</span><span class="o">.</span><span class="na">01F</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl"><span class="n">fy</span> <span class="o">=</span> <span class="n">0</span><span class="o">.</span><span class="na">02F</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl"><span class="n">dx</span> <span class="o">=</span> <span class="n">0</span><span class="o">.</span><span class="na">0003</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl"><span class="n">dy</span> <span class="o">=</span> <span class="n">0</span><span class="o">.</span><span class="na">0004</span><span class="o">;</span></span></span></code></pre></td></tr></table>
 </div>
 </div>
 <h4 id="割り算について">割り算について</h4>
@@ -1976,19 +1976,19 @@ Pythonでは考えないことなので注意が必要です。</p>
 </span></code></pre></td>
 <td class="lntd">
 <pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="kt">int</span> <span class="n">x</span> <span class="o">,</span> <span class="n">y</span><span class="o">,</span> <span class="n">z</span><span class="o">;</span>
-</span></span><span class="line"><span class="cl"><span class="n">x</span> <span class="o">=</span> <span class="mi">1</span><span class="o">;</span>
-</span></span><span class="line"><span class="cl"><span class="n">y</span> <span class="o">=</span> <span class="mi">2</span><span class="o">;</span>
-</span></span><span class="line"><span class="cl"><span class="n">z</span> <span class="o">=</span> <span class="mi">5</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl"><span class="n">x</span> <span class="o">=</span> <span class="n">1</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl"><span class="n">y</span> <span class="o">=</span> <span class="n">2</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl"><span class="n">z</span> <span class="o">=</span> <span class="n">5</span><span class="o">;</span>
 </span></span><span class="line"><span class="cl"><span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">x</span> <span class="o">/</span> <span class="n">y</span><span class="o">);</span>
 </span></span><span class="line"><span class="cl"><span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">z</span> <span class="o">/</span> <span class="n">y</span><span class="o">);</span>
 </span></span><span class="line"><span class="cl"><span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">x</span> <span class="o">%</span> <span class="n">y</span><span class="o">);</span>
 </span></span><span class="line"><span class="cl"><span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">z</span> <span class="o">%</span> <span class="n">y</span><span class="o">);</span>
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="o">--</span><span class="err">結果</span><span class="o">--</span>
-</span></span><span class="line"><span class="cl"><span class="mi">0</span> <span class="c1">// 1/2の結果
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="mi">2</span> <span class="c1">// 5/2の結果
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="mi">1</span> <span class="c1">// 1%2の結果
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="mi">1</span> <span class="c1">// 5%2の結果
+</span></span><span class="line"><span class="cl"><span class="o">--</span><span class="n">結果</span><span class="o">--</span>
+</span></span><span class="line"><span class="cl"><span class="n">0</span> <span class="c1">// 1/2の結果
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="n">2</span> <span class="c1">// 5/2の結果
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="n">1</span> <span class="c1">// 1%2の結果
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="n">1</span> <span class="c1">// 5%2の結果
 </span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="o">----</span>
 </span></span></code></pre></td></tr></table>
 </div>
@@ -2016,19 +2016,19 @@ Pythonでは考えないことなので注意が必要です。</p>
 </span></code></pre></td>
 <td class="lntd">
 <pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="kt">float</span> <span class="n">x</span> <span class="o">,</span> <span class="n">y</span><span class="o">,</span> <span class="n">z</span><span class="o">;</span>
-</span></span><span class="line"><span class="cl"><span class="n">fx</span> <span class="o">=</span> <span class="mf">1F</span><span class="o">;</span>
-</span></span><span class="line"><span class="cl"><span class="n">fy</span> <span class="o">=</span> <span class="mf">2F</span><span class="o">;</span>
-</span></span><span class="line"><span class="cl"><span class="n">fz</span> <span class="o">=</span> <span class="mf">5F</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl"><span class="n">fx</span> <span class="o">=</span> <span class="n">1F</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl"><span class="n">fy</span> <span class="o">=</span> <span class="n">2F</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl"><span class="n">fz</span> <span class="o">=</span> <span class="n">5F</span><span class="o">;</span>
 </span></span><span class="line"><span class="cl"><span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">fx</span> <span class="o">/</span> <span class="n">fy</span><span class="o">);</span>
 </span></span><span class="line"><span class="cl"><span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">fz</span> <span class="o">/</span> <span class="n">fy</span><span class="o">);</span>
 </span></span><span class="line"><span class="cl"><span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">fx</span> <span class="o">%</span> <span class="n">fy</span><span class="o">);</span>
 </span></span><span class="line"><span class="cl"><span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">fz</span> <span class="o">%</span> <span class="n">fy</span><span class="o">);</span>
 </span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="o">--</span><span class="err">結果</span><span class="o">--</span>
-</span></span><span class="line"><span class="cl"><span class="mf">0.5</span> <span class="c1">// 1/2の結果
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="mf">1.5</span> <span class="c1">// 5/2の結果
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="mf">1.0</span> <span class="c1">// 1%2の結果
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="mf">1.0</span> <span class="c1">// 5%2の結果
+</span></span><span class="line"><span class="cl"><span class="o">--</span><span class="n">結果</span><span class="o">--</span>
+</span></span><span class="line"><span class="cl"><span class="n">0</span><span class="o">.</span><span class="na">5</span> <span class="c1">// 1/2の結果
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="n">1</span><span class="o">.</span><span class="na">5</span> <span class="c1">// 5/2の結果
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="n">1</span><span class="o">.</span><span class="na">0</span> <span class="c1">// 1%2の結果
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="n">1</span><span class="o">.</span><span class="na">0</span> <span class="c1">// 5%2の結果
 </span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="o">----</span>
 </span></span></code></pre></td></tr></table>
 </div>
@@ -3186,7 +3186,7 @@ document.addEventListener('DOMContentLoaded', function () {
       e.trigger.classList.add('tooltipped');
       e.trigger.classList.add('tooltipped-s');
     });
-    // =================================================================
+    
 
 
 

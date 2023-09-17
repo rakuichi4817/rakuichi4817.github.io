@@ -12,19 +12,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <copyright>© 2019 -2023, Rakuichi - All Rights Reserved</copyright>
-    <lastBuildDate>Sat, 15 Jul 2023 21:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 17 Sep 2023 00:13:00 +0900</lastBuildDate>
     
         <atom:link href="https://rakuichi4817.github.io/series/index.xml" rel="self" type="application/rss+xml" />
     
 
       
       <item>
-        <title>商品紹介</title>
-        <link>https://rakuichi4817.github.io/series/%E5%95%86%E5%93%81%E7%B4%B9%E4%BB%8B/</link>
-        <pubDate>Sat, 15 Jul 2023 21:00:00 +0000</pubDate>
+        <title>Python環境構築</title>
+        <link>https://rakuichi4817.github.io/series/python%E7%92%B0%E5%A2%83%E6%A7%8B%E7%AF%89/</link>
+        <pubDate>Sun, 17 Sep 2023 00:13:00 +0900</pubDate>
         
         
-        <guid>https://rakuichi4817.github.io/series/%E5%95%86%E5%93%81%E7%B4%B9%E4%BB%8B/</guid>
+        <guid>https://rakuichi4817.github.io/series/python%E7%92%B0%E5%A2%83%E6%A7%8B%E7%AF%89/</guid>
         <description></description>
         
         <dc:creator>Rakuichi</dc:creator>
@@ -37,12 +37,12 @@
       </item>
       
       <item>
-        <title>Python環境構築</title>
-        <link>https://rakuichi4817.github.io/series/python%E7%92%B0%E5%A2%83%E6%A7%8B%E7%AF%89/</link>
-        <pubDate>Wed, 12 Apr 2023 23:30:00 +0000</pubDate>
+        <title>商品紹介</title>
+        <link>https://rakuichi4817.github.io/series/%E5%95%86%E5%93%81%E7%B4%B9%E4%BB%8B/</link>
+        <pubDate>Sat, 15 Jul 2023 21:00:00 +0000</pubDate>
         
         
-        <guid>https://rakuichi4817.github.io/series/python%E7%92%B0%E5%A2%83%E6%A7%8B%E7%AF%89/</guid>
+        <guid>https://rakuichi4817.github.io/series/%E5%95%86%E5%93%81%E7%B4%B9%E4%BB%8B/</guid>
         <description></description>
         
         <dc:creator>Rakuichi</dc:creator>

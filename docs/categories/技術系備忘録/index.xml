@@ -12,11 +12,55 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <copyright>© 2019 -2023, Rakuichi - All Rights Reserved</copyright>
-    <lastBuildDate>Wed, 12 Apr 2023 23:30:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 17 Sep 2023 00:13:00 +0900</lastBuildDate>
     
         <atom:link href="https://rakuichi4817.github.io/categories/%E6%8A%80%E8%A1%93%E7%B3%BB%E5%82%99%E5%BF%98%E9%8C%B2/index.xml" rel="self" type="application/rss+xml" />
     
 
+      
+      <item>
+        <title>Windows（Python Launcher）のPipenvでバージョンを指定して仮想環境を作ると失敗する問題の解決法</title>
+        <link>https://rakuichi4817.github.io/posts/pipenv-pylauncher/</link>
+        <pubDate>Sun, 17 Sep 2023 00:13:00 +0900</pubDate>
+        
+        <atom:modified>Sun, 17 Sep 2023 00:13:00 +0900</atom:modified>
+        <guid>https://rakuichi4817.github.io/posts/pipenv-pylauncher/</guid>
+        <description>Windows上でPipenvを使用し、Pythonバージョンを指定して仮想環境を作成しようとしたとき、Python Launcher管理下に</description>
+        
+        <dc:creator>Rakuichi</dc:creator>
+        <media:content url="https://rakuichi4817.github.io/images/tech/python.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        <media:content url="https://rakuichi4817.github.io/images/cover/top-cover.png" medium="image"><media:title type="html">meta image</media:title></media:content>
+        
+          
+            
+              <category>Python</category>
+            
+          
+            
+              <category>Pipenv</category>
+            
+          
+            
+              <category>環境構築</category>
+            
+          
+        
+        
+          
+            
+              <category>技術系備忘録</category>
+            
+          
+        
+        
+          
+            
+              <category>Python環境構築</category>
+            
+          
+        
+      </item>
       
       <item>
         <title>Pipenv、Docker（マルチステージビルド）、devcontainerで開発環境と本番環境を分ける</title>
