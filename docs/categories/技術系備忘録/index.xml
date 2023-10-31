@@ -12,11 +12,63 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <copyright>© 2019 -2023, Rakuichi - All Rights Reserved</copyright>
-    <lastBuildDate>Sun, 17 Sep 2023 00:13:00 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 01 Nov 2023 08:50:00 +0000</lastBuildDate>
     
         <atom:link href="https://rakuichi4817.github.io/categories/%E6%8A%80%E8%A1%93%E7%B3%BB%E5%82%99%E5%BF%98%E9%8C%B2/index.xml" rel="self" type="application/rss+xml" />
     
 
+      
+      <item>
+        <title>FastAPI × MKDocs （ × Docker ）でAPIサーバとドキュメントページを同時に展開する</title>
+        <link>https://rakuichi4817.github.io/posts/fastapi-mkdocs/</link>
+        <pubDate>Wed, 01 Nov 2023 08:50:00 +0000</pubDate>
+        
+        <atom:modified>Wed, 01 Nov 2023 08:50:00 +0000</atom:modified>
+        <guid>https://rakuichi4817.github.io/posts/fastapi-mkdocs/</guid>
+        <description>11月からアウトプット強化月間として継続的にブログ投稿していこうと思います。目標は週に2、3本で、基本的には技術系にしたいと思っています。途</description>
+        
+        <dc:creator>Rakuichi</dc:creator>
+        <media:content url="https://rakuichi4817.github.io/images/tech/python.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        <media:content url="https://rakuichi4817.github.io/images/cover/top-cover.png" medium="image"><media:title type="html">meta image</media:title></media:content>
+        
+          
+            
+              <category>Python</category>
+            
+          
+            
+              <category>Pipenv</category>
+            
+          
+            
+              <category>FastAPI</category>
+            
+          
+            
+              <category>Docker</category>
+            
+          
+            
+              <category>MKDocs</category>
+            
+          
+        
+        
+          
+            
+              <category>技術系備忘録</category>
+            
+          
+        
+        
+          
+            
+              <category>FastAPI-TIPS</category>
+            
+          
+        
+      </item>
       
       <item>
         <title>Windows（Python Launcher）のPipenvでバージョンを指定して仮想環境を作ると失敗する問題の解決法</title>
@@ -249,6 +301,12 @@
             
           
         
+        
+          
+            
+              <category>FastAPI-TIPS</category>
+            
+          
         
       </item>
       

@@ -14,6 +14,8 @@ tags:
  - Python
  - FastAPI
  - Pydantic
+series:
+ - FastAPI-TIPS
 ---
 
 タイトルの通り、FastAPIで自動生成されるOpenAPIドキュメント（Swagger）内で、Pydanticで定義したクラスをDependsしたクエリパラメータに対して、情報（説明文）をつける方法について紹介します。\
@@ -88,7 +90,6 @@ FastAPIでPydanticモデルを使用する時は、基本的にリクエスト�
 {{< alert theme="info" dir="ltr" >}}
 `HelloIn`内に複数の変数を定義することで、複数のクエリを受け取ることも可能です。
 {{< /alert >}}
-
 
 ```main.py
 from fastapi import Depends, FastAPI
