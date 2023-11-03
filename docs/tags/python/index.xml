@@ -12,11 +12,49 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <copyright>© 2019 -2023, Rakuichi - All Rights Reserved</copyright>
-    <lastBuildDate>Wed, 01 Nov 2023 08:50:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 03 Nov 2023 16:30:00 +0000</lastBuildDate>
     
         <atom:link href="https://rakuichi4817.github.io/tags/python/index.xml" rel="self" type="application/rss+xml" />
     
 
+      
+      <item>
+        <title>MongoDBのネストされたデータの一部を $unset を利用して削除する</title>
+        <link>https://rakuichi4817.github.io/posts/pymongo-unset/</link>
+        <pubDate>Fri, 03 Nov 2023 16:30:00 +0000</pubDate>
+        
+        <atom:modified>Fri, 03 Nov 2023 16:30:00 +0000</atom:modified>
+        <guid>https://rakuichi4817.github.io/posts/pymongo-unset/</guid>
+        <description>アウトプット強化月間2本目は、MongoDBのちょっとした操作に関する備忘録です。業務ではDocumentDBを使っているのですが、基本的に</description>
+        
+        <dc:creator>Rakuichi</dc:creator>
+        <media:content url="https://rakuichi4817.github.io/images/tech/mongodb.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        <media:content url="https://rakuichi4817.github.io/images/cover/top-cover.png" medium="image"><media:title type="html">meta image</media:title></media:content>
+        
+          
+            
+              <category>Python</category>
+            
+          
+            
+              <category>PyMongo</category>
+            
+          
+            
+              <category>MongoDB</category>
+            
+          
+        
+        
+          
+            
+              <category>技術系備忘録</category>
+            
+          
+        
+        
+      </item>
       
       <item>
         <title>FastAPI × MKDocs （ × Docker ）でAPIサーバとドキュメントページを同時に展開する</title>
