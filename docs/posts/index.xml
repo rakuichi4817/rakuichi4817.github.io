@@ -12,11 +12,51 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <copyright>© 2019 -2023, Rakuichi - All Rights Reserved</copyright>
-    <lastBuildDate>Fri, 03 Nov 2023 16:30:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 06 Nov 2023 23:00:00 +0000</lastBuildDate>
     
         <atom:link href="https://rakuichi4817.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
 
+      
+      <item>
+        <title>FastAPIのファイル構成</title>
+        <link>https://rakuichi4817.github.io/posts/fastapi-tips-02/</link>
+        <pubDate>Mon, 06 Nov 2023 23:00:00 +0000</pubDate>
+        
+        <atom:modified>Mon, 06 Nov 2023 23:00:00 +0000</atom:modified>
+        <guid>https://rakuichi4817.github.io/posts/fastapi-tips-02/</guid>
+        <description>アウトプット強化月間3本目はFastAPIネタです。FastAPIはずっと業務で触っていることもあり、書ける内容が多いのでできる限りいろいろ</description>
+        
+        <dc:creator>Rakuichi</dc:creator>
+        <media:content url="https://rakuichi4817.github.io/images/tech/python.png" medium="image"><media:title type="html">featured image</media:title></media:content>
+        
+        
+        
+          
+            
+              <category>Python</category>
+            
+          
+            
+              <category>FastAPI</category>
+            
+          
+        
+        
+          
+            
+              <category>技術系備忘録</category>
+            
+          
+        
+        
+          
+            
+              <category>FastAPI-TIPS</category>
+            
+          
+        
+      </item>
       
       <item>
         <title>MongoDBのネストされたデータの一部を $unset を利用して削除する</title>
