@@ -1,23 +1,20 @@
 ---
 title: "【Java勉強-第2回】変数について"
-date: 2020-02-27T22:26:00+09:00
+date: 2020-02-27
 description: "Javaの変数について"
 draft: false
-hideToc: false
-enableToc: true
-enableTocContent: true
-image: images/tech/java.png
 categories:
- - 技術系備忘録
+ - テック系
 tags:
  - Java
 series:
 - Java入門
+series_order: 2
 ---
 
 お久しぶりです。
 修士論文やら学会に提出する論文やらで、ブログを更新するのをサボってしまっていました。
-<!--more-->
+
 さて、今回は第2回ということで、
 Javaの変数について色々基本的なことを学びましたので、まとめていこうと思います。
 

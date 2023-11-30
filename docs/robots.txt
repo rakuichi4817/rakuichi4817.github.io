@@ -1,4 +1,0 @@
-Sitemap: https://rakuichi4817.github.io/sitemap.xml
-
-User-agent: *
-Disallow:

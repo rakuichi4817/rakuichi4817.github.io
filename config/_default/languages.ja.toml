@@ -1,0 +1,26 @@
+languageCode = "ja"
+languageName = "Japanese"
+weight = 1
+title = "RakuBlog"
+hasCJKLanguage = true
+[params]
+  displayName = "JA"
+  isoCode = "ja"
+  rtl = false
+  dateFormat = "2006/1/2"
+  logo = "img/logo-square.png"
+  # secondaryLogo = "PATH"
+  description = "ヴィッセルサポのIT屋による気ままなブログ"
+  copyright = "&copy; 2019 -{ year }, Rakuichi - All Rights Reserved"
+
+
+
+[author]
+  name = "Rakuichi"
+  image = "img/avatar.jpg"
+  headline = "ヴィッセルサポのIT屋による気楽なブログ"
+  bio = "ヴィッセルサポのIT屋"
+  links = [
+    { x-twitter = "https://twitter.com/rararakuichi" },
+    { github = "https://github.com/rakuichi4817" },
+  ]

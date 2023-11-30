@@ -1,28 +1,24 @@
 ---
 title: "FastAPI × MKDocs （ × Docker ）でAPIサーバとドキュメントページを同時に展開する"
-date: 2023-11-01T08:50:00
+date: 2023-11-01
 description: "MKDocsでビルドした静的ファイルを、FastAPI の StaticFiles を使ってサーバ起動時に同時に展開する方法についてメモ書き。（Dockerのマルチステージを使ってmkdocsの自動ビルドも）"
-draft: false
-hideToc: false
-enableToc: true
-enableTocContent: true
-image: images/tech/python.png
-meta_image: images/cover/top-cover.png
+summary: "MKDocsでビルドした静的ファイルを、FastAPI の StaticFiles を使ってサーバ起動時に同時に展開"
 categories:
- - 技術系備忘録
+ - テック系
+aliases:
+ - /posts/fastapi-mkdocs/
 tags:
  - Python
  - Pipenv
  - FastAPI
  - Docker
  - MKDocs
-series:
- - FastAPI-TIPS
 ---
+
 
 11月からアウトプット強化月間として継続的にブログ投稿していこうと思います。目標は週に2、3本で、基本的には技術系にしたいと思っています。途中で息切れした場合は関係ないネタも投稿するかもです。
 
-強化月間1本目はFastAPI関連のネタです。以前投稿した「 [FastAPI×MKDocs（×GitHub Pages）でドキュメント生成](/posts/poms-02)」で、FastAPIで生成したSwaggerドキュメントをMKDocs側に反映し、GitHubPagesで展開するという内容を紹介しました。
+強化月間1本目はFastAPI関連のネタです。以前投稿した「 [FastAPI×MKDocs（×GitHub Pages）でドキュメント生成](/posts/2023/poms-02)」で、FastAPIで生成したSwaggerドキュメントをMKDocs側に反映し、GitHubPagesで展開するという内容を紹介しました。
 
 今回はAPIサーバを起動したときにAPIと同じポートにドキュメントページを展開するというものになります。ついでにDockerのマルチステージを使って、ソースのビルドも自動で行っています（この辺りについて詳細は触れません）。
 
@@ -74,8 +70,7 @@ mkdocs-builderステージでは、後述する**mkdocsのページビルド作�
 
 といった作業が必要がなくなります。
 
-
-```mermaid
+{{< mermaid >}}
 flowchart TB
     base["ベースイメージ<br>（python:3.11-slim）"]
     devcontainer["開発用<br>（devcontainer用）"]
@@ -89,8 +84,7 @@ flowchart TB
     base----> app
     builder-.Pythonライブラリソースのみコピー.-> app
     mkdocs-builder-.ビルドしたドキュメントソースのコピー.-> app
-
-```
+{{< /mermaid >}}
 
 Dockerfileの内容をそのまま貼っておきます。もっとこうしたほうが良いよ！等のアドバイスや指摘はチャットからお願いします。
 
@@ -160,9 +154,9 @@ docs_dir: docs
 
 ドキュメントページのもとになるソースファイルを配置するディレクトリを `docs_dir` で指定します。今回の場合「docs」になるため上記の設定となります。**mkdocsでビルドした静的ファイルはデフォルトで「site」に保存される**ため、明示的な指定はしていません（もちろん明示的に指定することもできます）。
 
-{{< notice info "参考">}}
+{{< alert icon="info">}}
 私が用意したDockerfileでは、この「site」ディレクトリのみを「mkdocs-builder」ステージから「app」ステージへコピーしていることがわかると思います。
-{{< /notice >}}
+{{< /alert >}}
 
 ### app/main.py：FastAPI
 

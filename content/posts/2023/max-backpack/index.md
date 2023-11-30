@@ -1,29 +1,25 @@
 ---
 title: "Able CarryのMax Backpackを買ってみた"
-date: 2023-07-15T21:00:00
+date: 2023-07-15
 description: "大きくて背負いやすいバックパックを求めて、Able CarryのMax Backpackを購入したので感想でもまとめてみます。"
+summary: "Able CarryのMax Backpackを購入したので感想でもまとめてみます。"
 draft: false
-hideToc: false
-enableToc: true
-enableTocContent: true
-image: images/cover/shopping-frog.png
-meta_image: posts/max-backpack/maxbackpack01.jpeg
 categories:
- - 日常
+ - レビュー
 tags:
- - 日用品
  - ガジェット
-series:
- - 商品紹介
+ - EDC
+aliases:
+ - /posts/max-backpack/
 ---
 
-今回は商品紹介になります。過去に「[WEXLEY SHELDRAKE BACKPACK 紹介](/posts/buy-wexley-sheldrake/)」という記事でバックパックを紹介したのですが、新しいバックパックを購入したので、そちらのレビューをしていきます。**この記事に関することで質問したいことや気になる点があれば、右下のチャットよりご連絡ください！**
+今回は商品紹介になります。過去に「[WEXLEY SHELDRAKE BACKPACK 紹介](/posts/2023/buy-wexley-sheldrake/)」という記事でバックパックを紹介したのですが、新しいバックパックを購入したので、そちらのレビューをしていきます。**この記事に関することで質問したいことや気になる点があれば、右下のチャットよりご連絡ください！**
 
 今回購入したのは **「Able Carry」** というブランドの **「Max Backpack」** になります。
 
 公式サイト→ <https://ablecarry.jp/>
 
-{{< img src="/posts/max-backpack/maxbackpack01.jpeg" title="Max Backpack" caption="巾着付き" alt="Max Backpack" width="80%" position="center">}}
+![袋付き](maxbackpack01.jpeg "袋付き")
 
 ## Able Carryについて
 
@@ -38,7 +34,7 @@ Able Carryはクラウドファンディングで資金調達した香港発の�
 
 私はたまたまInstagramで見つけましたが、まだまだ日本では有名でないブランドではないでしょうか？しかし、海外のバックパックレビューサイトでは高い評価を受けており、非常に使用感やデザインの良いバックパックを提供しています。
 
-{{< alert theme="info" dir="ltr" >}}
+{{< alert icon="circle-info">}}
 ※海外のバックパック情報をまとめているサイト→ [PACK HACKER（Max Backpackのレビューページ）](https://packhacker.com/travel-gear/able-carry/max-backpack/)
 {{< /alert >}}
 
@@ -46,13 +42,13 @@ Able Carryはクラウドファンディングで資金調達した香港発の�
 
 ## 購入背景
 
-{{< notice info "この章の要点（購入仕様と考えた理由）" >}}
+{{< alert  icon="circle-info">}}
+**この章の要点（購入仕様と考えた理由）**
 
 - 1~3泊程度の旅行を1つのバックパックで済ませたかった
 - マンティス26の新バージョンに不満がある
 - ガジェットが多いのでうまく収納できる物が良い
-
-{{< /notice >}}
+{{< /alert >}}
 
 以前紹介した WEXLEY「SHELDRAKE BACKPACK」を現在も日常使いしているのですが、こちらは容量が17Ｌでコンパクトなサイズ感となっております。（このあたりは以前書いた[記事](/posts/buy-wexley-sheldrake/)を読んでいただければと思います。）
 
@@ -96,10 +92,10 @@ Able Carryはクラウドファンディングで資金調達した香港発の�
 
 質感もしっかりしていますし、シンプルながら地味でもなく個人的にはばっちりのデザインです。
 
-<div class="in_gallery">
-{{< figure src="maxbackpack02.jpeg" caption="バックパック比較1" alt="バックパック比較1" >}}
-{{< figure src="maxbackpack03.jpeg" caption="マンティスより厚みはほぼ同じ" alt="バックパック比較2">}}
-</div>
+{{< gallery >}}
+{{< figure src="maxbackpack02.jpeg" caption="バックパック比較1" alt="バックパック比較1" class="grid-w45">}}
+{{< figure src="maxbackpack03.jpeg" caption="マンティスより厚みはほぼ同じ" alt="バックパック比較2" class="grid-w45">}}
+{{< /gallery >}}
 
 実際に1泊の出張で、PCやその他のガジェット、衣類や化粧品などを入れて利用しましたが、かなり余裕がありました。また、結構な時間バッグを背負って過ごしましたが、肩ひもがしっかりしていて厚みもあるので、重さの割に負担が軽減されました。Able Carryのバックパックは、軽量であることが強みの1つで、背負い心地も良いです。新バージョンのマンティス26と比較しても、十分に優れていると思います。
 
@@ -111,11 +107,11 @@ Able Carryはクラウドファンディングで資金調達した香港発の�
 
 まず、メインの収納スペースです。下の画像の通り、一般的なファイルを収納してもこの高さの余裕があります。奥行きは若干わかりにくいですが、13〜18cm程度と思っていただければよいと思います（底の方が狭い）。外側の開閉部分にも2か所、ちょっとした収納スペースがあります。
 
-<div class="in_gallery">
-{{< figure src="maxbackpack-main01.jpeg" caption="ファイルを入れて" alt="メイン収納1" >}}
-{{< figure src="maxbackpack-main02.jpeg" caption="カラビナをつける部分" alt="メイン収納2">}}
-{{< figure src="maxbackpack-main03.jpeg" caption="内側にボトル入れ" alt="メイン収納3">}}
-</div>
+{{< gallery >}}
+{{< figure src="maxbackpack-main01.jpeg" caption="ファイルを入れて" alt="メイン収納1" class="grid-w33">}}
+{{< figure src="maxbackpack-main02.jpeg" caption="カラビナをつける部分" alt="メイン収納2" class="grid-w33">}}
+{{< figure src="maxbackpack-main03.jpeg" caption="内側にボトル入れ" alt="メイン収納3" class="grid-w33">}}
+{{< /gallery >}}
 
 また、カラビナをつける部分がたくさん用意されており、写真ではわかりやすいように白いフックもつけています。高い位置に小物入れをひっかければより便利な使い方ができそうです。さらに、ボトルを入れられるところもあります。MaxBackpackは基本的にボトル入れが内側にある設計になっているので見た目がすっきりします。
 
@@ -125,11 +121,11 @@ Max Backpackのグッドポイントの1つとして、PCなどを入れる収�
 
 自分はここにPCやタブレット、書籍などを入れて持ち運んでいます。また、ファスナー付きの小物入れには目薬や画面拭きを入れています。
 
-<div class="in_gallery">
-{{< figure src="maxbackpack-sub01-01.jpeg" caption="ファスナー付き小物入れ" alt="サブ収納1-1" >}}
-{{< figure src="maxbackpack-sub01-02.jpeg" caption="PC用のクッション付き収納" alt="サブ収納1-2">}}
-{{< figure src="maxbackpack-sub01-03.jpeg" caption="浅めの収納" alt="サブ収納1-3">}}
-</div>
+{{< gallery >}}
+{{< figure src="maxbackpack-sub01-01.jpeg" caption="ファスナー付き小物入れ" alt="サブ収納1-1" class="grid-w33" >}}
+{{< figure src="maxbackpack-sub01-02.jpeg" caption="PC用のクッション付き収納" alt="サブ収納1-2" class="grid-w33">}}
+{{< figure src="maxbackpack-sub01-03.jpeg" caption="浅めの収納" alt="サブ収納1-3" class="grid-w33">}}
+{{< /gallery >}}
 
 #### その他サブ収納
 
@@ -137,12 +133,12 @@ Max Backpackのグッドポイントの1つとして、PCなどを入れる収�
 
 やはり、ボトルや折り畳み傘を隠しながら収納できるのが良いですね。注意点としては、サイドの収納に物を入れるとメイン収納が多少圧迫される点です。
 
-<div class="in_gallery">
-{{< figure src="maxbackpack-sub02.jpeg" caption="ボトルや折り畳み傘を収納可" alt="サブ収納2" >}}
-{{< figure src="maxbackpack-sub03.jpeg" caption="財布等を収納可" alt="サブ収納3" >}}
-{{< figure src="maxbackpack-sub04.jpeg" caption="ボトル等収納可" alt="サブ収納1" >}}
-{{< figure src="maxbackpack-sub05.jpeg" caption="小物入れ" alt="サブ収納1" >}}
-</div>
+{{< gallery >}}
+{{< figure src="maxbackpack-sub02.jpeg" caption="ボトルや折り畳み傘を収納可" alt="サブ収納2" class="grid-w45">}}
+{{< figure src="maxbackpack-sub03.jpeg" caption="財布等を収納可" alt="サブ収納3" class="grid-w45">}}
+{{< figure src="maxbackpack-sub04.jpeg" caption="ボトル等収納可" alt="サブ収納1" class="grid-w45">}}
+{{< figure src="maxbackpack-sub05.jpeg" caption="小物入れ" alt="サブ収納1" class="grid-w45">}}
+{{< /gallery >}}
 
 ## ウーンな点
 

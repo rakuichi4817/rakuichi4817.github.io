@@ -1,19 +1,15 @@
 ---
 title: "チャットはメールのように文中で改行すべきではないと思う"
-date: 2022-07-05T08:30:00+09:00
+date: 2022-07-05
 description: "読みやすいチャットの書き方について個人的なポイントを紹介します"
 draft: false
-hideToc: false
-enableToc: true
-enableTocContent: true
-image: "images/icon/write-frog.png"
-meta_image: "images/cover/top-cover.png"
+heroStyle: "background"
+aliases:
+ - /posts/chat-messages/
 categories:
- - その他
+ - アイデア
 tags:
- - Web
- - Work
- - Writing
+ - work
 ---
 
 研究室時代からSlackを利用してコミュニケーションをとって来ました。就職してからも環境に合わせて様々なチャットツールを利用しています。もちろん私生活でもチャットを使うことは日常になっているかと思います。
@@ -66,9 +62,9 @@ We Are Kobe!
 
 では実際に、チャットにおいてメールと同じ風に文に改行を入れているとどうなるか、Slackの場合で見ていきましょう。
 
-<div class="in_gallery">
-{{< figure src="slack01.png" caption="メールのように書く" alt="メールのように書く" >}}
-</div>
+{{< gallery >}}
+{{< figure src="slack01.png" caption="メールのように書く" alt="メールのように書く" class="grid-w45">}}
+{{< /gallery >}}
 
 明らかに読みにくいです。表示幅がチャット送信者の想定以上に小さかったため、意図せぬところで改行が入り余計に読みにくくなっています。もちろんメールでも同じことが言えるかもしれませんが、チャットは特にこの傾向が強いと私は思います。
 
@@ -95,9 +91,9 @@ We Are Kobe!
 
 この状態でもう一度、先ほどと同じ幅のSlackでどのように表示されるか確認しましょう。
 
-<div class="in_gallery">
-{{< figure src="slack02.png" caption="ポイント①" alt="ポイント①">}}
-</div>
+{{< gallery >}}
+{{< figure src="slack02.png" caption="ポイント①" alt="ポイント①" class="grid-w45">}}
+{{< /gallery >}}
 
 いかかでしょうか。読みやすくなったと思いませんか？文中には改行を入れていないので、単語の途中で改行が入ってしまってはいます。しかし、意図せぬ改行が入ることに比べれれば、読みやすいと私は思います。
 
@@ -135,21 +131,22 @@ We Are Kobe!
 
 We Are Kobe!
 ```
+
 では、早速Slack上で確認してみましょう。
 
-<div class="in_gallery">
-{{< figure src="slack03.png" caption="ポイント①、②" alt="ポイント①、②">}}
-</div>
+{{< gallery >}}
+{{< figure src="slack03.png" caption="ポイント①、②" alt="ポイント①、②" class="grid-w45">}}
+{{< /gallery >}}
 
 いかかでしょうか？かなり読みやすくなったと思いませんか？
 
 改めて、3つの状態を並べてみます。
 
-<div class="in_gallery">
-{{< figure src="slack01.png" caption="メールのように書く" alt="メールのように書く" >}}
-{{< figure src="slack02.png" caption="ポイント①" alt="ポイント①">}}
-{{< figure src="slack03.png" caption="ポイント①、②" alt="ポイント①、②">}}
-</div>
+{{< gallery >}}
+{{< figure src="slack01.png" caption="メールのように書く" alt="メールのように書く" class="grid-w33">}}
+{{< figure src="slack02.png" caption="ポイント①" alt="ポイント①"class="grid-w33">}}
+{{< figure src="slack03.png" caption="ポイント①、②" alt="ポイント①、②"class="grid-w33">}}
+{{< /gallery >}}
 
 ## まとめ
 

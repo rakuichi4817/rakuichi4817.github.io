@@ -1,55 +1,59 @@
 ---
-title: About
-description: RakuBlogについて
-type: about
+title: "About"
+description: "RakuBlogについて"
 date: 2019-02-28
+lastmod: 2023-11-29
+relatedContentLimit: 0
+heroStyle: "background"
+showTableOfContents: false
+showGoogleAd: false
+showPagination: false
 ---
 
+{{< timeline >}}
 
-## Rakuichi
+{{< timelineItem icon="circle-info" header="プロフィール" subheader="仕事的なところ" >}}
 
-{{% img-emb position="right" imageURL="/images/whoami/avatar.jpg" %}}
-ヴィッセル神戸サポ。
-兵庫県内でIT屋さんとして働いてます。
-大学院では情報検索（主に商品検索）の研究をしていました。
+<p>兵庫県内でIT屋さんとして働いてます。大学院では情報検索（主に商品検索）の研究をしていました。就職してからは、FastAPIを使った機械学習ツールの開発を中心に、クラウド環境上でのデータに関わる開発に取り組んでいます。</p>
 
-※本サイトでの発言は個人の見解であり、
-　現所属、過去に所属していた組織とは関係がありません。
+<h5>活動</h5>
+<ul>
+    <li><a href="https://corp.rakuten.co.jp/innovation/rnn/2019/1910_008/">楽天と大学生が神戸市へ楽しい技術アイデアを提供 | 楽天グループ株式会社</a></li>
+</ul>
 
-#### 使用言語等
+<h4>プライベートなところ</h4>
 
-【メイン】Python
-【経験有】C, Java, JavaScript, SQL, (html, css)
+<ul>
+    <li>ヴィッセル神戸サポ</li>
+    <li>映画、時々観劇（ミュージカル中心）</li>
+    <li>バックパック好き</li>
+    <li>写真・動画撮影、時々動画編集</li>
+</ul>
 
-{{% /img-emb%}}
+{{< gallery >}}
+  <img src="gallery-01.jpg" class="grid-w33" />
+  <img src="gallery-02.jpg" class="grid-w33" />
+  <img src="gallery-03.jpg" class="grid-w33" />
+  <img src="gallery-04.jpg" class="grid-w33" />
+  <img src="gallery-05.jpg" class="grid-w33" />
+{{< /gallery >}}
+{{< /timelineItem >}}
 
-## ブログのコンテンツ
+{{< timelineItem icon="pencil" header="ブログのコンテンツ">}}
+<ul>
+    <li>技術系の備忘録</li>
+    <li>技術系の気になる記事や感想</li>
+    <li>個人の振り返り</li>
+    <li>商品紹介</li>
+    <li>ヴィッセル神戸🐮などの趣味関連</li>
+</ul>
 
-- 技術系の備忘録
-- 技術系の気になる記事や感想
-- 個人で作ったアプリ
-- ヴィッセル神戸🐮などの趣味関連
+<p>基本的には技術系の備忘録として運用していきますが、割りと関係のないものも投稿すると思います。</p>
 
-基本的には技術系の備忘録として運用していきます。
-たまには関係のないものも投稿すると思います。
+{{< /timelineItem >}}
 
-## その他
+{{< timelineItem icon="triangle-exclamation" subheader="注意">}}
+本サイトでの発言は個人の見解であり、現所属、過去に所属していた組織とは関係がありません。
+{{< /timelineItem >}}
 
-### プライバシーポリシー
-
-{{< expand "当サイトに掲載されている広告について" >}}
-当サイトでは、第三者配信の広告サービス（[Googleアドセンス](https://www.google.com/adsense/start/#/?modal_active=none)）を利用しています。
-このような広告配信事業者は、ユーザーの興味に応じた商品やサービスの広告を表示するため、
-当サイトや他サイトへのアクセスに関する情報 『Cookie』
-(氏名、住所、メール アドレス、電話番号は含まれません) を使用することがあります。
-またGoogleアドセンスに関して、このプロセスの詳細やこのような情報が、
-広告配信事業者に使用されないようにする方法については、[こちら](https://policies.google.com/technologies/ads?hl=ja)をクリックしてください。
-{{< /expand >}}
-
-{{< expand "サイトが使用しているアクセス解析ツールについて" >}}
-当サイトでは、Googleによるアクセス解析ツール「Googleアナリティクス」を利用しています。
-このGoogleアナリティクスはトラフィックデータの収集のためにCookieを使用しています。
-このトラフィックデータは匿名で収集されており、個人を特定するものではありません。
-この機能はCookieを無効にすることで収集を拒否することが出来ますので、お使いのブラウザの設定をご確認ください。
-この規約に関して、詳しくは[こちら](https://marketingplatform.google.com/about/analytics/terms/jp/)、または[こちら](https://policies.google.com/technologies/partner-sites?hl=ja)をクリックしてください。
-{{< /expand >}}
+{{< /timeline >}}

@@ -1,18 +1,15 @@
 ---
 title: "【Java勉強-第4回】キーボード入力と文字列の連結"
-date: 2020-04-20T18:26:00+09:00
+date: 2020-04-20
 description: "Javaでのキーボード入力と文字列の連結についてまとめました"
 draft: false
-hideToc: false
-enableToc: true
-enableTocContent: true
-image: images/tech/java.png
 categories:
- - 技術系備忘録
+ - テック系
 tags:
  - Java
 series:
 - Java入門
+series_order: 4
 ---
 
 

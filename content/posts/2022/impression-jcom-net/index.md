@@ -3,17 +3,12 @@ title: "J:COM NET 1GBコースを使ってみて"
 date: 2022-04-18T21:00:00+09:00
 description: "ひとり暮らしを始めてみて、初のJ:COM回線だったのでその感想"
 draft: false
-hideToc: false
-enableToc: true
-enableTocContent: true
-image: images/icon/note-frog.png
-meta_image: images/cover/top-cover.png
+aliases:
+ - /posts/impression-jcom-net/
 categories:
- - 日常
+ - レビュー
 tags:
- - 感想
- - workstation
-series:
+ - ネットワーク
 ---
 
 この4月からひとり暮らしを始めました。初めてのひとり暮らしでしたが、部屋探しの際にネット環境も重視して今の部屋を選んだので、そのあたりのことも書きつつ、結果的に現在利用している「**J:COM NET 1GBコース**」の感想を書こうと思います。
@@ -40,11 +35,11 @@ APEXなどのオンラインゲームでも問題なく遊べています（ラ�
 
 まずは、昼間の時間帯にスマホ（iPhone11）で測定した結果になります。上り、下りともに上限に近い速度が出ており、普通にネットを使う分には十分すぎる速度が出ています。
 
-{{< img src="/posts/impression-jcom-net/speedtest02.png" title="12時頃の測定結果（スマホ）" alt="12時頃の測定結果（スマホ）" width="50%" position="center">}}
+{{< figure src="featured-speedtest02.png" caption="12時頃の測定結果（スマホ）">}}
 
 続いて、比較的速度が低下しやすい夜の時間帯にPCで測定した結果になります。夜間でも150Mbps出ているので十分かと思います。
 
-{{< img src="/posts/impression-jcom-net/speedtest01.png" title="20時頃の測定結果（PC）"  alt="20時頃の測定結果（PC）" width="80%" position="center">}}
+{{< figure src="speedtest01.png" caption="20時頃の測定結果（PC）">}}
 
 ### 値段や契約について
 

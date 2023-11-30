@@ -1,62 +1,69 @@
-baseURL = "https://rakuichi4817.github.io/"
-title = "RakuBlog"
-theme = "zzo"
+# -- Site Configuration --
+# Refer to the theme docs for more details about each of these parameters.
+# https://blowfish.page/docs/getting-started/
 
+theme = "blowfish"
+baseURL = "https://rakuichi4817.github.io/"
 defaultContentLanguage = "ja"
-defaultContentLanguageInSubdir = false
 hasCJKLanguage = true
 
-summaryLength = 70
-buildFuture = true
+enableRobotsTXT = true
+paginate = 12
+summaryLength = 45
 
-copyright = "&copy; 2019 -{year}, Rakuichi - All Rights Reserved"
-timeout = 10000
-enableEmoji = true
-paginate = 10
-rssLimit = 100
+buildDrafts = false
+buildFuture = false
 
-enableGitInfo = false
-googleAnalytics = "UA-149694385-1"
 
-viewportSize = "wider"
+googleAnalytics = "G-R2ZS06ZJVQ"
 
-# 出力ディレクトリ
-publishDir = "docs"
+[permalinks]
+  posts = '/posts/:2006/:filename/'
 
-[markup]
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      hardWraps = true
-      unsafe = true
-      xHTML = true
-  [markup.highlight]
-    codeFences = true
-    lineNos = true
-    lineNumbersInTable = true
-    noClasses = false
-  [markup.tableOfContents]
-    endLevel = 4
-    ordered = false
-    startLevel = 2
-
-[outputs]
-  home = ["HTML", "RSS", "SearchIndex"]
-  section = ["HTML", "RSS", "SearchIndex"]
-  taxonomyTerm = ["HTML", "RSS", "SearchIndex"]
-  taxonomy = ["HTML", "RSS", "SearchIndex"]
-
-[outputFormats]
-  [outputFormats.SearchIndex]
-    mediaType = "application/json"
-    baseName = "index"
-    isPlainText = true
-    notAlternative = true
+[imaging]
+  anchor = 'Center'
 
 [taxonomies]
-  category = "categories"
   tag = "tags"
+  category = "categories"
+  author = "authors"
   series = "series"
 
-[Permalinks]
-  posts = "/posts/:filename/"
-  static = "/:filename/"
+[sitemap]
+  changefreq = 'always'
+  filename = 'sitemap.xml'
+  priority = 0.5
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[related]
+  includeNewer = true
+  threshold = 0
+  toLower = true
+
+    [[related.indices]]
+        name = "tags"
+        weight = 100
+
+    [[related.indices]]
+        name = "categories"
+        weight = 100
+
+    [[related.indices]]
+        name = "series"
+        weight = 50
+
+    # [[related.indices]]
+    #     name = "authors"
+    #     weight = 20
+
+    # [[related.indices]]
+    #     name = "date"
+    #     weight = 10
+
+    # [[related.indices]]
+    #   applyFilter = false
+    #   name = 'fragmentrefs'
+    #   type = 'fragments'
+    #   weight = 10

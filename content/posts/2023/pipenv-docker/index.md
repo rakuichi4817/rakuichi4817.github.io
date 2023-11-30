@@ -1,24 +1,17 @@
 ---
 title: "Pipenv、Docker（マルチステージビルド）、devcontainerで開発環境と本番環境を分ける"
-date: 2023-04-12T23:30:00
-description: "PipenvでPythonのライブラリを管理しつつ、Dockerでマルチステージビルドを採用し、VSCodeのdevcontainerを利用して開発環境と本番環境を分ける方法についてメモ代わりにまとめます。サンプルアプリとしてStreamlitを採用しています"
-draft: false
-hideToc: false
-enableToc: true
-enableTocContent: true
-image: images/tech/python.png
-meta_image: images/cover/top-cover.png
+date: 2023-04-12
+description: PipenvでPythonのライブラリを管理しつつ、Dockerでマルチステージビルドを採用し、VSCodeのdevcontainerを利用して開発環境と本番環境を分ける方法についてメモ代わりにまとめます。サンプルアプリとしてStreamlitを採用しています
 categories:
- - 技術系備忘録
+ - テック系
 tags:
  - Python
  - Pipenv
  - Streamlit
  - Docker
  - 環境構築
-series:
- - Python環境構築
- - アプリ開発
+aliases:
+ - /posts/pipenv-docker/
 ---
 
 久しぶりの投稿です（n回目）。

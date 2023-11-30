@@ -3,25 +3,22 @@ title: "Windows(CPU)にAnacondaでTensorFlow2.1.0とKeras2.3.1の導入"
 date: 2020-04-13T23:00:00+09:00
 description: "Windows上にAnacondaでKerasの環境を作成します"
 draft: false
-hideToc: false
-enableToc: true
-enableTocContent: true
-image: images/tech/python.png
+aliases:
+ - /posts/windows-cpu-keras/
 categories:
- - 技術系備忘録
+ - テック系
 tags:
  - Python
- - AI・ML
  - 環境構築
+ - ML
 ---
 
-{{< alert theme="warning" dir="ltr" >}}
+{{< alert >}}
 **【2021年9月18日追記】**
 本記事ではcondaを用いて仮想環境を作成し、その内部でpipを使ってライブラリをインストールしています。しかし、2021年途中以降で脱Anacondaをしましたので、こちらの方法がおすすめというわけでもありません。
 {{< /alert >}}
 
 こんばんは、4月から始まった会社の研修も、Zoomによるリモート研修になってしまい、一日中パソコンとにらめっこしているRakuichiです。
-<!--more-->
 
 会社ではJavaの勉強をするので、せっかく大学院で利用してきたPythonの感覚を鈍らせないためにも、Keras（TensorFlow）を用いたディープラーニングの勉強をすることにしました。
 
@@ -102,7 +99,7 @@ ipython kernel install --user --name=keras-py3.6 --display-name=keras-py3.6
 
 Keras等をインストールしたあとは、この新しく作成したKernelを利用して実行するようにしてください。
 
-{{< figure src="jupyterlab.png" caption="Jupyter Labの画面" width="100%">}}
+{{< figure src="featured-jupyterlab.png" caption="Jupyter Labの画面">}}
 
 ### 3. 「Visual C++ Build Tools 2019」のインストール
 

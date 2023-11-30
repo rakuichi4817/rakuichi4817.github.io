@@ -3,16 +3,12 @@ title: "脱chromeしてedgeに移行してみた"
 date: 2022-03-01T19:00:00+09:00
 description: "なんとなくですがedgeに移行してみたのでその感想"
 draft: false
-hideToc: false
-enableToc: true
-enableTocContent: true
-image: images/tech/edge.png
-meta_image: images/cover/top-cover.png
+aliases:
+ - /posts/chrome-to-edge/
 categories:
- - 技術系備忘録
+ - テック系
 tags:
  - 環境構築
- - Web
  - アプリ
 ---
 

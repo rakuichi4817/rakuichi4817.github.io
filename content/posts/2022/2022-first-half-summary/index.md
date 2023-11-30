@@ -1,18 +1,15 @@
 ---
 title: "2022年上半期振り返りと下半期に向けて（仕事・技術編）"
-date: 2022-07-02T17:00:00+09:00
+date: 2022-07-02
 description: "仕事・技術関連の2022年上半期振り返りと下半期に向けてを書いていきます"
 draft: false
-hideToc: false
-enableToc: true
-enableTocContent: true
-image: images/icon/note-frog.png
-meta_image: "images/cover/top-cover.png"
+heroStyle: "background"
 categories:
  - 日常
 tags:
- - 感想
- - Work
+ - work
+aliases:
+ - /posts/2022-first-half-summary/
 ---
 
 2022年も気づけば上半期が終了しびっくりしております。ブログの更新頻度をあげると言っていたのですが、なかなかネタが思いつかず...。言い訳をするなら、会社で技術ブログ的なものを立ち上げて、いろいろ記事を作成しているのが原因です。

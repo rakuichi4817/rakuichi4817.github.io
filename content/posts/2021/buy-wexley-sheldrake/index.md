@@ -2,23 +2,19 @@
 title: "WEXLEY SHELDRAKE BACKPACK 紹介"
 date: 2021-12-14T00:00:00+09:00
 description: "PC持ち運び時にも、普段使いにもピッタリのリュック、SHELDRAKE BACKPACKを購入しました"
+summary: "PC持ち運び時にも、普段使いにもピッタリのリュック、SHELDRAKE BACKPACKを購入しました"
 draft: false
-hideToc: false
-enableToc: true
-enableTocContent: true
-image: images/cover/shopping-frog.png
+heroStyle: "background"
+aliases:
+ - /posts/buy-wexley-sheldrake/
 categories:
- - 日常
+ - レビュー
 tags:
  - ガジェット
- - 日用品
-series:
-- 商品紹介
+ - EDC
 ---
 
 久々の投稿です（n回目）。またしてもブログの投稿をサボっていました。個人的に日記も書くようにしているので、それに加えてブログの記事を書くというのはなかなか腰が重かったです...。それでも、年末に向けて多少投稿していこうと思い、まずは手軽な話題から書いていきます。
-
-<!--more-->
 
 今回は、最近購入し愛用しているバックパック 、**WEXLEY「SHELDRAKE BACKPACK」** を紹介しようと思います。
 
@@ -30,7 +26,7 @@ series:
 
 公式サイトの方でかなり細かく仕様が書かれており、様々な角度から撮られた写真ものっています。私も基本的にはこの公式サイトを見て購入を決断しました。ちなみに、お値段は22,000円ですが、instagramで検索するとクーポンコードを紹介してくださっている方がいるので、そちらを利用するとお安くなりました！
 
-{{< alert theme="warning" dir="ltr" >}} 
+{{< alert icon="circle-info" >}} 
 WEXLEY 商品ページURL：[https://wexley.jp/products/sheldrake](https://wexley.jp/products/sheldrake)
 {{< /alert >}}
 
@@ -54,10 +50,10 @@ WEXLEY 商品ページURL：[https://wexley.jp/products/sheldrake](https://wexle
 > 重量
 > 0.93kg
 
-<div class="in_gallery">
-{{< figure src="sheldrake01.jpg" caption="SHELDRAKE BACKPACKとマンティス26の比較①" alt="SHELDRAKE BACKPACKとマンティス26の比較①" >}}
-{{< figure src="sheldrake02.jpg" caption="SHELDRAKE BACKPACKとマンティス26の比較②" alt="SHELDRAKE BACKPACKとマンティス26の比較②">}}
-</div>
+{{< gallery >}}
+{{< figure src="featured-sheldrake01.jpg" caption="SHELDRAKE BACKPACKとマンティス26の比較①" class="grid-w45">}}
+{{< figure src="sheldrake02.jpg" caption="SHELDRAKE BACKPACKとマンティス26の比較②" class="grid-w45">}}
+{{< /gallery >}}
 
 マンティス26よりひと回り小さくて、厚みが薄いぶん容量が少なくなっているという感じです。マンティス26は荷物を詰め込むとかなり膨らんで、バッグ上側が分厚くなっていきます。それに比べSHELDRAKE BACKPACKはあまり膨らみません。上の画像でも見ていただくとわかると思いますが、厚みは明確に違います（SHELDRAKE BACKPACKの中に何も入れていないので、若干膨らみきっていないところはあります）。そのため、内容量に17Lと26Lという違いがあります。
 
@@ -73,17 +69,17 @@ WEXLEY 商品ページURL：[https://wexley.jp/products/sheldrake](https://wexle
 
 外側の収納部分の特徴はポケットの多さです。下の写真では試しにiPhone8を入れてみていますので、サイズ感を見ていただければと思います（ポケットの底にiPhoneはついています）。このサイズのポケットが2つと、そこにさらに黒いメッシュのような生地がついており、小物が入れられる様になっています（実は下の写真でも目薬を入れてます）。さらにペンホルダーが2つと、ファスナーが付いているポケット、そしてその中にキーホルダーが付いています。ファスナーがついているポケットは比較的深めとなっており、手前にあるポケットと底の位置は一緒になっています。
 
-<div class="in_gallery">
-{{< figure src="sheldrake06.jpg" caption="外側のメイン収納にあるポケット" alt="外側のメイン収納にあるポケット" >}}
-</div>
+{{< gallery >}}
+{{< figure src="sheldrake06.jpg" caption="外側のメイン収納にあるポケット" class="grid-w45">}}
+{{< /gallery >}}
 
 注意しておく点もあります。それは**収納口の開き具合はあまり広くない**ことです。これは、リュック自体がコンパクトな（厚みが薄い）なのと、メイン収納が2つに分かれているからだと思います。もう一つのメイン収納部分については後ほど触れますが、収納部分が2つに分かれているので、どちらかに厚みのある荷物を入れると、もう片方は圧迫されてしまいます。**それでも、十分な収納力があるのであまり気になりません。**
 
 あえて「注意しておく点」として触れましたが、どちらかというと「認識している方が良い点」ですかね。私はマンティス26との差別化ということで、膨らみすぎないものが欲しかったのでオッケーかなと思います。
 
-<div class="in_gallery">
-{{< figure src="sheldrake05.jpg" caption="外側のメイン収納の開き具合" alt="外側のメイン収納の開き具合" >}}
-</div>
+{{< gallery >}}
+{{< figure src="sheldrake05.jpg" caption="外側のメイン収納の開き具合" class="grid-w45" >}}
+{{< /gallery >}}
 
 ### 内側（体側）のメイン収納
 
@@ -96,10 +92,10 @@ ThinkPad X390を入れてみましたが、もちろんすっぽり入りまし�
 
 外側のメイン収納のところでも触れましたが、こちらは開き具合がより狭くなっています。また、**内側外側ともに、開閉部分のファスナーは硬い**印象です。おそらく防水性などを保つためにしっかりしていると思うのですが、慣れるまでは少し違和感があります。
 
-<div class="in_gallery">
-{{< figure src="sheldrake08.jpg" caption="内側のメイン収納にあるPC用スリーブポケット" alt="内側のメイン収納にあるPC用スリーブポケット" >}}
-{{< figure src="sheldrake07.jpg" caption="内側のメイン収納の開き具合" alt="内側のメイン収納の開き具合" >}}
-</div>
+{{< gallery >}}
+{{< figure src="sheldrake08.jpg" caption="内側のメイン収納にあるPC用スリーブポケット" class="grid-w45" >}}
+{{< figure src="sheldrake07.jpg" caption="内側のメイン収納の開き具合" class="grid-w45" >}}
+{{< /gallery >}}
 
 ## その他収納
 
@@ -109,10 +105,10 @@ ThinkPad X390を入れてみましたが、もちろんすっぽり入りまし�
 
 背中側のポケットは2箇所存在しており、こちらも両方iPhoneは問題なく入る大きさとなっています。更に片方のポケットには**カードのスキミング防止機能**がついており、こちらに財布や定期入れを入れるようにしています。トップ部分のポケット同様、あまり厚みのあるものを入れるのには向いてなさそうではあります。
 
-<div class="in_gallery">
-{{< figure src="sheldrake04.jpg" caption="トップ部分のポケット" alt="トップ部分のポケット" >}}
-{{< figure src="sheldrake03.jpg" caption="背中側の2つのポケット" alt="背中側の2つのポケット" >}}
-</div>
+{{< gallery >}}
+{{< figure src="sheldrake04.jpg" caption="トップ部分のポケット" class="grid-w45" >}}
+{{< figure src="sheldrake03.jpg" caption="背中側の2つのポケット" class="grid-w45" >}}
+{{< /gallery >}}
 
 ## 背負った感じ
 

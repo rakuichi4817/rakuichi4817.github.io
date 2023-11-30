@@ -1,19 +1,13 @@
 ---
 title: "hugoでshortcodesを用いてtableにcssを適応"
-date: 2019-10-03T12:00:06+09:00
+date: 2019-10-03
 description: "shortcodesを用いてtableになんとかcssを適応します"
 draft: false
-hideToc: false
-enableToc: true
-enableTocContent: true
-image: images/tech/hugo-small.png
+aliases: ["/posts/hugo-table/"]
 categories:
-- 技術系備忘録
+- テック系
 tags:
  - Hugo
- - Web
-series:
--
 ---
 
 久しぶりにHugoの投稿をしようと思います。
@@ -118,7 +112,9 @@ div.simple-table table th {
 ですので回避策として、shortcodes側で`<table>`の外側にクラスを適応した `<div>`をかまして、cssで対応させる手法をとりました。処理の流れ等の詳しい説明は今回は割愛します。
 
 ## 参考ページ
+
 [Hugo shortcodesドキュメント](https://gohugo.io/content-management/shortcodes/)
 
 ## 関連ページ
+
 [独自のショートコードを作成する | まくまくHugo/Goノート](https://maku77.github.io/hugo/shortcode/create-shortcode.html)

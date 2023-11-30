@@ -1,35 +1,31 @@
 ---
 title: "FastAPI×MKDocs（×GitHub Pages）でドキュメント生成"
-date: 2023-02-21T00:45:00+09:00
+date: 2023-02-21
+lastmod: 2023-11-29
 description: "MKDocsで作成するドキュメントに、FastAPIで生成されるSwaggerを表示します"
 draft: false
-hideToc: false
-enableToc: true
-enableTocContent: true
-image: images/tech/python.png
-meta_image: "posts/poms-02/poms-documents.png"
 categories:
- - 技術系備忘録
+ - テック系
 tags:
  - Python
  - FastAPI
  - MKDocs
  - GitHub
-series:
- - アプリ開発
+aliases:
+ - /posts/poms-02/
 ---
 
-以前投稿した記事「[FastAPI×Streamlitでアプリ開発（Getリクエスト）](/posts/poms-01)」で、FastAPIとStreamlitを利用し、Pythonのみでバックエンドとフロントエンドを分離したアプリを作成しました。
+以前投稿した記事「[FastAPI×Streamlitでアプリ開発（Getリクエスト）](/posts/2022/poms-01)」で、FastAPIとStreamlitを利用し、Pythonのみでバックエンドとフロントエンドを分離したアプリを作成しました。
 
 どうせ練習するなら、合わせてドキュメントも作ってしまおうと思い、PythonでMarkdownを静的サイトへ変換できる静的サイトジェネレータ [**MKDocs**](https://www.mkdocs.org/) を利用してみることにしました。
 
 リポジトリは以下になります。
 
-<a href="https://github.com/rakuichi4817/poms"><img src="https://github-link-card.s3.ap-northeast-1.amazonaws.com/rakuichi4817/poms.png" width="460px"></a>
+{{< github repo="rakuichi4817/poms" >}}
 
 なお、本記事の方法を使って実際に作成したドキュメントが以下になります。（[リンク](<https://rakuichi4817.github.io/poms/backend-swagger/>)）
 
-{{< img src="/posts/poms-02/poms-documents.png" title="実際のページ" caption="MKDocsで作成され、Swaggerドキュメントも閲覧可能" width="80%" position="center">}}
+![実際のページ](poms-documents.png "実際のページ")
 
 
 ## ライブラリのインストール

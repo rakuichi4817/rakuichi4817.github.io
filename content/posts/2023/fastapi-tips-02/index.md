@@ -1,19 +1,17 @@
 ---
 title: "FastAPIのファイル構成"
-date: 2023-11-06T23:00:00
+date: 2023-11-06
 description: "ぼくがかんがえたさいきょうのFastAPIのファイル構成（最強ではないです）"
+summary: "ぼくがかんがえたさいきょうのFastAPIのファイル構成（最強ではないです）"
 draft: false
-hideToc: false
-enableToc: true
-enableTocContent: true
-image: images/tech/python.png
 categories:
- - 技術系備忘録
+ - テック系
 tags:
  - Python
  - FastAPI
-series:
- - FastAPI-TIPS
+aliases:
+ - /posts/fastapi-tips-02/
+
 ---
 
 アウトプット強化月間3本目はFastAPIネタです。FastAPIはずっと業務で触っていることもあり、書ける内容が多いのでできる限りいろいろ書いていこうと思います。
@@ -75,7 +73,8 @@ app
 
 例えば、「/users」と「/items」みたいなURIのエンドポイントがあるのであれば、「users.py」と「items.py」を「v1」ディレクトリに設置します。単純なコード例も書いておきます。
 
-```python:app/api/v1/users.py
+```python
+#app/api/v1/users.py
 from fastapi import APIRouter
 
 

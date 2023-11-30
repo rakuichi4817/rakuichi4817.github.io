@@ -1,203 +1,144 @@
-logoText = ""
-logoType = "short" # long, short
-description = "ヴィッセルサポのIT屋さんのブログ"
-custom_css = ["css/custom.css"]
-custom_js = []
-useFaviconGenerator = true # https://www.favicon-generator.org/
-meta_image = "images/cover/top-cover.png"
-themecolor = "light"
+# -- Theme Options --
+# These options control how the theme functions and allow you to
+# customise the display of your website.
+#
+# Refer to the theme docs for more details about each of these parameters.
+# https://blowfish.page/docs/configuration/#theme-parameters
 
-themeOptions = ["light", "dark", "solarized"]
-notAllowedTypesInHome = ["contact", "talks", "about", "showcase", "publication", "presentation", "resume"]
-notAllowedTypesInHomeSidebar = ["about", "archive", "gallery","showcase", "publication", "presentation", "resume"]
-notAllowedTypesInArchive = ["about", "talks", "showcase", "publication", "presentation", "resume"]
-notAllowedTypesInHomeFeed = ["about", "archive", "contact", "talks", "showcase", "publication", "presentation", "resume", "gallery"]
+colorScheme = "fire"
+defaultAppearance = "system" # valid options: light or dark
+autoSwitchAppearance = true
 
-viewportSize = "normal" # widest, wider, wide, normal, narrow
-enableUiAnimation = true
-hideSingleContentsWhenJSDisabled = false
-enablePinnedPosts = true
-minItemsToShowInTagCloud = 1 # Minimum items to show in tag cloud
-
-# appbar
-enableAppbarSearchIcon = false
-enableAppbarLangIcon = false
-
-# header
-homeHeaderType = "text" # text, img, slide, typewriter
-hideHomeHeaderWhenMobile = false
-
-# menu
-showMobileMenuTerms = ["tags", "categories", "series"]
-
-# search
 enableSearch = true
-enableSearchHighlight = true
-searchResultPosition = "main" # side, main
-searchContent = true # include content to search index
-searchDistance = 100 # fuse option
-searchThreshold = 0.4 # 0.0: exact match, 1.0: any match
+enableCodeCopy = true
 
-# body
-enableBreadcrumb = true
-enableGoToTop = true
-enableWhoami = true
-summaryShape = "classic" # card, classic, compact
-archiveGroupByDate = "2006" # "2006-01": group by month, "2006": group by year
-archivePaginate = 13
-paginateWindow = 1
-talksPaginate = 5
-talksGroupByDate = "2006"
-pubPaginate = 20
-writtenTimeIcon = "📅"
-modifiedTimeIcon = "📝"
-readingTimeIcon = "☕"
-authorIcon = "✍️"
-pagePvIcon = "👀"
-pinIcon = "📌"
-tagIcon = "🏷️"
-publicationIcon = "📚"
-typeIcon = "🎯"
+mainSections = ["posts"]
+# robots = "all"
 
-# whoami
-myname = "Rakuichi"
-email = "" 
-whoami = "ヴィッセルサポのIT屋"
-bioImageUrl = ""
-useGravatar = false
-location = "Kobe, Japan"
-organization = ""
-link = "https://www.vissel-kobe.co.jp/"
+disableImageOptimization = true
 
-# sidebar
-enableBio = true
-enableBioImage = true
-enableSidebar = true
-enableSidebarTags = true
-enableSidebarSeries = true
-enableSidebarCategories = true
-enableHomeSidebarTitles = true
-enableListSidebarTitles = true
-enableToc = true
-hideToc = false
-tocFolding = true
-tocPosition = "inner" # inner, outer
-enableTocSwitch = true
-itemsPerCategory = 5
-sidebarPosition = "right"
-tocLevels = ["h2", "h3", "h4"]
-enableSidebarPostsByOrder = false
+defaultBackgroundImage = "img/2018_vissel.jpg"
+defaultFeaturedImage = "img/top-cover.png"
 
-# footer
-showPoweredBy = true
-showFeedLinks = true
-showSocialLinks = true
-enableLangChange = false
-enableThemeChange = true
+highlightCurrentMenuArea = true
+smartTOC = true
+smartTOCHideUnfocusedChildren = false
 
-# service
-googleTagManager = "" # GTM-XXXXXX
-baiduAnalytics = ""
-enableBusuanzi = false
-busuanziSiteUV = true
-busuanziSitePV = true
-busuanziPagePV = true
+[header]
+  layout = "fixed-fill" # valid options: basic, fixed, fixed-fill, fixed-fill-blur
 
-# rss
-updatePeriod = "" # Possible values: 'hourly', 'daily', 'weekly', 'monthly', or 'yearly'.
-updateFrequency = ""
-fullContents = false
+[footer]
+  showMenu = true
+  showCopyright = true
+  showThemeAttribution = true
+  showAppearanceSwitcher = true
+  showScrollToTop = true
 
-# comment
-enableComment = true
-disqus_shortname = ""
-commento = false
+[homepage]
+  layout = "background" # valid options: page, profile, hero, card, background, custom
+  # homepageImage = "/img/iceland.jpg" # used in: hero, and card
+  showRecent = true
+  showRecentItems = 6
+  showMoreLink = true
+  showMoreLinkDest = "posts"
+  cardView = true
+  cardViewScreenWidth = false
+  layoutBackgroundBlur = true # only used when layout equals background
 
-[telegram]
-  enable = false
-  siteId = ""
-  dataLimit = 5
+[article]
+  showDate = true
+  showViews = false
+  showLikes = false
+  showDateUpdated = true
+  showAuthor = true
+  showHero = true
+  heroStyle = "basic" # valid options: basic, big, background, thumbAndBackground
+  layoutBackgroundBlur = true # only used when heroStyle equals background
+  showBreadcrumbs = false
+  showDraftLabel = true
+  showEdit = false
+  editURL = ""
+  editAppendPath = false
+  seriesOpened = true
+  showHeadingAnchors = true
+  showPagination = true
+  invertPagination = false
+  showReadingTime = true
+  showTableOfContents = true
+  showRelatedContent = true
+  relatedContentLimit = 4
+  showTaxonomies = true
+  showAuthorsBadges = true 
+  showWordCount = false
+  sharingLinks = [ "twitter", "facebook", "email"]
 
-[gitment]          # Gitment is a comment system based on GitHub issues. see https://github.com/imsun/gitment
-  owner = ""              # Your GitHub ID
-  repo = ""               # The repo to store comments
-  clientId = ""           # Your client ID
-  clientSecret = ""       # Your client secret
+[list]
+  showHero = true
+  heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
+  layoutBackgroundBlur = true # only used when heroStyle equals background
+  layoutBackgroundHeaderSpace = false
+  showBreadcrumbs = false
+  showSummary = true
+  showViews = false
+  showLikes = false
+  showTableOfContents = true
+  showCards = true
+  groupByYear = true
+  cardView = true
+  cardViewScreenWidth = false
+  constrainItemsWidth = true
 
-[utterances]       # https://utteranc.es/
-  owner = ""              # Your GitHub ID
-  repo = ""               # The repo to store comments
+[sitemap]
+  excludedKinds = ["taxonomy", "term"]
 
-[gitalk]           # Gitalk is a comment system based on GitHub issues. see https://github.com/gitalk/gitalk
-  owner = ""              # Your GitHub ID
-  repo = ""               # The repo to store comments
-  clientId = ""           # Your client ID
-  clientSecret = ""       # Your client secret
+[taxonomy]
+  showTermCount = true
+  showHero = true
+  heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
+  showBreadcrumbs = false
+  showViews = false
+  showLikes = false
+  showTableOfContents = true
+  cardView = true
 
+[term]
+  showHero = true
+  heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
+  showBreadcrumbs = true
+  showViews = false
+  showLikes = false
+  showTableOfContents = true
+  groupByYear = true
+  cardView = true
+  cardViewScreenWidth = true
+  
+[firebase]
+  apiKey = ""
+  authDomain = ""
+  projectId = ""
+  storageBucket = ""
+  messagingSenderId = ""
+  appId = ""
+  measurementId = ""
 
+[fathomAnalytics]
+  # site = "ABC12345"
+  # domain = "llama.yoursite.com"
 
-[changyan]
-  changyanAppid = ""        # Changyan app id             # 畅言
-  changyanAppkey = ""       # Changyan app key
+[buymeacoffee]
+  identifier = ""
+  globalWidget = false
+  globalWidgetMessage = ""
+  globalWidgetColor = "#FFDD00"
+  globalWidgetPosition = "Right"
 
-[livere]
-  livereUID = ""            # LiveRe UID                  # 来必力
+[verification]
+  # google = ""
+  # bing = ""
+  # pinterest = ""
+  # yandex = ""
 
-# Isso: https://posativ.org/isso/
-[isso]
-  enable = false
-  scriptSrc = "" # "https://isso.example.com/js/embed.min.js"
-  dataAttrs = "" # "data-isso='https://isso.example.com' data-isso-require-author='true'"
-
-[socialOptions]
-  email = ""
-  phone = ""
-  facebook = ""
-  twitter = "https://twitter.com/rararakuichi"
-  github = "https://github.com/rakuichi4817"
-  stack-overflow = ""
-  instagram = ""
-  google-plus = ""
-  youtube = ""
-  medium = ""
-  tumblr = ""
-  linkedin = ""
-  pinterest = ""
-  stack-exchange = ""
-  telegram = ""
-  steam = ""
-  weibo = ""
-  douban = ""
-  csdn = ""
-  gitlab = ""
-  mastodon = ""
-  jianshu = ""
-  zhihu = ""
-  signal = ""
-  whatsapp = ""
-  matrix = ""
-  xmpp = ""
-  dev-to = ""
-  gitea = ""
-  google-scholar = ""
-
-[donationOptions]
-  enable = false
-  alipay = "" 
-  wechat = ""
-  paypal = ""
-  patreon = ""
-
-# possible share name: ["facebook","twitter", "reddit", "linkedin", "tumblr", "weibo", "douban", "line", "pocket", "feedly", "hatena", "pinterest", "delicious", "google"]
-[[share]]
-  name = "facebook"
-  username = ""
-[[share]]
-  name = "twitter"
-
-[[footerLinks]]
-  name = ""
-  link = ""
-[[footerLinks]]
-  name = ""
-  link = ""
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  series = "series"

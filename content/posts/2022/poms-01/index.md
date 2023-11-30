@@ -1,22 +1,17 @@
 ---
 title: "FastAPI×Streamlitでアプリ開発（Getリクエスト）"
-date: 2022-10-07T18:00:00+09:00
+date: 2022-10-07
 description: "FastAPIとStreamlitを用いて、Pythonだけでバックエンドとフロントエンドの両方を作ります。"
 draft: false
-hideToc: false
-enableToc: true
-enableTocContent: true
-image: images/tech/python.png
-meta_image: "posts/poms-01/app-01.png"
+aliases:
+ - /posts/poms-01/
 categories:
- - 技術系備忘録
+ - テック系
 tags:
  - Python
  - FastAPI
  - Pydantic
  - Streamlit
-series:
- - アプリ開発
 ---
 
 PythonでAPIを作成するときに使われるFastAPIですが、やはりアプリにしたいというところで、フロントエンドの部分を作るのに困っていました。手っ取り早く画面を作るには、そこまでフロントエンドの技術を持っていないので...。そんな時、[Streamlit](https://streamlit.io/)というPythonで簡単にアプリが作れるフレームワークがあることを知りました。
@@ -33,12 +28,12 @@ Streamlitは、リッチなアプリが作れる便利なフレームワーク�
 
 ↓リポジトリ
 
-<a href="https://github.com/rakuichi4817/poms"><img src="https://gh-card.dev/repos/rakuichi4817/poms.svg?fullname="></a>
+<a href="https://github.com/rakuichi4817/poms"><figure src="https://gh-card.dev/repos/rakuichi4817/poms.svg?fullname="></a>
 
 練習で作成しているアプリの画面です。
 
-{{< img src="/posts/poms-01/app-01.png" title="足し算機能" caption="単純なGetリクエスト" width="80%" position="center">}}
-{{< img src="/posts/poms-01/app-02.png" title="モザイク処理" caption="画像データのやり取り" width="80%" position="center">}}
+{{< figure src="app-01.png" caption="単純なGetリクエスト" >}}
+{{< figure src="app-02.png" caption="画像データのやり取り" >}}
 
 **本記事では足し算機能についてのみ紹介いたします。** 今後も様々な機能を、練習として実装していこうと思っています（機能毎の記事も書くかもしれません）。
 
@@ -176,7 +171,7 @@ CORSの設定をしておかないと、8501ポートで開いているStreamlit
 
 フロントエンドとバックエンドをそれぞれ立ちあげて、アプリ画面からリクエストを実行してみます。
 
-{{< img src="/posts/poms-01/app-plus.png" title="足し算機能" caption="-20+40=20" width="80%" position="center">}}
+{{< figure src="app-plus.png" title="足し算機能" caption="-20+40=20" >}}
 
 計算結果を表示できました。
 

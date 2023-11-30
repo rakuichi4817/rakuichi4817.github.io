@@ -1,19 +1,15 @@
 ---
 title: "Ubuntu 18.04.4 LTSにElasticsearch、Logstash、Kibanaを導入"
-date: 2020-06-21T09:30:00+09:00
+date: 2020-06-21
 description: "UbuntuにElasticstackを導入してみます"
 draft: false
-hideToc: false
-enableToc: true
-enableTocContent: true
-image: images/tech/elastic.png
+aliases:
+ - /posts/install-elasticstack/
 categories:
- - 技術系備忘録
+ - テック系
 tags:
  - Elastic
  - 環境構築
-series:
-- 
 ---
 
 今回はUbuntuにElastic Stackを導入する手順について記録も兼ねて書いていこうと思います。
@@ -214,7 +210,7 @@ $ sudo systemctl status kibana.service
 
 ここまでくれば、「<サーバのIPアドレス>:5601」でKibanaの画面を確認できます。
 
-{{< figure src="kibana.png" caption="Kibana画面"  width="90%">}}
+{{< figure src="kibana.png" caption="Kibana画面">}}
 
 ### 4. Logstash
 

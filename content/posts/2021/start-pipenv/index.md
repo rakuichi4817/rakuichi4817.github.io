@@ -1,24 +1,18 @@
 ---
 title: "脱AnacondaしてPipenvでPython環境作り"
-date: 2021-09-26T18:00:00+09:00
+date: 2021-09-26
 description: "Pythonの環境作りをAnacondaからPipenvに変更しました"
-draft: false
-hideToc: false
-enableToc: true
-enableTocContent: true
-image: images/tech/python.png
-meta_image: "images/cover/python-cover.png"
+aliases:
+  - /posts/start-pipenv/
 categories:
- - 技術系備忘録
+ - テック系
 tags:
  - Python
+ - Pipenv
  - 環境構築
-series:
-- Python環境構築
 ---
 
 大学4年からPythonを触りだしましたが、その時から一貫してAnacondaでPythonの環境を作成していました。しかし、脱AnacondaしてPipenvに乗り換えたので、簡単にまとめようかと思います。
-<!--more-->
 
 ## Anacondaを利用していた理由とやめた理由
 
@@ -84,14 +78,16 @@ pip install pipenv
 
 ここで、PipenvでPythonのバージョンを指定して環境構築する際の注意事項について、以下にまとめておきます（Python3.8で仮想環境を構築する前提）。
 
-{{< notice warning "注意事項" >}}
+{{< alert>}}
+
+**注意事項**
 
 - Python3.9がすでに入っていても、Python3.8も別に入れる必要がある
 - すでに導入されているPythonがバージョン3.8系である場合は入れる必要はない
 - Pythonのバージョンは3.△.〇が存在するが、△が違う場合は別のものとしてインストールされ、〇が違うものに関しては、最新版で上書きされる
-  - Python3.9.1とPython3.8.1は別でインストール
-  - Python3.9.1とPython3.9.2を入れると3.9.2しか残らない
-{{< /notice >}}
+    - Python3.9.1とPython3.8.1は別でインストール
+    - Python3.9.1とPython3.9.2を入れると3.9.2しか残らない
+{{< /alert >}}
 
 ### 利用したいバージョンのPythonの導入（今回は3.8）
 

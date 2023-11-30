@@ -1,40 +1,32 @@
 ---
 title: "2020年に買ってよかったもの vol.1"
-date: 2020-12-09T21:30:00+09:00
+date: 2020-12-09
 description: "2020年に買ってよかったもの（mujina pcスタンド等）"
 draft: false
-hideToc: false
-enableToc: true
-enableTocContent: true
-image: images/cover/pay-frog.png
+heroStyle: "background"
 categories:
- - 日常
+ - レビュー
 tags:
  - ガジェット
- - 日用品
-series:
-- 商品紹介
 ---
 
 最近は研究室時代にあまり丁寧に理解しようとしていなかったDeep系のお話や、Pythonでのシステム開発（テストとか）を学んでいるところです。
-
-<!--more-->
 
 久しぶりの更新なので、日本語を書く練習も兼ねて軽い話題にします。タイトル通り、今年「買ってよかったなぁ」と思うものを書いていきます。
 
 2回に分けて書いていきますが、紹介するものを以下にリストアップしています。今回触れるものは**太文字**にしています。
 
 - ガジェット系
-  - **iPhone11 128GB**
-  - **mujina PCスタンド**
-  - Razer Hammerhead Pro V2 （RZ04-01730100-R3A1）
-  - RAVPower 61W USB-C 急速充電器（RP-PC112）
-  - RAVPower 90W 2ポートUSB-C 急速充電器（RP-PC128）
-  - Anker PowerLine+ III USB-C & USB-C 2.0 ケーブル (1.8m ブラック) 
+    - **iPhone11 128GB**
+    - **mujina PCスタンド**
+    - Razer Hammerhead Pro V2 （RZ04-01730100-R3A1）
+    - RAVPower 61W USB-C 急速充電器（RP-PC112）
+    - RAVPower 90W 2ポートUSB-C 急速充電器（RP-PC128）
+    - Anker PowerLine+ III USB-C & USB-C 2.0 ケーブル (1.8m ブラック) 
 - その他
-  - **SNOOPY 転写ステッカー**
-  - **AfternoonTea PEANUTS/ステンレスマグカップ**
-  - **ノートカバー**
+    - **SNOOPY 転写ステッカー**
+    - **AfternoonTea PEANUTS/ステンレスマグカップ**
+    - **ノートカバー**
 
 ## ガジェット系
 
@@ -42,7 +34,7 @@ series:
 
 ### iPhone11（128GB）：おすすめ度 ★★☆
 
-{{% img-emb position="right" imageURL="iPhone11.jpg" %}}
+{{<figure src=iPhone11.jpg caption=iphone11とiphone8 class="w-1/2">}}
 
 iPhone8（写真右側）をずっと愛用していましたが、今更ながらiPhone11（写真左側）を買いました。
 
@@ -54,8 +46,6 @@ iPhone8（写真右側）をずっと愛用していましたが、今更なが�
 - 大きすぎて不便
 
 こんな感じの意見をネットで見ていましたが、実際に使ってみてこの画面の大きさに慣れるとむしろ8では小さく感じてしまいます。情報収集を電車などの移動中にする方は11のほうがサイズ的にはいいかもしれません。
-{{% /img-emb%}}
-
 ちなみに今まではdocomo オンラインショップで買っていましたが、今回はApple Storeで購入しました。おそらく本体価格だけで言うなら2万円近く安くなったのかなぁと思います。
 
 加えて、<a href="https://www.rebates.jp/" target="_blank">Rakuten Rebates</a>経由でApple Storeにアクセスすることで、クレジットカードにもともとつくポイントとは別にポイントをもらえたのでかなりお得でした。本体代も一括で買っておけば、契約変更やキャリア乗り換えもしやすそうなので、これからはApple Storeで買おうと思います。
@@ -86,11 +76,11 @@ iPhone8（写真右側）をずっと愛用していましたが、今更なが�
 
 2,000前後で買えるのでとりあえず買ってみても良いかと思います。今年買った中でもトップレベルに気に入っている商品です。
 
-<div class="in_gallery">
-{{< figure src="mujina-pc-stand0.jpg" caption="mujina pcスタンド1" >}}
-{{< figure src="mujina-pc-stand1.jpg" caption="mujina pcスタンド2" >}}
-{{< figure src="mujina-pc-stand2.jpg" caption="実際に使って見た" >}}
-</div>
+{{< gallery >}}
+{{< figure src="mujina-pc-stand0.jpg" caption="mujina pcスタンド1" class="grid-w33">}}
+{{< figure src="featured-mujina-pc-stand1.jpg" caption="mujina pcスタンド2" class="grid-w33">}}
+{{< figure src="mujina-pc-stand2.jpg" caption="実際に使って見た" class="grid-w33">}}
+{{< /gallery >}}
 
 ## その他
 
@@ -108,21 +98,21 @@ iPhone8（写真右側）をずっと愛用していましたが、今更なが�
 - 一般的なステッカーのように余分な部分がないからシンプルでガジェットに合う
 - 剥がれやすいときもあるのでおすすめ度は★2つ
 
-<div class="in_gallery">
-{{< figure src="sticker01.jpg" caption="貼ってみた" >}}
-{{< figure src="sticker02.jpg" caption="ロゴとスヌーピー" >}}
-{{< figure src="sticker03.jpg" caption="かわいい" >}}
-</div>
+{{< gallery >}}
+{{< figure src="sticker01.jpg" caption="貼ってみた" class="grid-w33">}}
+{{< figure src="sticker02.jpg" caption="ロゴとスヌーピー" class="grid-w33">}}
+{{< figure src="sticker03.jpg" caption="かわいい" class="grid-w33">}}
+{{< /gallery >}}
 
 ### AfternoonTea PEANUTS/ステンレスマグカップ：おすすめ度 ★★★
 
-{{% img-emb position="left" imageURL="mug01.jpg" %}}
+{{<figure src=mug01.jpg caption=マグカップ class="w-1/2">}}
+
 会社もほとんど在宅勤務になり、取っ手付きのマグカップが欲しいなぁと考えていました。そこでたまたま見つけたのが、「AfternoonTea PEANUTS/ステンレスマグカップ」になります。
 
 蓋がついていて、飲み口もついています。また、底に滑り止めがついており転倒しにくくなっています！
 
 **何より“可愛い”です（可愛いは正義）**
-{{% /img-emb %}}
 
 お値段は¥3,080ですが、スヌーピー好きなら買う価値はあると思いますよ！
 
@@ -139,10 +129,10 @@ iPhone8（写真右側）をずっと愛用していましたが、今更なが�
 ただやはり “**かっこいいから**”というのが最大の利用理由です。
 勉強意欲が湧いたり、外で自分のノート見直す気になります。
 
-<div class="in_gallery">
-{{< figure src="note-cover1.jpg" caption="ノートカバー" >}}
-{{< figure src="note-cover2.jpg" caption="開いた様子" >}}
-</div>
+{{< gallery >}}
+{{< figure src="note-cover1.jpg" caption="ノートカバー" class="grid-w45">}}
+{{< figure src="note-cover2.jpg" caption="開いた様子" class="grid-w45">}}
+{{< /gallery >}}
 
 ## まとめ
 

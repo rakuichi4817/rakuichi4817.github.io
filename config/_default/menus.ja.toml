@@ -1,34 +1,67 @@
+# -- Main Menu --
+# The main menu is displayed in the header at the top of the page.
+# Acceptable parameters are name, pageRef, page, url, title, weight.
+# 
+# The simplest menu configuration is to provide:
+#   name = The name to be displayed for this menu link
+#   pageRef = The identifier of the page or section to link to
+#
+# By default the menu is ordered alphabetically. This can be
+# overridden by providing a weight value. The menu will then be
+# ordered by weight from lowest to highest.
+
 [[main]]
-  identifier = "about"
   name = "About"
-  url = "about"
-  weight = 1
+  pageRef = "about"
+  weight = 10
 
 [[main]]
-  identifier = "posts"
   name = "Posts"
-  url = "posts"
-  weight = 2
+  pageRef = "posts"
+  weight = 20
 
 [[main]]
-  identifier = "archive"
-  name = "Archive"
-  url = "archive"
-  weight = 3
+  name = "Tags"
+  pageRef = "tags"
+  weight = 30
 
 [[main]]
-  identifier = "gallery"
-  name = "Gallery"
-  url = "gallery"
-  weight = 5
-    
-[[main]]
-  parent = "gallery"
-  name = "Vissel Kobe"
-  url = "gallery/vissel"
+  name = "Categories"
+  pageRef = "categories"
+  weight = 30
 
-# [[main]]
-#   identifier = "publication"
-#   name = "Pub"
-#   url = "publication"
-#   weight = 7
+#[[main]]
+#  name = "Merch"
+#  url = "http://tee.pub/lic/qwSlWVBL5zc"
+#  weight = 100
+
+#[[main]]
+#  name = "Test"
+#  pageRef = "pagTest"
+#  weight = 1000
+
+[[main]]
+  identifier = "twitter"
+  pre = "x-twitter"
+  url = "https://twitter.com/rararakuichi"
+  weight = 200
+
+[[main]]
+  identifier = "github"
+  pre = "github"
+  url = "https://github.com/rakuichi4817"
+  weight = 400
+
+
+# -- Footer Menu --
+# The footer menu is displayed at the bottom of the page, just before
+# the copyright notice. Configure as per the main menu above.
+
+ [[footer]]
+   name = "Series"
+   pageRef = "Series"
+   weight = 30
+ [[footer]]
+   name = "Privacy"
+   pageRef = "privacy"
+   weight = 999

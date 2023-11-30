@@ -1,18 +1,15 @@
 ---
 title: "【Java勉強-第3回】簡単なif・else文"
-date: 2020-02-28T16:26:00+09:00
+date: 2020-02-28
 description: "Javaで簡単なif・else文を試してみました"
 draft: false
-hideToc: false
-enableToc: true
-enableTocContent: true
-image: images/tech/java.png
 categories:
- - 技術系備忘録
+ - テック系
 tags:
  - Java
 series:
 - Java入門
+series_order: 3
 ---
 
 Java勉強記録第3回の今回は、簡単なif・else文を試していこうと思います。

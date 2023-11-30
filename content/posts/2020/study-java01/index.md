@@ -3,26 +3,22 @@ title: "【Java勉強-第1回】EclipceでHello World!"
 date: 2020-01-13T21:00:00+09:00
 description: "Eclipceを使ってJavaでHello Worldを出力してみます"
 draft: false
-hideToc: false
-enableToc: true
-enableTocContent: true
-image: images/tech/java.png
+
 categories:
- - 技術系備忘録
+ - テック系
 tags:
  - Java
- - 
 series:
 - Java入門
+series_order: 1
 ---
 
 新年あけましておめでとうございます。
+<!--more-->
 
 4月から入社する会社でJavaを利用するので、
 先駆けて勉強していこうと思い、せっかくなので勉強の記録をまとめていこうと思います。
 あくまで記録なのでミスがあれば右下よりコメントお願いしますm(_ \_)m
-
-<!--more-->
 
 今回は第1回ということで、Hello Worldを出力するまでを書いていきます。
 
@@ -51,36 +47,36 @@ Eclipceが起動できた前提で、「Hello World」を出力するまでの�
 - 左上の「新規」をクリック
 - 「Javaプロジェクト」の選択後「次へ」
 
-{{< figure src="step02.jpg" caption="新規プロジェクトの作成" width="90%" >}}
+{{< figure src="step02.jpg" caption="新規プロジェクトの作成" >}}
 
 - プロジェクト名「JavaPractice」にして「完了」
-{{< figure src="step02.jpg" caption="プロジェクト名の入力" width="90%" >}}
+{{< figure src="step02.jpg" caption="プロジェクト名の入力" >}}
 
 - パッケージ・エクスプローラーのタブに「JavaPractice」ができる
-{{< figure src="step03.png" caption="作成されたプロジェクトの確認" width="90%" position="img-center">}}
+{{< figure src="step03.png" caption="作成されたプロジェクトの確認">}}
 
 ### 2. パッケージの作成
 
 - 「JavaPractice」で右クリック➝「新規」➝「パッケージ」をクリック
-{{< figure src="step04.png" caption="パッケージの作成" width="90%" position="img-center">}}
+{{< figure src="step04.png" caption="パッケージの作成">}}
 
 - 名前のところに「practice01」と入力し完了をクリック
-{{< figure src="step05.png" caption="パッケージ名の入力" width="90%" position="img-center">}}
+{{< figure src="step05.png" caption="パッケージ名の入力">}}
 
 ### 3. クラスの作成
 
 いよいよJavaファイルの作成です。
 
 - 作成した「practice01」を右クリック➝「新規」➝「クラス」をクリック
-{{< figure src="step06.png" caption="新規クラスの作成" width="90%" position="img-center">}}
+{{< figure src="step06.png" caption="新規クラスの作成">}}
 
 - 名前に「HelloWorld」と入力し「public static void main(Staing[] args)」にチェックを入れる➝「完了」\
 クラスの名の頭文字は大文字にする（単語が複数続く場合は頭文字を大文字にしてつなげる）
-{{< figure src="step07.png" caption="新規クラスの設定" width="90%" position="img-center">}}
+{{< figure src="step07.png" caption="新規クラスの設定">}}
 
 - 以下のように表示される\
 このウィンドウでは右側にソースコードがあります
-{{< figure src="step08.png" caption="クラス作成後の表示" width="90%" position="img-center">}}
+{{< figure src="step08.png" caption="クラス作成後の表示">}}
 
 ### 4. Hello Worldの出力
 
@@ -103,7 +99,7 @@ public class HelloWorld {
 - 実行ボタンを選択し左下のコンソールに「Hello World」が出力されているか確認する\
 このときうまく実行できない場合は「アウトライン」タブ内の、
 「HelloWorld」クラスを右クリックし「実行」をクリックする。
-{{< figure src="step09.png" caption="プログラムの実行" width="90%" position="img-center">}}
+{{< figure src="step09.png" caption="プログラムの実行">}}
 
 ## まとめと感想
 

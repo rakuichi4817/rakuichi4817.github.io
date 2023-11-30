@@ -1,25 +1,20 @@
 ---
 title: "Hugoのインストール方法（Windows）"
-date: 2019-01-21T12:00:06+09:00
+date: 2019-01-21
 description: "Hugoのインストール方法について簡単にまとめます"
 draft: false
-hideToc: false
-enableToc: true
-enableTocContent: true
-image: images/tech/hugo-small.png
+aliases:
+ - /posts/install-hugo/
 categories:
-- 技術系備忘録
+- テック系
 tags:
  - Hugo
- - Web
  - 環境構築
-series:
--
 ---
 
 Windows環境におけるHugoのインストール方法について紹介していきます。
-今回は、あまりこういった技術に慣れていない方向けに、丁寧めにまとめます。
 <!--more-->
+今回は、あまりこういった技術に慣れていない方向けに、丁寧めにまとめます。
 
 HugoとはGo言語で書かれた静的サイトジェネレータです。
 このサイトもhugoを用いて作成していますが、私が使っていて感じるメリットは以下の点です。
@@ -43,7 +38,7 @@ chocolateyはLinuxでいう「apt」のようなパッケージ管理ツール�
 - 表示された入力欄※1に `cmd` を入力し `ctrl`  `shift`  `Enter` を同時押し
 - 「このアプリがデバイスに変更を加えることを許可しますか」というメッセージが出てくるが気にせずOKを押す
 
-{{< img src="posts/install-hugo/prompt.png" title="ファイル名を指定して実行" alt="ファイル名を指定して実行" width="700px" position="center" >}}
+{{< figure src="prompt.png" title="ファイル名を指定して実行" alt="ファイル名を指定して実行">}}
 
 出てきた画面（コマンドプロンプト）に、以下のコマンドをペーストすればインストールが始まります。始まらなければエンターをおしてください
 

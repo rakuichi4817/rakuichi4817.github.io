@@ -3,17 +3,14 @@ title: "MongoDBのネストされたデータの一部を $unset を利用して
 date: 2023-11-03T16:30:00
 description: "MongoDBをPyMongoで触っているときにドキュメントのバリューが辞書型（ネストしている）データの中から、特定の要素を削除（$unset）することがあったのでやり方のメモ"
 draft: false
-hideToc: false
-enableToc: true
-enableTocContent: true
-image: images/tech/mongodb.png
-meta_image: images/cover/top-cover.png
 categories:
- - 技術系備忘録
+ - テック系
 tags:
  - Python
  - PyMongo
  - MongoDB
+aliases:
+ - /posts/pymongo-unset/
 ---
 
 アウトプット強化月間2本目は、MongoDBのちょっとした操作に関する備忘録です。業務ではDocumentDBを使っているのですが、基本的にMongoDBと扱いは同じなのでMongoDBで説明していきます（個人で使うには無料枠があるという理由もあり）。

@@ -1,21 +1,15 @@
 ---
 title: "Pydanticで定義したクエリパラメータをFastAPIのドキュメントに反映する"
-date: 2022-10-05T20:20:00+09:00
+date: 2022-10-05
 description: "Pydanticで定義したモデルを、FastAPIのクエリパラメータとしてDependsしたときに、自動生成されるOpenAPIに詳細情報（説明文）を表示させる方法。"
-draft: false
-hideToc: false
-enableToc: true
-enableTocContent: true
-image: images/tech/python.png
-meta_image: "images/cover/python-cover.png"
+aliases:
+ - /posts/fastapi-tips-01/
 categories:
- - 技術系備忘録
+ - テック系
 tags:
  - Python
  - FastAPI
  - Pydantic
-series:
- - FastAPI-TIPS
 ---
 
 タイトルの通り、FastAPIで自動生成されるOpenAPIドキュメント（Swagger）内で、Pydanticで定義したクラスをDependsしたクエリパラメータに対して、情報（説明文）をつける方法について紹介します。\
@@ -46,7 +40,7 @@ async def hello(name: str):
 
 この状態でドキュメントを確認してみます。説明文はありません。**変数名で伝わるので、必要ないと考えることもできます。**
 
-{{< img src="/posts/fastapi-tips-01/OpenAPI-01.png" title="クエリパラメータのドキュメント1" caption="シンプルな定義" alt="クエリパラメータのドキュメント1" width="90%" position="center">}}
+![シンプルな定義](OpenAPI-01.png "シンプルな定義")
 
 ### Queryを使った定義
 
@@ -70,7 +64,8 @@ async def hello(name: str = Query(description="名前を入れてください"))
 
 ドキュメントを見てみましょう。
 
-{{< img src="/posts/fastapi-tips-01/OpenAPI-02.png" title="クエリパラメータのドキュメント2" caption="Queryを使った定義" alt="クエリパラメータのドキュメント2" width="90%" position="center">}}
+![Queryを使った定義](OpenAPI-02.png "Queryを使った定義")
+
 
 `description`を加えることでドキュメントに説明が記載されました。
 
@@ -87,7 +82,7 @@ FastAPIでPydanticモデルを使用する時は、基本的にリクエスト�
 
 今回の例では以下のようになります。引数`query`に`HelloIn`オブジェクトが代入されるので、受け取った文字列を利用する場合は`query.name`とします。
 
-{{< alert theme="info" dir="ltr" >}}
+{{< alert  icon="circle-info" >}}
 `HelloIn`内に複数の変数を定義することで、複数のクエリを受け取ることも可能です。
 {{< /alert >}}
 
@@ -111,7 +106,8 @@ async def hello(query: HelloIn = Depends()):
 
 この場合のドキュメントは以下のようになります。
 
-{{< img src="/posts/fastapi-tips-01/OpenAPI-01.png" title="クエリパラメータのドキュメント3" caption="Pydanticを用いた定義" alt="クエリパラメータのドキュメント3" width="90%" position="center">}}
+![Pydanticを用いた定義](OpenAPI-01.png "Pydanticを用いた定義")
+
 
 続いてPydanticを使いつつ、ドキュメントに説明文を反映していきたいと思います。**感覚的には、`HelloIn`内の`name: str`を`name: str = Query(description="名前を入れてください")`にすれば良い気がしたのですが、これはうまく反映されませんでした。**
 
@@ -144,4 +140,4 @@ async def hello(query: HelloIn = Depends()):
 
 以下のように、ドキュメントに説明文が反映されています。
 
-{{< img src="/posts/fastapi-tips-01/OpenAPI-02.png" title="クエリパラメータのドキュメント4" caption="Pydanticを利用してドキュメントにも反映" alt="クエリパラメータのドキュメント4" width="90%" position="center">}}
+![Pydanticを利用してドキュメントにも反映](OpenAPI-02.png "Pydanticを利用してドキュメントにも反映")

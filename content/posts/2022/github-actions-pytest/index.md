@@ -2,14 +2,10 @@
 title: "GitHub Actions・pipenv・pytestで自動テストの練習"
 date: 2022-01-06T19:20:00+09:00
 description: "pipenv環境で作成したPythonプログラムの自動テストのために、GitHub Actionsとpytestのサンプルを作成しました。"
-draft: false
-hideToc: false
-enableToc: true
-enableTocContent: true
-image: images/tech/python.png
-meta_image: "images/cover/python-cover.png"
+aliases:
+ - /posts/github-actions-pytest/
 categories:
- - 技術系備忘録
+ - テック系
 tags:
  - Python
  - pytest
@@ -17,15 +13,12 @@ tags:
  - GitHub Actions
  - テスト
  - CI/CD
-series:
- - テスト駆動開発
 ---
 
 タイトルの通り、GitHub Actionsを用いてPythonのテスト自動化に取り組んでみました。テストについては、もちろんpytestを利用するのですが、今回はpythonパッケージの依存関係をpipenvで管理している場合を想定します。練習なので、最低限動作するレベルの内容であり、ベストプラクティスというわけではないのでご注意ください。
 
 GitHub Actionsのワークフロー定義のみ見たいという方は「[#3-github-actionsのワークフローファイルの作成](#3-github-actionsのワークフローファイルの作成)」をクリックしてください。
 
-<!--more-->
 
 ## GitHub Actionsについて
 
@@ -154,17 +147,17 @@ jobs:
 
 作成したコードをプッシュし、GitHubのリポジトリページにあるActionsタブを確認します。下図でみていくと、左側のWorkflowsの「Pytest」が今回作成したワークフローになり、右下には実際に走ったワークフローが確認できます。実は一度ワークフローファイルの定義でエラーがでたのですが、その時のログも残っています。
 
-{{< img src="/posts/github-actions-pytest/actions1.png" title="リポジトリのActionsタブ" caption="プッシュされたタイミングの最新コミット名が表示される" alt="リポジトリのActionsタブ" width="100%" position="center">}}
+![プッシュされたタイミングの最新コミット名が表示される](actions1.png "プッシュされたタイミングの最新コミット名が表示される")
 
 成功したときのワークフローログを見ます。前節でも書きましたが、今回は1つのジョブでテストまで走らせているので、表示されるジョブは「build」1つです。
 
-{{< img src="/posts/github-actions-pytest/actions2.png" title="成功ワークフロー" caption="Jobs「build」が表示される" alt="成功ワークフロー" width="100%" position="center">}}
+![Jobs「build」が表示される](actions2.png "Jobs「build」が表示される")
 
 「build」をクリックすると、詳細な処理ステップと出力を確認することができます。また、`>`をクリックすると各ステップの出力が表示されます。
 
 ログを見ると、テストが成功していることを確認できます。さらに、こちらで定義したステップに加え、クリーンアップを行うステップが自動で追加されていました。
 
-{{< img src="/posts/github-actions-pytest/actions3.png" title="ジョブの詳細ログ" caption="pytest部分を確認" alt="ジョブの詳細ログ" width="100%" position="center">}}
+{{< figure src="actions3.png" title="ジョブの詳細ログ" caption="pytest部分を確認" >}}
 
 ## まとめと今後
 

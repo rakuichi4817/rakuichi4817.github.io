@@ -1,15 +1,11 @@
 ---
 title: "GitHub Actions・pytestで失敗した(Failed)時の挙動確認"
-date: 2022-01-18T01:00:00+09:00
+date: 2022-01-18
 description: "シンプルにGitHub Actionsでpytestを動かし、テストが失敗した場合の挙動を見てみました。"
-draft: false
-hideToc: false
-enableToc: true
-enableTocContent: true
-image: images/tech/python.png
-meta_image: "images/cover/python-cover.png"
+aliases:
+ - /posts/github-actions-pytest-failed/
 categories:
- - 技術系備忘録
+ - テック系
 tags:
  - Python
  - pytest
@@ -17,15 +13,11 @@ tags:
  - GitHub Actions
  - テスト
  - CI/CD
-series:
- - テスト駆動開発
 ---
 
 タイトルの通り、GitHub Actionsでpytestを実行し、テストが失敗（Failed）したときの挙動について確認してみました。
 
 前回の記事「[GitHub Actions・pipenv・pytestで自動テストの練習]({{< ref "/posts/2022/github-actions-pytest/index.md" >}})」で、一連の流れの確認をしてみたのですが、テストが失敗のときはどうやって判断できるのだろうか？と思い、実際に試し、そのまとめになります（当たり前のことなのかもしれませんが、勉強なのであしからず）。
-
-<!--more-->
 
 ## 失敗するテストを作成
 
@@ -45,25 +37,25 @@ def test_failed():
 
 プッシュするとエラーに関するメールが届きます。GitHub Actionsでは、処理に問題があるとメールが届く機能があります。下図のように問題があったworkflowへのリンクが貼られています。
 
-{{< img src="/posts/github-actions-pytest-failed/actions4.png" title="メール内容" caption="Pytestでエラーが出ていることを確認できる" alt="メール内容" width="50%" position="center">}}
+{{< figure src="actions4.png" title="メール内容" caption="Pytestでエラーが出ていることを確認できる" alt="メール内容" width="50%" position="center">}}
 
 GitHub Actions上で結果を確認してみます（あえてメールのリンクを踏んでいません）。
 
 GitHubのリポジトリ上のActionsタブを見てみると、エラーを吐いていることが確認できます。ここでもworkflowがエラーとなっていることが判断できます。
 
-{{< img src="/posts/github-actions-pytest-failed/actions1.png" title="リポジトリのActionsタブ" caption="失敗しているテストでエラーが確認できる" alt="リポジトリのActionsタブ" width="100%" position="center">}}
+{{< figure src="actions1.png" title="リポジトリのActionsタブ" caption="失敗しているテストでエラーが確認できる" alt="リポジトリのActionsタブ" width="100%" position="center">}}
 
 ここで、今回のプッシュに該当する一番上のworkflowの詳細の確認をします。
 
 StatusがFailureとなっていることがわかります。さらに「Annotations」が追加され、エラーに関する内容が書かれています。ただ、ここでは、「処理の中でエラーが発生したよ」くらいしかわかりません。軽く調べてみたところ、ここにエラー箇所を表示する方法もあるみたいです。
 
-{{< img src="/posts/github-actions-pytest-failed/actions2.png" title="エラーworkflowの詳細" caption="StatusがFailure" alt="リポジトリのActionsタブ" width="100%" position="center">}}
+{{< figure src="actions2.png" title="エラーworkflowの詳細" caption="StatusがFailure" alt="リポジトリのActionsタブ" width="100%" position="center">}}
 
 今回はそのまま「build」ジョブの中身を見て、エラーが出ているステップを確認します。
 
 「Test with pytest」ステップでエラーが出ていることがわかり、そのまま詳細情報が表示されます（開いたときに自動で詳細も表示されました）。前節で作成した、失敗するテスト内容`assert 2 == 3`のところでFAILEDが出ていることがわかります。
 
-{{< img src="/posts/github-actions-pytest-failed/actions3.png" title="エラーjobの詳細" caption="Pytestでエラーが出ていることを確認できる" alt="エラーjobの詳細" width="90%" position="center">}}
+{{< figure src="actions3.png" title="エラーjobの詳細" caption="Pytestでエラーが出ていることを確認できる" alt="エラーjobの詳細" width="90%" position="center">}}
 
 ## まとめ
 

@@ -1,21 +1,16 @@
 ---
 title: "Windows（Python Launcher）のPipenvでバージョンを指定して仮想環境を作ると失敗する問題の解決法"
-date: 2023-09-17T00:13:00+09:00
+date: 2023-09-17
 description: "Windows上でPipenvを使用し、Pythonバージョンを指定して仮想環境を作成しようとしたとき、Python Launcher管理下にある指定Pythonバージョンを見つけられず、エラー「Warning: Python ○○ was not found on your system...」が出る問題の解決法をメモしておきます。"
-draft: false
-hideToc: false
-enableToc: true
-enableTocContent: true
-image: images/tech/python.png
-meta_image: images/cover/top-cover.png
+
 categories:
- - 技術系備忘録
+ - テック系
 tags:
  - Python
  - Pipenv
  - 環境構築
-series:
- - Python環境構築
+aliases:
+ - /posts/pipenv-pylauncher/
 ---
 
 Windows上でPipenvを使用し、Pythonバージョンを指定して仮想環境を作成しようとしたとき、Python Launcher管理下にある指定Pythonバージョンを見つけられず、エラー「Warning: Python ○○ was not found on your system...」が出る問題の対策を紹介します。

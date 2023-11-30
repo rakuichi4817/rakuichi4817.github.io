@@ -3,22 +3,19 @@ title: "2020年に買ってよかったもの vol.2"
 date: 2020-12-13T22:25:00+09:00
 description: "2020年に買ってよかったもの（充電機器）"
 draft: false
-hideToc: false
-enableToc: true
-enableTocContent: true
-image: images/cover/pay-frog.png
+heroStyle: "background"
 categories:
- - 日常
+ - レビュー
 tags:
  - ガジェット
-series:
-- 商品紹介
 ---
 
 前回に引き続き、2020年に購入したもので買ってよかったなぁと思うものを書いていきます。  
-（前回記事：[2020年に買ってよかったもの vol.1](/posts/glad-to-buy1)）  
 
-<!--more-->
+前回記事  
+
+{{< article link="/posts/2020/glad-to-buy1/" >}}
+
 
 ## ガジェット
 
@@ -29,7 +26,7 @@ series:
 - RAVPower 90W 2ポートUSB-C 急速充電器（RP-PC128）
 - Anker PowerLine+ III USB-C & USB-C 2.0 ケーブル (1.8m ブラック)
 
-{{< alert theme="warning" dir="ltr" >}}
+{{< alert >}}
 **【2021年9月18日追記】**
 RAVPowerの製品はAmazonからレビュー問題で締め出されてしまっています。個人的に製品自体は使い勝手が良いですし、気に入っているので複雑な気持ちですが、[公式サイト](https://www.ravpower.jp/)から購入が可能です。
 {{< /alert >}}
@@ -48,23 +45,23 @@ PS4のゲーム用に買いました。APEXやらCoDやらをやる際に、ボ�
 #### 【感想まとめ】
 
 - 良い点
-  - ゲームをするのには十分な音質（FPSで足音の位置もわかりやすい）
-  - ボイスチャットが問題なくできる
-  - WindowsでもPS4でもiPhoneでも使える
-  - コードが絡まりにくい
+    - ゲームをするのには十分な音質（FPSで足音の位置もわかりやすい）
+    - ボイスチャットが問題なくできる
+    - WindowsでもPS4でもiPhoneでも使える
+    - コードが絡まりにくい
 - 気になる点
-  - マイクのオンオフを切り替えれない
-  - 偽物が出回っている
+    - マイクのオンオフを切り替えれない
+    - 偽物が出回っている
 
 #### 【実際に購入した販売ページ（Amazon）】
 
 <a href="https://www.amazon.co.jp/Razer-Hammerhead-%E3%83%9E%E3%82%A4%E3%82%AF%E4%BB%98%E3%81%8D%E3%82%B2%E3%83%BC%E3%83%9F%E3%83%B3%E3%82%B0%E3%82%A4%E3%83%A4%E3%83%95%E3%82%A9%E3%83%B3-%E3%80%90%E6%97%A5%E6%9C%AC%E6%AD%A3%E8%A6%8F%E4%BB%A3%E7%90%86%E5%BA%97%E4%BF%9D%E8%A8%BC%E5%93%81%E3%80%91-RZ04-01730100-R3A1/dp/B01FH9V12O" target="_blank">Razer Hammerhead Pro V2 マイク付きゲーミングイヤホン 【日本正規代理店保証品】 RZ04-01730100-R3A1（¥5,480）</a>
 
-<div class="in_gallery">
-{{< figure src="razer_01.jpg" caption="箱とイヤホン" >}}
-{{< figure src="razer_02.jpg" caption="音量調整とマイク部分" >}}
-{{< figure src="razer_03.jpg" caption="ロゴ" >}}
-</div>
+{{< gallery >}}
+{{< figure src="featured-razer_01.jpg" caption="箱とイヤホン" class="grid-w33">}}
+{{< figure src="razer_02.jpg" caption="音量調整とマイク部分" class="grid-w33">}}
+{{< figure src="razer_03.jpg" caption="ロゴ" class="grid-w33">}}
+{{</ gallery >}}
 
 ### RAVPower 61W USB-C 急速充電器（RP-PC112）：おすすめ度 ★★★
 
@@ -77,22 +74,22 @@ PS4のゲーム用に買いました。APEXやらCoDやらをやる際に、ボ�
 #### 【感想まとめ】
 
 - 良い点
-  - 軽い！（105g）
-  - 小さい（4.9 x 4.9 x 3.2 cm）
-  - 充電が早い（61Wで急速充電可能）
+    - 軽い！（105g）
+    - 小さい（4.9 x 4.9 x 3.2 cm）
+    - 充電が早い（61Wで急速充電可能）
 - 気になる点
-  - ポートが1つ
-  - ケーブルは入っていない
+    - ポートが1つ
+    - ケーブルは入っていない
 
 #### 【実際に購入した販売ページ（Amazon）】
 
 <a href="https://www.amazon.co.jp/RAVPower-%E6%80%A5%E9%80%9F%E5%85%85%E9%9B%BB%E5%99%A8%EF%BC%88%E4%B8%96%E7%95%8C%E6%9C%80%E5%B0%8F%E6%9C%80%E8%BB%BD%E9%87%8F%E3%82%AF%E3%83%A9%E3%82%B9-PD%E5%AF%BE%E5%BF%9C%E3%80%91iPhone-8%E3%80%81GalaxyS10%E3%80%81MacBook-Pro%E3%81%9D%E3%81%AE%E4%BB%96USB-C%E6%A9%9F%E5%99%A8%E5%AF%BE%E5%BF%9C/dp/B07TXYZ4GZ" target="_blank">RAVPower 61W USB-C 急速充電器（¥3,998）</a>
 
-<div class="in_gallery">
-{{< figure src="RP-PC112_01.jpg" caption="ブラック" >}}
-{{< figure src="RP-PC112_02.jpg" caption="ホワイト" >}}
-{{< figure src="RP-PC112_03.jpg" caption="iPhone付属充電器との比較" >}}
-</div>
+{{< gallery >}}
+{{< figure src="RP-PC112_01.jpg" caption="ブラック" class="grid-w33">}}
+{{< figure src="RP-PC112_02.jpg" caption="ホワイト" class="grid-w33">}}
+{{< figure src="RP-PC112_03.jpg" caption="iPhone付属充電器との比較" class="grid-w33">}}
+{{</ gallery >}}
 
 ### RAVPower 90W 2ポートUSB-C 急速充電器（RP-PC128）：おすすめ度 ★★★
 
@@ -110,22 +107,22 @@ PS4のゲーム用に買いました。APEXやらCoDやらをやる際に、ボ�
 #### 【感想まとめ】
 
 - 良い点
-  - そこそこ軽い！（195g）
-  - そこそこ小さい（6.5 x 6.5 x 3.2 cm）
-  - 充電が早い（最大90Wで急速充電可能）
-  - ポートが2つ
+    - そこそこ軽い！（195g）
+    - そこそこ小さい（6.5 x 6.5 x 3.2 cm）
+    - 充電が早い（最大90Wで急速充電可能）
+    - ポートが2つ
 - 気になる点
-  - 特になし
+    - 特になし
 
 #### 【実際に購入した販売ページ（Amazon）】
 
 <a href="https://www.amazon.co.jp/PSE%E8%AA%8D%E8%A8%BC%E6%B8%88%E3%80%91iPhone-XS%E3%80%81Galaxy-Pro%E3%80%81MacBook-%E3%81%9D%E3%81%AE%E4%BB%96USB-C%E6%A9%9F%E5%99%A8%E5%AF%BE%E5%BF%9C-RP-PC128JPW/dp/B086JTCP2M" target="_blank">RAVPower 90W USB-C PD対応充電器 PD3.0対応 RP-PC128（¥5,399） </a>
 
-<div class="in_gallery">
-{{< figure src="RP-PC128_01.jpg" caption="type-c to type-cもついている" >}}
-{{< figure src="RP-PC128_02.jpg" caption="RP-PC112との比較" >}}
-{{< figure src="battery.png" caption="接続ポート数に合わした給電" >}}
-</div>
+{{< gallery >}}
+{{< figure src="RP-PC128_01.jpg" caption="type-c to type-cもついている" class="grid-w33">}}
+{{< figure src="RP-PC128_02.jpg" caption="RP-PC112との比較" class="grid-w33">}}
+{{< figure src="battery.png" caption="接続ポート数に合わした給電" class="grid-w33">}}
+{{</ gallery >}}
 
 ### Anker PowerLine+ III USB-C & USB-C 2.0 ケーブル (1.8m ブラック) ：おすすめ度 ★★★
 
@@ -138,11 +135,11 @@ RP-PC128に付属しているケーブルは若干クセが強いため、使い
 #### 【感想まとめ】
 
 - 良い点
-  - ケーブルが丈夫で曲げやすい
-  - 止めるバンドがついている
-  - 長さがいくつかのパターンで売られている
+    - ケーブルが丈夫で曲げやすい
+    - 止めるバンドがついている
+    - 長さがいくつかのパターンで売られている
 - 気になる点
-  - 特になし
+    - 特になし
 
 #### 【実際に購入した販売ページ（Amazon）】
 
