@@ -40,7 +40,7 @@
 
   {{ if .Site.Params.taxonomy.cardView }}
 
-  <section class="w-full grid gap-4 sm:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4">
+  <section class="w-full grid gap-4 sm:grid-cols-2 xl:grid-cols-3">
     {{ range .Data.Terms }}
     {{ partial "term-link/card.html" . }}
     {{ end }}
