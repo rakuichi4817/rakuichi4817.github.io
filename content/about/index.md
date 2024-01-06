@@ -2,7 +2,7 @@
 title: "About"
 description: "RakuBlogについて"
 date: 2019-02-28
-lastmod: 2023-11-29
+lastmod: 2024-01-06
 relatedContentLimit: 0
 heroStyle: "background"
 showTableOfContents: false
@@ -48,7 +48,7 @@ showPagination: false
     <li>ヴィッセル神戸🐮などの趣味関連</li>
 </ul>
 
-<p>基本的には技術系の備忘録として運用していきますが、割りと関係のないものも投稿すると思います。</p>
+<p>基本的には技術系の備忘録として運用していきますが、わりと関係のないものも投稿すると思います。</p>
 
 {{< /timelineItem >}}
 
