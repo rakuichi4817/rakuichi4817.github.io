@@ -8,6 +8,9 @@ html {
     }
 }
 
+.py-1 {
+    font-size: 0.85rem;
+}
 
 .max-w-prose {
     max-width: none;
