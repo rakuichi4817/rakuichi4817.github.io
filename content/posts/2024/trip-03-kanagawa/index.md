@@ -1,6 +1,6 @@
 ---
 title: みなとみらいと江の島を駆け抜け、箱根はのんびり
-date: 2024-04-28
+date: 2024-04-29
 description: "神奈川満喫してきました"
 summary: "神奈川満喫してきました"
 draft: false
