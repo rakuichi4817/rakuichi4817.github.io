@@ -23,12 +23,17 @@
 [[main]]
   name = "Tags"
   pageRef = "tags"
-  weight = 30
+  weight = 40
 
 [[main]]
   name = "Categories"
   pageRef = "categories"
   weight = 30
+
+  [[main]]
+  name = "Series"
+  pageRef = "Series"
+  weight = 50
 
 #[[main]]
 #  name = "Merch"

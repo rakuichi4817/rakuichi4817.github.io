@@ -18,7 +18,7 @@ hasCJKLanguage = true
 [author]
   name = "Rakuichi"
   image = "img/avatar.jpg"
-  headline = "ヴィッセルサポのIT屋による気楽なブログ"
+  headline = "ヴィッセルサポのIT屋による気ままなブログ"
   bio = "ヴィッセルサポのIT屋"
   links = [
     { x-twitter = "https://twitter.com/rararakuichi" },
