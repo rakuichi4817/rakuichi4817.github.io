@@ -18,7 +18,7 @@ mainSections = ["posts"]
 disableImageOptimization = true
 
 defaultBackgroundImage = "img/2018_vissel.jpg"
-defaultFeaturedImage = "img/top-cover.png"
+defaultFeaturedImage = "img/top-cover.jpg"
 
 highlightCurrentMenuArea = true
 smartTOC = true
@@ -113,13 +113,13 @@ smartTOCHideUnfocusedChildren = false
   cardViewScreenWidth = true
   
 [firebase]
-  apiKey = ""
-  authDomain = ""
-  projectId = ""
-  storageBucket = ""
-  messagingSenderId = ""
-  appId = ""
-  measurementId = ""
+  # apiKey = ""
+  # authDomain = ""
+  # projectId = ""
+  # storageBucket = ""
+  # messagingSenderId = ""
+  # appId = ""
+  # measurementId = ""
 
 [fathomAnalytics]
   # site = "ABC12345"
