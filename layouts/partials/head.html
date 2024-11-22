@@ -119,6 +119,8 @@
   {{ partialCached "extend-head.html" .Site }}
   {{ end }}
   <meta name="theme-color"/>
+  {{/*  Slack Chatの設定  */}}
+  <script src="https://embed.small.chat/TR7JL8TK4GRXNR0FGX.js" async></script>
   {{/* Firebase */}}
   {{ with $.Site.Params.firebase }}
   {{ if isset $.Site.Params "firebase" }}
