@@ -2,7 +2,7 @@
 title: 1人で劇団四季の「ライオンキング」を鑑賞してきた
 date: 2024-12-23
 description: "劇団四季は1人で鑑賞しても楽しめます！男1人？心配ないさー♪"
-summary: "劇団四季は1#人で鑑賞しても楽しめます！男1人？心配ないさー♪"
+summary: "劇団四季は1人で鑑賞しても楽しめます！男1人？心配ないさー♪"
 draft: false
 heroStyle: "background"
 categories:
