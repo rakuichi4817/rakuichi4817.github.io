@@ -1,9 +1,10 @@
 html {
     font-size: 12pt;
-    font-family: "Noto Sans JP","Helvetica Neue",Helvetica,"Hiragino Sans","Hiragino Kaku Gothic ProN",Arial,"Yu Gothic",Meiryo,sans-serif;
+    font-family: "Hiragino Kaku Gothic ProN", "Noto Sans JP", "Helvetica Neue", Helvetica, "Hiragino Sans", Arial, "Yu Gothic", Meiryo, sans-serif;
 }
+
 @media (max-width: 767px) {
-    html{
+    html {
         font-size: 10.5pt;
     }
 }
@@ -19,39 +20,39 @@ html {
 
 div.emb {
     display: inline-block;
-    width  : 100%;
+    width: 100%;
 }
 
 div.emb img {
     border-radius: 15px;
-    width        : 35%;
-    max-width    : 350px;
-    margin       : 5px;
-    margin-right : 20px;
+    width: 35%;
+    max-width: 350px;
+    margin: 5px;
+    margin-right: 20px;
 }
 
 @media (max-width: 767px) {
     div.emb img {
         border-radius: 15px;
-        width        : 40%;
-        margin       : 10px;
+        width: 40%;
+        margin: 10px;
     }
 }
 
 @media (min-width: 1024px) {
     .lg\:grid-cols-3 {
         grid-template-columns: repeat(3, minmax(0, 1fr));
-      }
+    }
 }
 
 @media (min-width: 1280px) {
     .xl\:grid-cols-3 {
         grid-template-columns: repeat(3, minmax(0, 1fr));
-      }
+    }
 }
 
 @media (min-width: 1536px) {
     .\32xl\:grid-cols-4 {
-      grid-template-columns: repeat(4, minmax(0, 1fr));
+        grid-template-columns: repeat(4, minmax(0, 1fr));
     }
-  }
+}
