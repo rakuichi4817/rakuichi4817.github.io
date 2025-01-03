@@ -1,8 +1,10 @@
 languageCode = "ja"
-languageName = "Japanese"
+languageName = "日本語"
 weight = 1
 title = "RakuBlog"
 hasCJKLanguage = true
+
+
 [params]
   displayName = "JA"
   isoCode = "ja"
@@ -15,7 +17,7 @@ hasCJKLanguage = true
 
 
 
-[author]
+[params.author]
   name = "Rakuichi"
   image = "img/avatar.jpg"
   headline = "ヴィッセルサポのIT屋による気ままなブログ"
