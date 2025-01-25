@@ -8,6 +8,7 @@ heroStyle: "simple"
 categories:
  - テック系
 tags:
+ - 生成AI
  - LLM
  - OpenAI
  - Python
