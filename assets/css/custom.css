@@ -1,6 +1,6 @@
 html {
     font-size: 12pt;
-    font-family: "Hiragino Kaku Gothic ProN", "Noto Sans JP", "Helvetica Neue", Helvetica, "Hiragino Sans", Arial, "Yu Gothic", Meiryo, sans-serif;
+    font-family: "Zen Kaku Gothic New", "Hiragino Kaku Gothic ProN", "Noto Sans JP", "Helvetica Neue", Helvetica, "Hiragino Sans", Arial, "Yu Gothic", Meiryo, sans-serif;
 }
 
 @media (max-width: 767px) {
@@ -55,4 +55,9 @@ div.emb img {
     .\32xl\:grid-cols-4 {
         grid-template-columns: repeat(4, minmax(0, 1fr));
     }
+}
+
+article p {
+    font-family: "Sawarabi Gothic", "Noto Sans JP", "Helvetica Neue", Helvetica, "Hiragino Sans", Arial, "Yu Gothic", Meiryo, sans-serif;
+    line-height: 1.85;
 }
