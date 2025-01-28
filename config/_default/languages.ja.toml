@@ -12,7 +12,7 @@ hasCJKLanguage = true
   dateFormat = "2006/1/2"
   logo = "img/logo-square.png"
   # secondaryLogo = "PATH"
-  description = "ヴィッセルサポのIT屋による気ままなブログ"
+  description = "ヴィッセルサポIT屋のなんでもブログ"
   copyright = "&copy; 2019 -{ year }, Rakuichi - All Rights Reserved"
 
 
@@ -20,7 +20,7 @@ hasCJKLanguage = true
 [params.author]
   name = "Rakuichi"
   image = "img/avatar.jpg"
-  headline = "ヴィッセルサポのIT屋による気ままなブログ"
+  headline = "ヴィッセルサポIT屋のなんでもブログ"
   bio = "ヴィッセルサポのIT屋"
   links = [
     { x-twitter = "https://twitter.com/rararakuichi" },

@@ -2,7 +2,7 @@
 title: "About"
 description: "RakuBlogについて"
 date: 2019-02-28
-lastmod: 2024-06-02
+lastmod: 2025-01-28
 relatedContentLimit: 0
 heroStyle: "background"
 showTableOfContents: false
@@ -14,8 +14,9 @@ showPagination: false
 
 {{< timelineItem icon="circle-info" header="プロフィール" subheader="仕事的なところ" >}}
 
-<p>兵庫県内でIT屋さんとして働いてます。大学院では情報検索（主に商品検索）の研究をしていました。
-現在は、先進技術を活用したソリューションのを開発するチームに所属しております。</p>
+
+<p>兵庫県内でヴィッセル神戸を応援しながら、IT屋さんとして働いてます。</p>
+<p>生成AIを活用したソリューションの開発や、技術検証などに取り組んでおります。学生時代は情報検索（主に商品検索）の研究をしていました。</p>
 
 <h4>プライベートなところ</h4>
 
