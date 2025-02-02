@@ -6,7 +6,7 @@ summary: 社会人5年目で転職したので、そのことについて少し
 draft: false
 heroStyle: "big"
 categories:
- - 仕事
+ - 日常
 tags:
  - ポエム
 series:
