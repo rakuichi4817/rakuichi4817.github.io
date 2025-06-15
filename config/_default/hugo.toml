@@ -8,12 +8,13 @@ defaultContentLanguage = "ja"
 hasCJKLanguage = true
 
 enableRobotsTXT = true
-paginate = 12
 summaryLength = 45
 
 buildDrafts = false
 buildFuture = false
 
+[pagination]
+  pagerSize = 10
 
 googleAnalytics = "G-R2ZS06ZJVQ"
 
