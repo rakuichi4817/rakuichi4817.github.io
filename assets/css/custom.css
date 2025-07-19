@@ -1,5 +1,5 @@
 html {
-    font-size: 12pt;
+    font-size: 14pt;;
     font-family: "Zen Kaku Gothic New", "Hiragino Kaku Gothic ProN", "Noto Sans JP", "Helvetica Neue", Helvetica, "Hiragino Sans", Arial, "Yu Gothic", Meiryo, sans-serif;
 }
 
@@ -60,4 +60,9 @@ div.emb img {
 article p {
     font-family: "Sawarabi Gothic", "Zen Kaku Gothic New", "Noto Sans JP", "Helvetica Neue", Helvetica, "Hiragino Sans", Arial, "Yu Gothic", Meiryo, sans-serif;
     line-height: 1.85;
+}
+
+#TableOfContents {
+    max-width: 100% !important;
+    font-size: 0.85rem;
 }
