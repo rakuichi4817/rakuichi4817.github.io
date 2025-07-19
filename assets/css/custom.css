@@ -7,6 +7,9 @@ html {
     html {
         font-size: 10.5pt;
     }
+    h1 {
+        font-size: 1.8rem;
+    }
 }
 
 .py-1 {
