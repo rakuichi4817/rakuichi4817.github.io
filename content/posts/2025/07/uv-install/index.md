@@ -137,7 +137,7 @@ Activate with: source .venv/bin/activate
 
 ```sh
 uv init
-
+```
 
 これで、プロジェクトの初期化が完了し、「pyproject.toml」ファイルと「.python-version」ファイルが作成されます。私は「mise.toml」の設定でPythonのバージョンを指定しているので、「.python-version」ファイルはいったん削除しています（そのままでも問題ありません）。
 
