@@ -1,6 +1,66 @@
 <div class="min-h-[148px]"></div>
-<div class="fixed inset-x-0 pl-[24px] pr-[24px] bg-neutral-100 dark:bg-neutral-700" style="z-index:100">
+<div id="mobile-header" class="fixed inset-x-0 pl-[24px] pr-[24px] bg-neutral-100 dark:bg-neutral-700 transition-transform duration-300 ease-in-out" style="z-index:100">
   <div class="relative max-w-[64rem] ml-auto mr-auto">
     {{ partial "header/basic.html" . }}
   </div>
 </div>
+
+<script>
+(function() {
+  // モバイル画面でのみ動作するヘッダー非表示機能
+  let lastScrollTop = 0;
+  let isScrolling = false;
+  const header = document.getElementById('mobile-header');
+  
+  function handleScroll() {
+    // モバイル画面かどうかをチェック（768px以下）
+    if (window.innerWidth > 768) {
+      // デスクトップ画面では常にヘッダーを表示
+      header.style.transform = 'translateY(0)';
+      return;
+    }
+    
+    const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+    
+    // スクロール位置が50px以下の場合は常にヘッダーを表示
+    if (scrollTop <= 50) {
+      header.style.transform = 'translateY(0)';
+      lastScrollTop = scrollTop;
+      return;
+    }
+    
+    // 下にスクロールした場合はヘッダーを隠す
+    if (scrollTop > lastScrollTop && scrollTop > 100) {
+      header.style.transform = 'translateY(-100%)';
+    } 
+    // 上にスクロールした場合はヘッダーを表示
+    else if (scrollTop < lastScrollTop) {
+      header.style.transform = 'translateY(0)';
+    }
+    
+    lastScrollTop = scrollTop <= 0 ? 0 : scrollTop; // モバイルでの負の値を防ぐ
+  }
+  
+  // スクロールイベントにスロットリングを適用
+  function throttle(func, wait) {
+    let timeout;
+    return function executedFunction(...args) {
+      const later = () => {
+        clearTimeout(timeout);
+        func(...args);
+      };
+      clearTimeout(timeout);
+      timeout = setTimeout(later, wait);
+    };
+  }
+  
+  // スクロールイベントリスナーを追加（16msごとに実行、約60fps）
+  window.addEventListener('scroll', throttle(handleScroll, 16), { passive: true });
+  
+  // リサイズイベントリスナーを追加（画面サイズ変更時の対応）
+  window.addEventListener('resize', throttle(handleScroll, 100), { passive: true });
+  
+  // 初期化
+  handleScroll();
+})();
+</script>
