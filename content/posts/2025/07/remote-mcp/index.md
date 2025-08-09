@@ -56,7 +56,7 @@ FastMCPは以下の4点に重点を置いています。
 > - 🐍 Pythonic: Feels natural to Python developers
 > - 🔍 Complete: A comprehensive platform for all MCP use cases, from dev to prod
 
-実際触ってみてですが、確かに上記のポイントを意識した設計になっていると感じました。pythonに触れたことがある方であれば、直感的に使えるあと思いました。
+実際触ってみてですが、確かに上記のポイントを意識した設計になっていると感じました。Pythonに触れたことがある方であれば、直感的に使えると思いました。
 
 MCPは、いくつかの接続方式が存在していますが、今回は「Streamable HTTP接続」を利用します。Streamable HTTPによる接続なので、リモートMCPサーバーを構築することになります。これにより、アプリケーションサーバーとリモートMCPサーバー間でHTTPを介してツール呼び出しやデータの送受信が可能になります。
 
