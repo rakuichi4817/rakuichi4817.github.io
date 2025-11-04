@@ -19,7 +19,7 @@ hasCJKLanguage = true
 
 [params.author]
   name = "Rakuichi"
-  image = "img/avatar.png"
+  image = "img/avatar.jpg"
   headline = "ヴィッセルサポの気ままなブログ"
   bio = "ヴィッセルサポのIT屋"
   links = [
