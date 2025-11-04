@@ -26,7 +26,7 @@ tags:
 
 <div style="left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.25%;"><iframe src="https://www.youtube.com/embed/bZfM7i16Fgo?rel=0" style="top: 0; left: 0; width: 100%; height: 100%; position: absolute; border: 0;" allowfullscreen scrolling="no" allow="accelerometer *; clipboard-write *; encrypted-media *; gyroscope *; picture-in-picture *; web-share *;" referrerpolicy="strict-origin"></iframe></div>
 
-開発の期限も迫るさなか、製品としてのクオリティをたかめようとする小島監督。様々な要素を入れるたびに発生するバグと向き合い続けるリードプログラマーの是角さん。
+開発の期限も迫るさなか、製品としてのクオリティを高めようとする小島監督。様々な要素を入れるたびに発生するバグと向き合い続けるリードプログラマーの是角さん。
 
 この2人がリーダ会においてバチバチに意見を言い合うシーンは、本当にしびれるものがあります。品質を安定させるために仕様修正作業中断を提案した是角さんに対し、まだまだ様々な仕様変更を入れたい小島監督のやり取りを少し紹介。
 
