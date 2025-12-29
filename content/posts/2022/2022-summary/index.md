@@ -13,6 +13,9 @@ tags:
  - work
 aliases:
  - /posts/2022-summary/
+series:
+  - 定期振り返り
+series_order: 4
 ---
 
 

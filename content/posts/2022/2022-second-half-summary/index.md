@@ -11,6 +11,9 @@ tags:
  - 映画
 aliases:
  - /posts/2022-second-half-summary/
+series:
+  - 定期振り返り
+series_order: 3
 ---
 
 前回の記事「[2022年上半期振り返りと下半期に向けて（仕事・技術編）](../2022-first-half-summary/)」に続いて、趣味の振り返りもしていこうと思います。
