@@ -1,11 +1,47 @@
-{{ if .Params.showRelatedContent | default (.Site.Params.article.showRelatedContent | default false)}}
-{{ $related := .Site.RegularPages.Related . | first .Site.Params.article.relatedContentLimit }}
-{{ with $related }}
-<h2 class="mt-8 text-2xl font-extrabold mb-10">{{ i18n "article.related_articles" | emojify }}</h2>
-<section class="w-full grid gap-4 sm:grid-cols-2 xl:grid-cols-3">
-  {{ range . }}
-  {{ partial "article-link/card-related.html" . }}
+{{ if .Params.showRelatedContent | default (.Site.Params.article.showRelatedContent | default false) }}
+  {{ $limit := .Site.Params.article.relatedContentLimit | default 6 }}
+  {{ $current := . }}
+  {{ $currentTagMap := dict }}
+  {{ range (.GetTerms "tags") }}
+    {{ $currentTagMap = merge $currentTagMap (dict .RelPermalink true) }}
   {{ end }}
-</section>
-{{ end }}
+  {{ $buckets := dict }}
+
+  {{ if gt (len $currentTagMap) 0 }}
+    {{ range site.RegularPages }}
+      {{ if ne .RelPermalink $current.RelPermalink }}
+        {{ $matchedCount := 0 }}
+        {{ range (.GetTerms "tags") }}
+          {{ if index $currentTagMap .RelPermalink }}
+            {{ $matchedCount = add $matchedCount 1 }}
+          {{ end }}
+        {{ end }}
+        {{ if gt $matchedCount 0 }}
+          {{ $key := printf "%03d" $matchedCount }}
+          {{ $existing := index $buckets $key | default (slice) }}
+          {{ $buckets = merge $buckets (dict $key ($existing | append .)) }}
+        {{ end }}
+      {{ end }}
+    {{ end }}
+  {{ end }}
+
+  {{ $related := slice }}
+  {{ range (seq 1 20) }}
+    {{ $score := sub 21 . }}
+    {{ $key := printf "%03d" $score }}
+    {{ with index $buckets $key }}
+      {{ range .ByDate.Reverse }}
+        {{ $related = $related | append . }}
+      {{ end }}
+    {{ end }}
+  {{ end }}
+
+  {{ with first $limit $related }}
+    <h2 class="mt-8 text-2xl font-extrabold mb-10">{{ i18n "article.related_articles" | emojify }}</h2>
+    <section class="w-full grid gap-1">
+      {{ range . }}
+        {{ partial "article-link/simple.html" . }}
+      {{ end }}
+    </section>
+  {{ end }}
 {{ end }}

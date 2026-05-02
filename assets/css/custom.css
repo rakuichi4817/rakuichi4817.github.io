@@ -79,3 +79,42 @@ html.dark #menu-blur {
     background-color: rgb(0 0 0 / 0.85) !important;
     background-image: none !important;
 }
+
+html:not(.dark) body {
+    background: rgb(var(--color-neutral-100));
+}
+
+html:not(.dark) body.hero-has-background {
+    background: rgb(var(--color-neutral));
+}
+
+@media (width >= 1024px) {
+    body {
+        padding-inline: calc(var(--spacing) * 24);
+    }
+}
+
+@media (width >= 1280px) {
+    body {
+        padding-inline: calc(var(--spacing) * 32);
+    }
+}
+
+.article-content {
+    background: transparent;
+    border: 0;
+    border-radius: 0;
+    padding: 0;
+}
+
+article > #single_header + section {
+    background: rgb(var(--color-neutral));
+    border: 1px solid rgb(var(--color-neutral-200));
+    border-radius: 12px;
+    padding: 1.2rem 1.2rem 1.4rem;
+}
+
+html.dark article > #single_header + section {
+    background: rgb(var(--color-neutral-800));
+    border-color: rgb(var(--color-neutral-700));
+}
