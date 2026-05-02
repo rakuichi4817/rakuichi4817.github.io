@@ -1,0 +1,5 @@
+[tools]
+hugo = "latest"
+
+[tasks.dev]
+run = "hugo server --buildDrafts --buildFuture --disableFastRender"
