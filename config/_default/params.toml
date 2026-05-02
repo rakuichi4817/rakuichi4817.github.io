@@ -25,7 +25,7 @@ smartTOC = true
 smartTOCHideUnfocusedChildren = false
 
 [header]
-  layout = "fixed-fill" # valid options: basic, fixed, fixed-fill, fixed-fill-blur
+  layout = "fixed-fill-blur" # valid options: basic, fixed, fixed-fill, fixed-fill-blur
 
 [footer]
   showMenu = true
@@ -133,7 +133,7 @@ smartTOCHideUnfocusedChildren = false
   globalWidgetPosition = "Right"
 
 [verification]
-  # google = ""
+  google = "ilK-ZVfhaMJu58VqyzBk8hGoVwTh8Nq0roEvfBHt37M"
   # bing = ""
   # pinterest = ""
   # yandex = ""
