@@ -69,3 +69,13 @@ article p {
     max-width: 100% !important;
     font-size: 0.85rem;
 }
+
+html:not(.dark) #menu-blur {
+    background-color: rgb(255 255 255 / 0.85) !important;
+    background-image: none !important;
+}
+
+html.dark #menu-blur {
+    background-color: rgb(0 0 0 / 0.85) !important;
+    background-image: none !important;
+}

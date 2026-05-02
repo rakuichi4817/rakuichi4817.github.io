@@ -1,0 +1,18 @@
+{{/* Slack Chat */}}
+<script src="https://embed.small.chat/TR7JL8TK4GRXNR0FGX.js" async></script>
+
+{{/* Firebase */}}
+{{ with site.Params.firebase }}
+  {{ with .apiKey }}
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+    <script>
+      const firebaseConfig = {{ site.Params.firebase | jsonify | safeJS }}
+
+      var app = firebase.initializeApp(firebaseConfig)
+      var db = firebase.firestore()
+      var auth = firebase.auth()
+    </script>
+  {{ end }}
+{{ end }}

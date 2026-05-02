@@ -2,4 +2,4 @@
 hugo = "latest"
 
 [tasks.dev]
-run = "hugo server --buildDrafts --buildFuture --disableFastRender"
+run = "hugo server --buildDrafts --buildFuture --disableFastRender --renderToDisk=false"

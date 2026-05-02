@@ -1,1 +1,55 @@
 <a rel="me" href="https://masto.ai/@blowfish"></a>
+
+<script>
+  (function() {
+    const MOBILE_BREAKPOINT = 768
+    const HIDE_THRESHOLD = 100
+    const SHOW_AT_TOP_THRESHOLD = 50
+    let lastScrollTop = 0
+
+    function getHeader() {
+      return document.querySelector('body > div.fixed.inset-x-0')
+    }
+
+    function handleScroll() {
+      const header = getHeader()
+      if (!header) return
+
+      if (window.innerWidth > MOBILE_BREAKPOINT) {
+        header.style.transform = 'translateY(0)'
+        return
+      }
+
+      const scrollTop = window.pageYOffset || document.documentElement.scrollTop
+      if (scrollTop <= SHOW_AT_TOP_THRESHOLD) {
+        header.style.transform = 'translateY(0)'
+        lastScrollTop = scrollTop
+        return
+      }
+
+      if (scrollTop > lastScrollTop && scrollTop > HIDE_THRESHOLD) {
+        header.style.transform = 'translateY(-100%)'
+      } else if (scrollTop < lastScrollTop) {
+        header.style.transform = 'translateY(0)'
+      }
+
+      lastScrollTop = Math.max(scrollTop, 0)
+    }
+
+    function throttle(func, wait) {
+      let timeout
+      return function(...args) {
+        clearTimeout(timeout)
+        timeout = setTimeout(function() {
+          func.apply(null, args)
+        }, wait)
+      }
+    }
+
+    const throttledScroll = throttle(handleScroll, 16)
+    const throttledResize = throttle(handleScroll, 100)
+    window.addEventListener('scroll', throttledScroll, { passive: true })
+    window.addEventListener('resize', throttledResize, { passive: true })
+    handleScroll()
+  })()
+</script>
