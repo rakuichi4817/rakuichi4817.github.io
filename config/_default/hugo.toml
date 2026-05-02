@@ -19,7 +19,7 @@ buildFuture = false
 googleAnalytics = "G-R2ZS06ZJVQ"
 
 [permalinks]
-  posts = '/posts/:2006/:filename/'
+  posts = '/posts/:2006/:contentbasename/'
 
 [imaging]
   anchor = 'Center'

@@ -2,11 +2,11 @@
 
 {{ .Scratch.Set "scope" "list" }}
 {{ if .Site.Params.taxonomy.showHero | default false }}
-{{ $heroStyle := print "partials/hero/" .Site.Params.taxonomy.heroStyle ".html" }}
+{{ $heroStyle := print "hero/" .Site.Params.taxonomy.heroStyle ".html" }}
 {{ if templates.Exists $heroStyle }}
 {{ partial $heroStyle . }}
 {{ else }}
-{{ partial "partials/hero/basic.html" . }}
+{{ partial "hero/basic.html" . }}
 {{ end }}
 {{- end -}}
 
@@ -34,8 +34,10 @@
     var oid_likes = "likes_taxonomy_{{ .Data.Plural }}"
   </script>
   {{ $jsPage := resources.Get "js/page.js" }}
+  {{ if $jsPage }}
   {{ $jsPage = $jsPage | resources.Minify | resources.Fingerprint "sha512" }}
   <script type="text/javascript" src="{{ $jsPage.RelPermalink }}" integrity="{{ $jsPage.Data.Integrity }}"></script>
+  {{ end }}
   
 
   {{ if .Site.Params.taxonomy.cardView }}
