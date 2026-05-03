@@ -84,8 +84,18 @@ html:not(.dark) body {
     background: rgb(var(--color-neutral-100));
 }
 
+html:not(.dark) body.home-theme-bg {
+    background: rgb(var(--color-neutral));
+}
+
 html:not(.dark) body.hero-has-background {
     background: rgb(var(--color-neutral));
+}
+
+@media (width >= 768px) and (width < 1024px) {
+    body {
+        padding-inline: calc(var(--spacing) * 12);
+    }
 }
 
 @media (width >= 1024px) {
@@ -94,11 +104,6 @@ html:not(.dark) body.hero-has-background {
     }
 }
 
-@media (width >= 1280px) {
-    body {
-        padding-inline: calc(var(--spacing) * 32);
-    }
-}
 
 .article-content {
     background: transparent;

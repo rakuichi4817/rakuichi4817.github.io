@@ -8,8 +8,12 @@
   {{- partial "head.html" . -}}
   {{- partialCached "init.html" . -}}
 
-  {{ $bodyLayout := "flex flex-col h-screen m-auto leading-7 max-w-7xl px-6  md:px-24 lg:px-24 xl:px-32" }}
+  {{ $bodyLayout := "flex flex-col h-screen m-auto leading-7 max-w-7xl px-6  md:px-24" }}
   {{ $bodyColor := "text-lg bg-neutral text-neutral-900 dark:bg-neutral-800 dark:text-neutral" }}
+  {{ $homeBackgroundClass := "" }}
+  {{ if .IsHome }}
+    {{ $homeBackgroundClass = "home-theme-bg" }}
+  {{ end }}
   {{ $heroStyle := "" }}
   {{ if eq .Kind "page" }}
     {{ $heroStyle = .Params.heroStyle | default site.Params.article.heroStyle }}
@@ -24,7 +28,7 @@
   {{ if or (eq $heroStyle "background") (eq $heroStyle "thumbAndBackground") }}
     {{ $heroBackgroundClass = "hero-has-background" }}
   {{ end }}
-  <body class="{{ $bodyLayout }} {{ $bodyColor }} {{ $heroBackgroundClass }} {{ if site.Params.enableStyledScrollbar | default true }}bf-scrollbar{{ end }}">
+  <body class="{{ $bodyLayout }} {{ $bodyColor }} {{ $heroBackgroundClass }} {{ $homeBackgroundClass }} {{ if site.Params.enableStyledScrollbar | default true }}bf-scrollbar{{ end }}">
     <div id="the-top" class="absolute flex self-center">
       <a
         class="px-3 py-1 text-sm -translate-y-8 rounded-b-lg bg-primary-200 focus:translate-y-0 dark:bg-neutral-600"
