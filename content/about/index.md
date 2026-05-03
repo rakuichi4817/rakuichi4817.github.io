@@ -2,7 +2,7 @@
 title: "About"
 description: "RakuBlogについて"
 date: 2019-02-28
-lastmod: 2025-01-28
+lastmod: 2026-05-03
 relatedContentLimit: 0
 heroStyle: "background"
 showTableOfContents: false
@@ -23,7 +23,7 @@ showPagination: false
 <ul>
     <li>ヴィッセル神戸サポ</li>
     <li>映画、観劇（ミュージカル中心）</li>
-    <li>F1もみ始め</li>
+    <li>F1</li>
     <li>バックパック好き</li>
     <li>写真・動画撮影、時々動画編集</li>
 </ul>
@@ -39,15 +39,13 @@ showPagination: false
 
 {{< timelineItem icon="pencil" header="ブログのコンテンツ">}}
 <ul>
-    <li>技術系の備忘録</li>
-    <li>技術系の気になる記事や感想</li>
     <li>ポエム的な独り言</li>
     <li>個人の振り返り</li>
     <li>商品紹介</li>
     <li>ヴィッセル神戸🐮などの趣味関連</li>
 </ul>
 
-<p>技術系の投稿はもちろん、気ままに色々書いていくと思います。</p>
+<p>気ままに色々書いてます。技術系の記事は最近<a href="https://zenn.dev/rakuichi" target="_blank" rel="noopener noreferrer">Zenn</a>に書いてます</p>
 
 {{< /timelineItem >}}
 
