@@ -1,15 +1,9 @@
-{{/* Firebase */}}
-{{ with site.Params.firebase }}
-  {{ with .apiKey }}
-    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
-    <script>
-      const firebaseConfig = {{ site.Params.firebase | jsonify | safeJS }}
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-R2ZS06ZJVQ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-      var app = firebase.initializeApp(firebaseConfig)
-      var db = firebase.firestore()
-      var auth = firebase.auth()
-    </script>
-  {{ end }}
-{{ end }}
+  gtag('config', 'G-R2ZS06ZJVQ');
+</script>
