@@ -1,3 +1,5 @@
+{{ partial "body/google-ad.html" . }}
+
 {{ if .Params.showRelatedContent | default (.Site.Params.article.showRelatedContent | default false) }}
   {{ $limit := .Site.Params.article.relatedContentLimit | default 6 }}
   {{ $current := . }}
