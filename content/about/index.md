@@ -6,7 +6,7 @@ lastmod: 2026-05-03
 relatedContentLimit: 0
 heroStyle: "background"
 showTableOfContents: false
-showGoogleAd: false
+noAd: true
 showPagination: false
 ---
 

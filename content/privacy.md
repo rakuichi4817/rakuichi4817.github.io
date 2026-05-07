@@ -4,7 +4,7 @@ description: "プライバシーポリシー"
 date: 2019-02-28
 lastmod: 2023-11-29
 showTableOfContents: false
-showGoogleAd: false
+noAd: true
 showPagination: false
 ---
 
